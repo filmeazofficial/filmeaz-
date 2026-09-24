@@ -117,9 +117,12 @@ async function loadMovie() {
         const response = await fetch("data/movies.json");
         const movies = await response.json();
 
-        const movie = movies.find(
-            item => item.id === "movie-001"
-        );
+        const params = new URLSearchParams(window.location.search);
+const movieId = params.get("id");
+
+const movie = movies.find(
+    item => item.id === movieId
+);
 
         if (!movie) {
             movieDetails.innerHTML = "<p>Movie not found.</p>";
