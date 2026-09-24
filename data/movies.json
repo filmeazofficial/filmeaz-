@@ -1,0 +1,23 @@
+[
+  {
+    "id": "movie-001",
+    "title": "Example Movie",
+    "year": 2026,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": ["Drama"],
+    "directedBy": "Example Director",
+    "cast": [
+      {
+        "personId": "person-001",
+        "name": "Example Actor",
+        "role": "Lead Actor"
+      },
+      {
+        "personId": "person-002",
+        "name": "Example Actress",
+        "role": "Lead Actress"
+      }
+    ]
+  }
+]
