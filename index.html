@@ -3,35 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>FILMEAZ - Films A to Z</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 22px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 34px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 6px;
+            font-size: 15px;
+            color: #ccc;
+        }
+
+        .search-box {
+            padding: 25px 15px;
+            text-align: center;
+            background: white;
+        }
+
+        .search-box input {
+            width: 90%;
+            max-width: 600px;
+            padding: 14px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 15px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px 10px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>FILMEAZ</h1>
-        <p>Films A to Z</p>
-    </header>
+<header>
+    <h1>FILMEAZ</h1>
+    <p>Films A to Z</p>
+</header>
 
-    <main>
-        <h2>Welcome to FILMEAZ</h2>
-        <p>Explore films, actors, actresses and filmographies.</p>
+<section class="search-box">
+    <input type="text" placeholder="Search Movies, Actors & Actresses">
+</section>
 
-        <h3>Explore</h3>
+<main>
 
-        <ul>
-            <li>Movies</li>
-            <li>Actors</li>
-            <li>Actresses</li>
-            <li>Filmographies</li>
-            <li>Browse by Year</li>
-            <li>Browse by Language</li>
-        </ul>
-    </main>
+    <h2>Explore FILMEAZ</h2>
 
-    <footer>
-        <p>© 2026 FILMEAZ</p>
-    </footer>
+    <div class="cards">
+
+        <div class="card">
+            🎬<br><br>
+            Movies
+        </div>
+
+        <div class="card">
+            👤<br><br>
+            Actors
+        </div>
+
+        <div class="card">
+            👩<br><br>
+            Actresses
+        </div>
+
+        <div class="card">
+            📅<br><br>
+            Browse by Year
+        </div>
+
+        <div class="card">
+            🌐<br><br>
+            Browse by Language
+        </div>
+
+        <div class="card">
+            ⭐<br><br>
+            Featured Films
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 FILMEAZ — Films A to Z
+</footer>
 
 </body>
 </html>
