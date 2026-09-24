@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Films by Year - FILMEAZ</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 22px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 6px;
+            color: #ccc;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 15px;
+        }
+
+        .year-title {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .movie-card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .movie-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .movie-card a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .movie-card a:hover {
+            text-decoration: underline;
+        }
+
+        .movie-card p {
+            margin: 6px 0;
+            color: #555;
+        }
+
+        .loading {
+            text-align: center;
+            color: #777;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>FILMEAZ</h1>
+    <p>Films A to Z</p>
+</header>
+
+<main>
+
+    <div id="year-title" class="year-title">
+        <h2>Loading...</h2>
+    </div>
+
+    <div id="movies-list">
+        <p class="loading">Loading movies...</p>
+    </div>
+
+</main>
+
+<footer>
+    © 2026 FILMEAZ — Films A to Z
+</footer>
+
+<script>
+async function loadMoviesByYear() {
+
+    const yearTitle = document.getElementById("year-title");
+    const moviesList = document.getElementById("movies-list");
+
+    const params = new URLSearchParams(window.location.search);
+    const year = params.get("year");
+
+    if (!year) {
+        yearTitle.innerHTML = "<h2>No year selected</h2>";
+        moviesList.innerHTML = "";
+        return;
+    }
+
+    try {
+
+        const response = await fetch("data/movies.json");
+        const movies = await response.json();
+
+        const yearMovies = movies.filter(
+            movie => String(movie.year) === String(year)
+        );
+
+        yearTitle.innerHTML = `
+            <h2>Films of ${year}</h2>
+        `;
+
+        moviesList.innerHTML = "";
+
+        if (yearMovies.length === 0) {
+            moviesList.innerHTML =
+                `<p>No movies found for ${year}.</p>`;
+            return;
+        }
+
+        yearMovies.forEach(movie => {
+
+            const movieCard = document.createElement("div");
+            movieCard.className = "movie-card";
+
+            movieCard.innerHTML = `
+                <h3>
+                    <a href="movie.html?id=${movie.id}">
+                        ${movie.title}
+                    </a>
+                </h3>
+
+                <p><strong>Year:</strong> ${movie.year}</p>
+                <p><strong>Language:</strong> ${movie.language}</p>
+                <p><strong>Industry:</strong> ${movie.industry}</p>
+                <p><strong>Genre:</strong> ${movie.genre.join(", ")}</p>
+            `;
+
+            moviesList.appendChild(movieCard);
+        });
+
+    } catch (error) {
+
+        yearTitle.innerHTML =
+            "<h2>Unable to load year</h2>";
+
+        moviesList.innerHTML =
+            "<p>Unable to load movies.</p>";
+
+        console.error(error);
+    }
+}
+
+loadMoviesByYear();
+</script>
+
+</body>
+</html>
