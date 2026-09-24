@@ -1,0 +1,32 @@
+[
+  {
+    "id": "person-001",
+    "name": "Example Actor",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": ["Example Movie"],
+    "filmography": [
+      {
+        "movieId": "movie-001",
+        "movieTitle": "Example Movie",
+        "year": 2026,
+        "role": "Lead Actor"
+      }
+    ]
+  },
+  {
+    "id": "person-002",
+    "name": "Example Actress",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": ["Example Movie"],
+    "filmography": [
+      {
+        "movieId": "movie-001",
+        "movieTitle": "Example Movie",
+        "year": 2026,
+        "role": "Lead Actress"
+      }
+    ]
+  }
+]
