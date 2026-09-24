@@ -166,6 +166,12 @@ const movie = movies.find(
         </a>
     `).join(", ")}
 </p>
+<p>
+    <strong>Industry:</strong>
+    <a href="industry.html?industry=${encodeURIComponent(movie.industry)}">
+        ${movie.industry}
+    </a>
+</p>
                 <p><strong>Directed By:</strong> ${movie.directedBy}</p>
 
                 <div class="cast-section">
