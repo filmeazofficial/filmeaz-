@@ -144,7 +144,13 @@
     </a>
 
     </div>
+<section>
+    <h2>Latest Movies</h2>
 
+    <div id="latest-movies">
+        <p>Loading latest movies...</p>
+    </div>
+</section>
 </main>
 
 <footer>
@@ -169,5 +175,61 @@ searchInput.addEventListener("keydown", function(event) {
     }
 });
 </script>
+    <script>
+async function loadLatestMovies() {
+
+    const latestMovies =
+        document.getElementById("latest-movies");
+
+    try {
+
+        const response =
+            await fetch("data/movies.json");
+
+        const movies =
+            await response.json();
+
+        movies.sort((a, b) => b.year - a.year);
+
+        const latest =
+            movies.slice(0, 5);
+
+        latestMovies.innerHTML = "";
+
+        latest.forEach(movie => {
+
+            const movieItem =
+                document.createElement("div");
+
+            movieItem.innerHTML = `
+                <h3>
+                    <a href="movie.html?id=${movie.id}">
+                        ${movie.title}
+                    </a>
+                </h3>
+
+                <p>
+                    <strong>Year:</strong> ${movie.year}
+                </p>
+
+                <p>
+                    <strong>Language:</strong> ${movie.language}
+                </p>
+            `;
+
+            latestMovies.appendChild(movieItem);
+        });
+
+    } catch (error) {
+
+        latestMovies.innerHTML =
+            "<p>Unable to load latest movies.</p>";
+
+        console.error(error);
+    }
+}
+
+loadLatestMovies();
+    </script>
 </body>
 </html>
