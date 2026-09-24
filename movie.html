@@ -148,9 +148,17 @@ const movie = movies.find(
         movieDetails.innerHTML = `
             <div class="movie-details">
                 <h2>${movie.title}</h2>
-
-                <p><strong>Year:</strong> ${movie.year}</p>
-                <p><strong>Language:</strong> ${movie.language}</p>
+<p>
+    <strong>Year:</strong>
+    <a href="year.html?year=${movie.year}">
+        ${movie.year}
+    </a>
+</p><p>
+    <strong>Language:</strong>
+    <a href="language.html?language=${encodeURIComponent(movie.language)}">
+        ${movie.language}
+    </a>
+</p>
                 <p><strong>Industry:</strong> ${movie.industry}</p>
                 <p><strong>Genre:</strong> ${movie.genre.join(", ")}</p>
                 <p><strong>Directed By:</strong> ${movie.directedBy}</p>
