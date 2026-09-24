@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Details - FILMEAZ</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 22px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 6px;
+            color: #ccc;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 15px;
+        }
+
+        .movie-details {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .movie-details h2 {
+            margin-bottom: 20px;
+        }
+
+        .movie-details p {
+            margin: 10px 0;
+        }
+
+        .cast-section {
+            margin-top: 30px;
+        }
+
+        .cast-section h3 {
+            margin-bottom: 15px;
+        }
+
+        .cast-member {
+            background: #f5f5f5;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        .loading {
+            text-align: center;
+            color: #777;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: #111;
+            color: #aaa;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>FILMEAZ</h1>
+    <p>Films A to Z</p>
+</header>
+
+<main>
+
+    <div id="movie-details">
+        <p class="loading">Loading movie...</p>
+    </div>
+
+</main>
+
+<footer>
+    © 2026 FILMEAZ — Films A to Z
+</footer>
+
+<script>
+async function loadMovie() {
+
+    const movieDetails = document.getElementById("movie-details");
+
+    try {
+
+        const response = await fetch("data/movies.json");
+        const movies = await response.json();
+
+        const movie = movies.find(
+            item => item.id === "movie-001"
+        );
+
+        if (!movie) {
+            movieDetails.innerHTML = "<p>Movie not found.</p>";
+            return;
+        }
+
+        let castHTML = "";
+
+        movie.cast.forEach(member => {
+            castHTML += `
+                <div class="cast-member">
+                    <strong>${member.name}</strong>
+                    <br>
+                    Role: ${member.role}
+                </div>
+            `;
+        });
+
+        movieDetails.innerHTML = `
+            <div class="movie-details">
+                <h2>${movie.title}</h2>
+
+                <p><strong>Year:</strong> ${movie.year}</p>
+                <p><strong>Language:</strong> ${movie.language}</p>
+                <p><strong>Industry:</strong> ${movie.industry}</p>
+                <p><strong>Genre:</strong> ${movie.genre.join(", ")}</p>
+                <p><strong>Directed By:</strong> ${movie.directedBy}</p>
+
+                <div class="cast-section">
+                    <h3>Cast</h3>
+                    ${castHTML}
+                </div>
+            </div>
+        `;
+
+    } catch (error) {
+
+        movieDetails.innerHTML =
+            "<p>Unable to load movie details.</p>";
+
+        console.error(error);
+    }
+}
+
+loadMovie();
+</script>
+
+</body>
+</html>
