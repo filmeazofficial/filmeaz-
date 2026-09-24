@@ -100,7 +100,11 @@
 </header>
 
 <section class="search-box">
-    <input type="text" placeholder="Search Movies, Actors & Actresses">
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search Movies, Actors & Actresses"
+>
 </section>
 
 <main>
@@ -148,5 +152,22 @@
 </footer>
     
 <script src="script.js"></script>
+
+<script>
+const searchInput = document.getElementById("searchInput");
+
+searchInput.addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+
+        const searchText = searchInput.value.trim();
+
+        if (searchText !== "") {
+            window.location.href =
+                "search.html?q=" + encodeURIComponent(searchText);
+        }
+    }
+});
+</script>
 </body>
 </html>
