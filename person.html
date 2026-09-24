@@ -123,9 +123,12 @@ async function loadPerson() {
         const response = await fetch("data/people.json");
         const people = await response.json();
 
-        const person = people.find(
-            item => item.id === "person-001"
-        );
+        const params = new URLSearchParams(window.location.search);
+const personId = params.get("id");
+
+const person = people.find(
+    item => item.id === personId
+);
 
         if (!person) {
             profile.innerHTML = "<p>Person not found.</p>";
