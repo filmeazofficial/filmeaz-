@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - FILMEAZ</title>
+</head>
+
+<body>
+
+    <h1>FILMEAZ</h1>
+
+    <h2>Search Results</h2>
+
+    <div id="search-results">
+        <p>Searching...</p>
+    </div>
+
+<script>
+async function performSearch() {
+
+    const resultsDiv = document.getElementById("search-results");
+
+    const params = new URLSearchParams(window.location.search);
+    const searchText = params.get("q");
+
+    if (!searchText) {
+        resultsDiv.innerHTML = "<p>Please enter a search term.</p>";
+        return;
+    }
+
+    const search = searchText.toLowerCase();
+
+    try {
+
+        const moviesResponse = await fetch("data/movies.json");
+        const movies = await moviesResponse.json();
+
+        const peopleResponse = await fetch("data/people.json");
+        const people = await peopleResponse.json();
+
+        const movieResults = movies.filter(movie =>
+            movie.title.toLowerCase().includes(search)
+        );
+
+        const peopleResults = people.filter(person =>
+            person.name.toLowerCase().includes(search)
+        );
+
+        resultsDiv.innerHTML = "";
+
+        if (movieResults.length > 0) {
+            resultsDiv.innerHTML += "<h3>Movies</h3>";
+
+            movieResults.forEach(movie => {
+                resultsDiv.innerHTML += `
+                    <p>
+                        <a href="movie.html?id=${movie.id}">
+                            ${movie.title}
+                        </a>
+                        (${movie.year})
+                    </p>
+                `;
+            });
+        }
+
+        if (peopleResults.length > 0) {
+            resultsDiv.innerHTML += "<h3>People</h3>";
+
+            peopleResults.forEach(person => {
+                resultsDiv.innerHTML += `
+                    <p>
+                        <a href="person.html?id=${person.id}">
+                            ${person.name}
+                        </a>
+                        - ${person.profession}
+                    </p>
+                `;
+            });
+        }
+
+        if (movieResults.length === 0 && peopleResults.length === 0) {
+            resultsDiv.innerHTML =
+                "<p>No results found for: " + searchText + "</p>";
+        }
+
+    } catch (error) {
+
+        resultsDiv.innerHTML =
+            "<p>Unable to load search results.</p>";
+
+        console.error(error);
+    }
+}
+
+performSearch();
+</script>
+
+</body>
+</html>
