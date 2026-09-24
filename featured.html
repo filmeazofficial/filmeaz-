@@ -54,9 +54,23 @@
             margin: 0 0 8px;
         }
 
+        .film h3 a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .film h3 a:hover {
+            text-decoration: underline;
+        }
+
         .film p {
             margin: 5px 0;
             color: #555;
+        }
+
+        .loading {
+            text-align: center;
+            color: #777;
         }
 
         footer {
@@ -80,14 +94,8 @@
 
     <h2>Featured Films</h2>
 
-    <div class="film">
-        <h3>Featured Film</h3>
-        <p>Discover films from different languages and industries.</p>
-    </div>
-
-    <div class="film">
-        <h3>Coming Soon</h3>
-        <p>Featured film information will be added to FILMEAZ.</p>
+    <div id="featured-films">
+        <p class="loading">Loading featured films...</p>
     </div>
 
 </main>
@@ -95,6 +103,72 @@
 <footer>
     © 2026 FILMEAZ — Films A to Z
 </footer>
+
+<script>
+async function loadFeaturedFilms() {
+
+    const featuredFilms =
+        document.getElementById("featured-films");
+
+    try {
+
+        const response =
+            await fetch("data/movies.json");
+
+        const movies =
+            await response.json();
+
+        const featured =
+            movies.filter(movie => movie.featured === true);
+
+        featuredFilms.innerHTML = "";
+
+        if (featured.length === 0) {
+
+            featuredFilms.innerHTML =
+                "<p>No featured films available.</p>";
+
+            return;
+        }
+
+        featured.forEach(movie => {
+
+            const film = document.createElement("div");
+
+            film.className = "film";
+
+            film.innerHTML = `
+                <h3>
+                    <a href="movie.html?id=${movie.id}">
+                        ${movie.title}
+                    </a>
+                </h3>
+
+                <p><strong>Year:</strong> ${movie.year}</p>
+
+                <p><strong>Language:</strong> ${movie.language}</p>
+
+                <p><strong>Industry:</strong> ${movie.industry}</p>
+
+                <p><strong>Genre:</strong>
+                    ${movie.genre.join(", ")}
+                </p>
+            `;
+
+            featuredFilms.appendChild(film);
+        });
+
+    } catch (error) {
+
+        featuredFilms.innerHTML =
+            "<p>Unable to load featured films.</p>";
+
+        console.error(error);
+    }
+}
+
+loadFeaturedFilms();
+</script>
 
 </body>
 </html>
