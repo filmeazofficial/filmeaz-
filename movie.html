@@ -132,14 +132,18 @@ const movie = movies.find(
         let castHTML = "";
 
         movie.cast.forEach(member => {
-            castHTML += `
-                <div class="cast-member">
-                    <strong>${member.name}</strong>
-                    <br>
-                    Role: ${member.role}
-                </div>
-            `;
-        });
+    castHTML += `
+        <div class="cast-member">
+            <strong>
+                <a href="person.html?id=${member.personId}">
+                    ${member.name}
+                </a>
+            </strong>
+            <br>
+            Role: ${member.role}
+        </div>
+    `;
+});
 
         movieDetails.innerHTML = `
             <div class="movie-details">
