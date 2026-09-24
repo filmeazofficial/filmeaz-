@@ -119,13 +119,17 @@ async function loadMovies() {
             movieCard.className = "movie-card";
 
             movieCard.innerHTML = `
-                <h3>${movie.title}</h3>
-                <p><strong>Year:</strong> ${movie.year}</p>
-                <p><strong>Language:</strong> ${movie.language}</p>
-                <p><strong>Industry:</strong> ${movie.industry}</p>
-                <p><strong>Genre:</strong> ${movie.genre.join(", ")}</p>
-                <p><strong>Directed By:</strong> ${movie.directedBy}</p>
-            `;
+    <h3>
+        <a href="movie.html?id=${movie.id}">
+            ${movie.title}
+        </a>
+    </h3>
+    <p><strong>Year:</strong> ${movie.year}</p>
+    <p><strong>Language:</strong> ${movie.language}</p>
+    <p><strong>Industry:</strong> ${movie.industry}</p>
+    <p><strong>Genre:</strong> ${movie.genre.join(", ")}</p>
+    <p><strong>Directed By:</strong> ${movie.directedBy}</p>
+`;
 
             moviesList.appendChild(movieCard);
         });
