@@ -158,8 +158,14 @@ const movie = movies.find(
     <a href="language.html?language=${encodeURIComponent(movie.language)}">
         ${movie.language}
     </a>
+</p><p>
+    <strong>Genre:</strong>
+    ${movie.genre.map(item => `
+        <a href="genre.html?genre=${encodeURIComponent(item)}">
+            ${item}
+        </a>
+    `).join(", ")}
 </p>
-                <p><strong>Industry:</strong> ${movie.industry}</p>
                 <p><strong>Genre:</strong> ${movie.genre.join(", ")}</p>
                 <p><strong>Directed By:</strong> ${movie.directedBy}</p>
 
