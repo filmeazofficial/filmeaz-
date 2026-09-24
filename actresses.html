@@ -123,10 +123,14 @@ async function loadActresses() {
             personCard.className = "person-card";
 
             personCard.innerHTML = `
-                <h3>${person.name}</h3>
-                <p><strong>Profession:</strong> ${person.profession}</p>
-                <p><strong>Known For:</strong> ${person.knownFor.join(", ")}</p>
-            `;
+    <h3>
+        <a href="person.html?id=${person.id}">
+            ${person.name}
+        </a>
+    </h3>
+    <p><strong>Profession:</strong> ${person.profession}</p>
+    <p><strong>Known For:</strong> ${person.knownFor.join(", ")}</p>
+`;
 
             actressesList.appendChild(personCard);
         });
