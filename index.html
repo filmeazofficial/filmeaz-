@@ -1,265 +1,1155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>FILMEAZ - Films A to Z</title>
+  <title>FILMEAZ — Films A to Z</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+  <meta name="description"
+    content="FILMEAZ — Explore Indian and International films, actors, actresses, industries and filmographies.">
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            color: #222;
-        }
+  <meta name="theme-color" content="#080b12">
 
-        header {
-            background: #111;
-            color: white;
-            padding: 22px 15px;
-            text-align: center;
-        }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        header h1 {
-            font-size: 34px;
-            letter-spacing: 2px;
-        }
+    html {
+      scroll-behavior: smooth;
+    }
 
-        header p {
-            margin-top: 6px;
-            font-size: 15px;
-            color: #ccc;
-        }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #080b12;
+      color: #f5f1e8;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
 
-        .search-box {
-            padding: 25px 15px;
-            text-align: center;
-            background: white;
-        }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-        .search-box input {
-            width: 90%;
-            max-width: 600px;
-            padding: 14px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            font-size: 16px;
-        }
+    button,
+    input {
+      font: inherit;
+    }
 
-        main {
-            max-width: 1000px;
-            margin: auto;
-            padding: 30px 15px;
-        }
+    /* =========================
+       FILMEAZ HEADER
+       ========================= */
 
-        h2 {
-            text-align: center;
-            margin-bottom: 25px;
-        }
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+      background: rgba(8, 11, 18, 0.94);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(212, 175, 55, 0.16);
+    }
 
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 15px;
-        }
+    .nav {
+      max-width: 1280px;
+      margin: auto;
+      min-height: 74px;
+      padding: 0 24px;
 
-        .card {
-            background: white;
-            padding: 25px 10px;
-            text-align: center;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            font-weight: bold;
-            text-decoration: none;
-            color: #222;
-            display: block;
-        }
-#latest-movies {
-    display: grid;
-    gap: 15px;
-}
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
 
-.latest-movie {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
+    .logo {
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      color: #e7c96a;
+      white-space: nowrap;
+    }
 
-.latest-movie h3 {
-    margin-bottom: 8px;
-}
+    .logo span {
+      color: #f5f1e8;
+    }
 
-.latest-movie h3 a {
-    color: #0066cc;
-    text-decoration: none;
-}
+    .logo-sub {
+      display: block;
+      font-size: 9px;
+      letter-spacing: 3px;
+      color: #a9a9ad;
+      margin-top: -4px;
+      font-weight: 500;
+    }
 
-.latest-movie h3 a:hover {
-    text-decoration: underline;
-}
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
 
-.latest-movie p {
-    margin: 5px 0;
-    color: #555;
-}
-        footer {
-            margin-top: 30px;
-            padding: 20px;
-            background: #111;
-            color: #aaa;
-            text-align: center;
-            font-size: 14px;
-        }
-    </style>
+    .nav-links a {
+      color: #c9c9cd;
+      font-size: 14px;
+      font-weight: 600;
+      transition: 0.25s ease;
+    }
+
+    .nav-links a:hover {
+      color: #e7c96a;
+    }
+
+    .menu-btn {
+      display: none;
+      border: 1px solid rgba(231, 201, 106, 0.35);
+      background: transparent;
+      color: #f5f1e8;
+      padding: 8px 11px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    /* =========================
+       HERO
+       ========================= */
+
+    .hero {
+      min-height: 620px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+
+      background:
+        linear-gradient(
+          90deg,
+          rgba(5, 7, 12, 0.98) 0%,
+          rgba(5, 7, 12, 0.88) 40%,
+          rgba(5, 7, 12, 0.48) 72%,
+          rgba(5, 7, 12, 0.9) 100%
+        ),
+        radial-gradient(
+          circle at 78% 45%,
+          rgba(180, 140, 45, 0.20),
+          transparent 38%
+        );
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 140px;
+      background: linear-gradient(
+        transparent,
+        #080b12
+      );
+      pointer-events: none;
+    }
+
+    .hero-content {
+      width: 100%;
+      max-width: 1280px;
+      margin: auto;
+      padding: 80px 24px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-label {
+      color: #e7c96a;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      max-width: 700px;
+      font-size: clamp(42px, 6vw, 76px);
+      line-height: 0.98;
+      letter-spacing: -2px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 span {
+      color: #e7c96a;
+    }
+
+    .hero-text {
+      max-width: 650px;
+      color: #b9bbc1;
+      font-size: 17px;
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+
+    /* =========================
+       SEARCH
+       ========================= */
+
+    .search-box {
+      width: 100%;
+      max-width: 680px;
+      display: flex;
+      align-items: center;
+      background: rgba(18, 22, 32, 0.95);
+      border: 1px solid rgba(231, 201, 106, 0.30);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
+    }
+
+    .search-box input {
+      flex: 1;
+      min-width: 0;
+      padding: 17px 18px;
+      border: none;
+      outline: none;
+      background: transparent;
+      color: #ffffff;
+      font-size: 15px;
+    }
+
+    .search-box input::placeholder {
+      color: #777b84;
+    }
+
+    .search-btn {
+      border: none;
+      background: #e7c96a;
+      color: #101217;
+      padding: 17px 24px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: 0.25s ease;
+    }
+
+    .search-btn:hover {
+      background: #f3d985;
+    }
+
+    /* =========================
+       SECTION COMMON
+       ========================= */
+
+    .section {
+      max-width: 1280px;
+      margin: auto;
+      padding: 75px 24px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+
+    .section-title {
+      font-size: 30px;
+      letter-spacing: -0.5px;
+    }
+
+    .section-title span {
+      color: #e7c96a;
+    }
+
+    .section-description {
+      color: #858992;
+      font-size: 14px;
+      margin-top: 7px;
+    }
+
+    .view-all {
+      color: #e7c96a;
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    /* =========================
+       FEATURED MOVIES
+       ========================= */
+
+    .movie-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .movie-card {
+      background: #11151e;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s ease,
+                  border-color 0.3s ease,
+                  box-shadow 0.3s ease;
+    }
+
+    .movie-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(231, 201, 106, 0.35);
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.30);
+    }
+
+    .movie-poster {
+      aspect-ratio: 2 / 3;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background:
+        linear-gradient(
+          145deg,
+          #1c2432,
+          #0d1119
+        );
+    }
+
+    .poster-placeholder {
+      color: #555b66;
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .movie-year {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      padding: 5px 8px;
+      border-radius: 5px;
+      background: rgba(0, 0, 0, 0.72);
+      color: #e7c96a;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .movie-info {
+      padding: 16px;
+    }
+
+    .movie-info h3 {
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .movie-meta {
+      color: #858992;
+      font-size: 12px;
+    }
+
+    /* =========================
+       BROWSE BLOCKS
+       ========================= */
+
+    .browse-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .browse-card {
+      min-height: 150px;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid rgba(231, 201, 106, 0.13);
+
+      background:
+        linear-gradient(
+          145deg,
+          rgba(25, 30, 42, 0.96),
+          rgba(12, 15, 22, 0.96)
+        );
+
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      transition: 0.3s ease;
+    }
+
+    .browse-card:hover {
+      border-color: rgba(231, 201, 106, 0.42);
+      transform: translateY(-4px);
+    }
+
+    .browse-icon {
+      color: #e7c96a;
+      font-size: 25px;
+      margin-bottom: auto;
+    }
+
+    .browse-card h3 {
+      font-size: 17px;
+      margin-bottom: 4px;
+    }
+
+    .browse-card p {
+      color: #858992;
+      font-size: 12px;
+    }
+
+    /* =========================
+       RESPONSIVE
+       ========================= */
+
+    @media (max-width: 1000px) {
+      .nav-links {
+        gap: 15px;
+      }
+
+      .movie-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .browse-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .nav {
+        min-height: 66px;
+        padding: 0 16px;
+      }
+
+      .logo {
+        font-size: 25px;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 66px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background: #0b0e15;
+        border-bottom: 1px solid rgba(231, 201, 106, 0.15);
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-btn {
+        display: block;
+      }
+
+      .hero {
+        min-height: 570px;
+      }
+
+      .hero-content {
+        padding: 65px 18px;
+      }
+
+      .hero h1 {
+        font-size: 46px;
+      }
+
+      .hero-text {
+        font-size: 15px;
+      }
+
+      .search-box {
+        flex-direction: row;
+      }
+
+      .search-btn {
+        padding: 15px 17px;
+      }
+
+      .section {
+        padding: 55px 18px;
+      }
+
+      .section-header {
+        align-items: flex-start;
+      }
+
+      .movie-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+      }
+
+      .browse-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+
+      .browse-card {
+        min-height: 130px;
+        padding: 18px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .movie-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .movie-info {
+        padding: 12px;
+      }
+
+      .movie-info h3 {
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 40px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-    <h1>FILMEAZ</h1>
-    <p>Films A to Z</p>
-</header>
+  <!-- =========================
+       HEADER
+       ========================= -->
 
-<section class="search-box">
-    <input
-    type="text"
-    id="searchInput"
-    placeholder="Search Movies, Actors & Actresses"
->
-</section>
+  <header class="header">
+    <nav class="nav">
 
-<main>
+      <a href="#" class="logo">
+        FILMEAZ<span>.</span>
+        <small class="logo-sub">FILMS A TO Z</small>
+      </a>
 
-    <h2>Explore FILMEAZ</h2>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#movies">Movies</a>
+        <a href="#actors">Actors</a>
+        <a href="#actresses">Actresses</a>
+        <a href="#browse">Browse</a>
+      </div>
 
-    <div class="cards">
+      <button class="menu-btn" id="menuBtn">
+        ☰
+      </button>
 
-    <a href="movies.html" class="card">
-        🎬<br><br>
-        Movies
-    </a>
+    </nav>
+  </header>
 
-    <a href="actors.html" class="card">
-        👤<br><br>
-        Actors
-    </a>
 
-    <a href="actresses.html" class="card">
-        👩<br><br>
-        Actresses
-    </a>
+  <!-- =========================
+       HERO SECTION
+       ========================= -->
 
-    <a href="years.html" class="card">
-         📅<br><br>
-         Browse by Year
-    </a>
+  <main id="home">
 
-    <a href="languages.html" class="card">
-         🌐<br><br>
-         Browse by Language
-    </a>
+    <section class="hero">
 
-    <a href="featured.html" class="card">
-         ⭐<br><br>
-         Featured Films
-    </a>
+      <div class="hero-content">
 
-    </div>
-<section>
-    <h2>Latest Movies</h2>
+        <div class="hero-label">
+          The Film Database
+        </div>
 
-    <div id="latest-movies">
-        <p>Loading latest movies...</p>
-    </div>
-</section>
-</main>
+        <h1>
+          Discover Films.<br>
+          Explore <span>Stories.</span>
+        </h1>
 
-<footer>
-    © 2026 FILMEAZ — Films A to Z
-</footer>
-    
-<script src="script.js"></script>
+        <p class="hero-text">
+          Explore movies, actors, actresses, film industries
+          and complete filmographies — all in one cinematic
+          database built for film lovers.
+        </p>
 
-<script>
-const searchInput = document.getElementById("searchInput");
+        <form class="search-box" id="searchForm">
 
-searchInput.addEventListener("keydown", function(event) {
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search movies, actors, actresses..."
+            autocomplete="off"
+          >
 
-    if (event.key === "Enter") {
+          <button type="submit" class="search-btn">
+            Search
+          </button>
 
-        const searchText = searchInput.value.trim();
+        </form>
 
-        if (searchText !== "") {
-            window.location.href =
-                "search.html?q=" + encodeURIComponent(searchText);
-        }
-    }
-});
-</script>
-    <script>
-async function loadLatestMovies() {
+      </div>
 
-    const latestMovies =
-        document.getElementById("latest-movies");
+    </section>
 
-    try {
 
-        const response =
-            await fetch("data/movies.json");
+    <!-- =========================
+         FEATURED MOVIES
+         ========================= -->
 
-        const movies =
-            await response.json();
+    <section class="section" id="movies">
 
-        movies.sort((a, b) => b.year - a.year);
+      <div class="section-header">
 
-        const latest =
-            movies.slice(0, 5);
+        <div>
+          <h2 class="section-title">
+            Featured <span>Movies</span>
+          </h2>
 
-        latestMovies.innerHTML = "";
+          <p class="section-description">
+            Explore films from different industries and eras.
+          </p>
+        </div>
 
-        latest.forEach(movie => {
+        <a href="#" class="view-all">
+          View All →
+        </a>
 
-            const movieItem =
-                document.createElement("div");
+      </div>
 
-            movieItem.className = "latest-movie";
 
-            movieItem.innerHTML = `
-                <h3>
-                    <a href="movie.html?id=${movie.id}">
-                        ${movie.title}
-                    </a>
-                </h3>
+      <div class="movie-grid">
 
-                <p>
-                    <strong>Year:</strong> ${movie.year}
-                </p>
+        <article class="movie-card">
 
-                <p>
-                    <strong>Language:</strong> ${movie.language}
-                </p>
-            `;
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Movie Poster
+            </span>
 
-            latestMovies.appendChild(movieItem);
-        });
+            <span class="movie-year">
+              2026
+            </span>
+          </div>
 
-    } catch (error) {
+          <div class="movie-info">
+            <h3>Featured Film</h3>
+            <p class="movie-meta">
+              Indian Cinema · Drama
+            </p>
+          </div>
 
-        latestMovies.innerHTML =
-            "<p>Unable to load latest movies.</p>";
+        </article>
 
-        console.error(error);
-    }
-}
 
-loadLatestMovies();
-</script>
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Movie Poster
+            </span>
+
+            <span class="movie-year">
+              2025
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Featured Film</h3>
+            <p class="movie-meta">
+              Gujarati Cinema · Drama
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Movie Poster
+            </span>
+
+            <span class="movie-year">
+              2025
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Featured Film</h3>
+            <p class="movie-meta">
+              Hindi Cinema · Thriller
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Movie Poster
+            </span>
+
+            <span class="movie-year">
+              2024
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Featured Film</h3>
+            <p class="movie-meta">
+              Marathi Cinema · Drama
+            </p>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         BROWSE SECTION
+         ========================= -->
+
+    <section class="section" id="browse">
+
+      <div class="section-header">
+
+        <div>
+          <h2 class="section-title">
+            Browse <span>FILMEAZ</span>
+          </h2>
+
+          <p class="section-description">
+            Find films and film personalities your way.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="browse-grid">
+
+        <a href="#" class="browse-card">
+          <div class="browse-icon">◉</div>
+
+          <h3>By Industry</h3>
+
+          <p>
+            Hindi · Gujarati · Marathi · Tamil · Telugu
+          </p>
+        </a>
+
+
+        <a href="#" class="browse-card">
+          <div class="browse-icon">▣</div>
+
+          <h3>By Year</h3>
+
+          <p>
+            Explore films chronologically.
+          </p>
+        </a>
+
+
+        <a href="#actors" class="browse-card">
+          <div class="browse-icon">★</div>
+
+          <h3>Actors</h3>
+
+          <p>
+            Discover actor filmographies.
+          </p>
+        </a>
+
+
+        <a href="#actresses" class="browse-card">
+          <div class="browse-icon">✦</div>
+
+          <h3>Actresses</h3>
+
+          <p>
+            Explore actress filmographies.
+          </p>
+        </a>
+
+      </div>
+
+    </section>
+        <!-- =========================
+         ACTORS SECTION
+         ========================= -->
+
+    <section class="section" id="actors">
+
+      <div class="section-header">
+
+        <div>
+          <h2 class="section-title">
+            Popular <span>Actors</span>
+          </h2>
+
+          <p class="section-description">
+            Explore actors and their complete filmographies.
+          </p>
+        </div>
+
+        <a href="#" class="view-all">
+          View All →
+        </a>
+
+      </div>
+
+
+      <div class="movie-grid">
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Actor Photo
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Actor Profile</h3>
+            <p class="movie-meta">
+              Filmography · Profile
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Actor Photo
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Actor Profile</h3>
+            <p class="movie-meta">
+              Filmography · Profile
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Actor Photo
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Actor Profile</h3>
+            <p class="movie-meta">
+              Filmography · Profile
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Actor Photo
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Actor Profile</h3>
+            <p class="movie-meta">
+              Filmography · Profile
+            </p>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ACTRESSES SECTION
+         ========================= -->
+
+    <section class="section" id="actresses">
+
+      <div class="section-header">
+
+        <div>
+          <h2 class="section-title">
+            Popular <span>Actresses</span>
+          </h2>
+
+          <p class="section-description">
+            Discover actresses and their film careers.
+          </p>
+        </div>
+
+        <a href="#" class="view-all">
+          View All →
+        </a>
+
+      </div>
+
+
+      <div class="movie-grid">
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Actress Photo
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Actress Profile</h3>
+            <p class="movie-meta">
+              Filmography · Profile
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Actress Photo
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Actress Profile</h3>
+            <p class="movie-meta">
+              Filmography · Profile
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Actress Photo
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Actress Profile</h3>
+            <p class="movie-meta">
+              Filmography · Profile
+            </p>
+          </div>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <div class="movie-poster">
+            <span class="poster-placeholder">
+              Actress Photo
+            </span>
+          </div>
+
+          <div class="movie-info">
+            <h3>Actress Profile</h3>
+            <p class="movie-meta">
+              Filmography · Profile
+            </p>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         INDUSTRIES
+         ========================= -->
+
+    <section class="section">
+
+      <div class="section-header">
+
+        <div>
+          <h2 class="section-title">
+            Film <span>Industries</span>
+          </h2>
+
+          <p class="section-description">
+            Browse cinema from different languages and regions.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="browse-grid">
+
+        <a href="#" class="browse-card">
+          <div class="browse-icon">●</div>
+          <h3>Hindi Cinema</h3>
+          <p>Explore Hindi films and artists.</p>
+        </a>
+
+
+        <a href="#" class="browse-card">
+          <div class="browse-icon">●</div>
+          <h3>Gujarati Cinema</h3>
+          <p>Explore Gujarati films and artists.</p>
+        </a>
+
+
+        <a href="#" class="browse-card">
+          <div class="browse-icon">●</div>
+          <h3>Marathi Cinema</h3>
+          <p>Explore Marathi films and artists.</p>
+        </a>
+
+
+        <a href="#" class="browse-card">
+          <div class="browse-icon">●</div>
+          <h3>South Indian Cinema</h3>
+          <p>Tamil · Telugu · Kannada · Malayalam</p>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+
+    <footer
+      style="
+        border-top: 1px solid rgba(231, 201, 106, 0.12);
+        background: #06080d;
+        margin-top: 20px;
+      "
+    >
+
+      <div
+        style="
+          max-width: 1280px;
+          margin: auto;
+          padding: 45px 24px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 25px;
+          flex-wrap: wrap;
+        "
+      >
+
+        <div>
+          <div class="logo">
+            FILMEAZ<span>.</span>
+          </div>
+
+          <p
+            style="
+              color: #777b84;
+              font-size: 12px;
+              margin-top: 8px;
+            "
+          >
+            Films A to Z · Explore Cinema
+          </p>
+        </div>
+
+
+        <div
+          style="
+            color: #777b84;
+            font-size: 12px;
+          "
+        >
+          © 2026 FILMEAZ. All rights reserved.
+        </div>
+
+      </div>
+
+    </footer>
+
+  </main>
+
+
+  <!-- =========================
+       JAVASCRIPT
+       ========================= -->
+
+  <script>
+
+    /* Mobile Navigation */
+
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.getElementById("navLinks");
+
+    menuBtn.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+    });
+
+
+    /* Close mobile menu after clicking a link */
+
+    document.querySelectorAll(".nav-links a").forEach(function (link) {
+
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("active");
+      });
+
+    });
+
+
+    /* Search */
+
+    const searchForm = document.getElementById("searchForm");
+    const searchInput = document.getElementById("searchInput");
+
+    searchForm.addEventListener("submit", function (event) {
+
+      event.preventDefault();
+
+      const query = searchInput.value.trim();
+
+      if (query === "") {
+        searchInput.focus();
+        return;
+      }
+
+      alert(
+        "FILMEAZ Search\n\nYou searched for: " + query +
+        "\n\nSearch functionality will be connected in the next development step."
+      );
+
+    });
+
+  </script>
+
 </body>
 </html>
