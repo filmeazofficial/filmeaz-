@@ -3,149 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Actors - FILMEAZ</title>
-
+    <meta name="description" content="Explore actors and their filmographies on FILMEAZ, Films A to Z.">
+    <title>Actors | FILMEAZ</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            color: #222;
-        }
-
-        header {
-            background: #111;
-            color: white;
-            padding: 22px 15px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 32px;
-            letter-spacing: 2px;
-        }
-
-        header p {
-            margin-top: 6px;
-            color: #ccc;
-        }
-
-        main {
-            max-width: 1000px;
-            margin: auto;
-            padding: 30px 15px;
-        }
-
-        h2 {
-            text-align: center;
-            margin-bottom: 25px;
-        }
-
-        .person-card {
-            background: white;
-            padding: 20px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-
-        .person-card h3 {
-            margin-bottom: 10px;
-        }
-
-        .person-card p {
-            margin: 6px 0;
-            color: #555;
-        }
-
-        .loading {
-            text-align: center;
-            color: #777;
-        }
-
-        footer {
-            margin-top: 30px;
-            padding: 20px;
-            background: #111;
-            color: #aaa;
-            text-align: center;
-            font-size: 14px;
-        }
+        .directory-hero{position:relative;padding:76px 0 62px;text-align:center;overflow:hidden;border-bottom:1px solid var(--border);background:radial-gradient(ellipse at 50% 0,rgba(212,175,97,.19),transparent 62%),linear-gradient(120deg,#08090d,#17140f 52%,#08090d)}
+        .directory-hero:after{content:"ACTORS";position:absolute;left:50%;top:8px;transform:translateX(-50%);font:900 clamp(70px,15vw,180px)/1 Arial,sans-serif;letter-spacing:12px;color:rgba(212,175,97,.035);white-space:nowrap;pointer-events:none}
+        .directory-hero-inner{position:relative;z-index:1}
+        .eyebrow{color:var(--gold);font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase}
+        .directory-hero h1{margin:13px 0;color:var(--gold-light);font:700 clamp(38px,6vw,62px)/1.15 Georgia,serif}
+        .directory-hero p{max-width:650px;margin:0 auto;color:#c4bfb4;font-size:15px;line-height:1.8}
+        .directory-tools{padding:30px 0 18px}
+        .directory-search{max-width:650px;margin:0 auto 22px;display:flex;gap:8px;padding:6px;border:1px solid var(--border);border-radius:40px;background:var(--bg-card)}
+        .directory-search input{width:100%;min-width:0;padding:12px 18px;border:0;outline:0;background:transparent;color:var(--white);font-size:14px}
+        .directory-search button,.filter-select{border:1px solid var(--border);border-radius:24px;background:#171922;color:var(--gold-light);padding:10px 17px}
+        .filter-row{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:0 auto 20px}
+        .filter-select{min-width:150px;max-width:100%;font-size:13px}
+        .alphabet{display:flex;justify-content:center;flex-wrap:wrap;gap:7px;margin:0 auto 25px}
+        .letter-btn{width:34px;height:34px;border:1px solid var(--border);border-radius:50%;background:transparent;color:#c9c1b2;font-size:12px;transition:.2s}
+        .letter-btn:hover,.letter-btn.active{background:var(--gold);border-color:var(--gold);color:#111}
+        .directory-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px;color:var(--muted);font-size:13px}
+        .people-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:25px 18px;padding-bottom:30px}
+        .person-tile{min-width:0;display:block;transition:transform .25s}
+        .person-tile:hover{transform:translateY(-5px)}
+        .person-photo{position:relative;aspect-ratio:9/16;overflow:hidden;border:1px solid var(--border);border-radius:10px;background:radial-gradient(circle at 50% 30%,rgba(212,175,97,.17),transparent 55%),#151720;box-shadow:0 7px 22px rgba(0,0,0,.3)}
+        .person-photo img{width:100%;height:100%;display:block;object-fit:cover}
+        .person-placeholder{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--gold)}
+        .person-placeholder span{font:700 46px Georgia,serif}
+        .person-placeholder small{font-size:9px;letter-spacing:3px;color:#bdb4a2}
+        .person-name{margin-top:11px;color:var(--white);font:600 16px/1.4 Georgia,serif}
+        .person-meta{margin-top:4px;color:var(--gold);font-size:12px}
+        .empty-state{grid-column:1/-1;padding:55px 15px;text-align:center;border:1px solid var(--border);border-radius:12px;background:var(--bg-card);color:var(--muted)}
+        .pagination{display:flex;justify-content:center;align-items:center;gap:8px;padding:5px 0 55px}
+        .page-btn{min-width:38px;height:38px;padding:0 12px;border:1px solid var(--border);border-radius:22px;background:transparent;color:var(--gold-light)}
+        .page-btn.active,.page-btn:hover{background:var(--gold);border-color:var(--gold);color:#111}
+        .page-btn:disabled{opacity:.35;cursor:not-allowed}
+        @media(max-width:1100px){.people-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+        @media(max-width:760px){.directory-hero{padding:58px 0 45px}.people-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px 13px}.person-name{font-size:14px}.filter-select{flex:1;min-width:135px}}
+        @media(max-width:480px){.people-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}.directory-search button{padding:9px 13px}.letter-btn{width:30px;height:30px}.directory-summary{font-size:12px}}
     </style>
 </head>
-
 <body>
-
-<header>
-    <h1>FILMEAZ</h1>
-    <p>Films A to Z</p>
+<header class="header">
+    <div class="header-container">
+        <a class="logo" href="index.html" aria-label="FILMEAZ Home"><img class="logo-image" src="filmeaz-logo.png" alt="FILMEAZ"></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+        <nav class="navbar" id="navbar" aria-label="Main navigation">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="actors.html">Actors</a>
+            <a class="nav-link" href="actresses.html">Actresses</a>
+            <a class="nav-link" href="about.html">About Us</a>
+        </nav>
+        <a class="header-search" href="#directorySearch" aria-label="Search actors"><span>⌕</span></a>
+    </div>
 </header>
 
-<main>
-
-    <h2>Actors</h2>
-
-    <div id="actors-list">
-        <p class="loading">Loading actors...</p>
+<section class="directory-hero">
+    <div class="container directory-hero-inner">
+        <span class="eyebrow">The faces behind the films</span>
+        <h1>Actors</h1>
+        <p>Discover actors, explore their work, and follow their journey across films and industries.</p>
     </div>
+</section>
 
+<main class="container" id="actorDirectory">
+    <section class="directory-tools" aria-label="Find actors">
+        <form class="directory-search" id="directorySearch" role="search">
+            <input id="actorSearch" type="search" placeholder="Search actors by name..." autocomplete="off" aria-label="Search actors by name">
+            <button type="submit">SEARCH</button>
+        </form>
+        <div class="filter-row">
+            <select class="filter-select" id="languageFilter" aria-label="Filter by language">
+                <option value="">All Languages</option>
+            </select>
+            <select class="filter-select" id="industryFilter" aria-label="Filter by industry">
+                <option value="">All Industries</option>
+            </select>
+        </div>
+        <div class="alphabet" id="alphabetFilter" aria-label="Filter actors alphabetically"></div>
+    </section>
+
+    <div class="directory-summary">
+        <span id="resultCount" aria-live="polite">Loading actors...</span>
+        <span id="pageStatus"></span>
+    </div>
+    <section class="people-grid" id="actorsGrid" aria-label="Actors directory">
+        <p class="loading-message">Loading actors...</p>
+    </section>
+    <nav class="pagination" id="pagination" aria-label="Actor directory pages"></nav>
 </main>
 
-<footer>
-    © 2026 FILMEAZ — Films A to Z
+<footer class="footer">
+    <div class="container">
+        <div class="footer-bottom">
+            <p>© <span id="currentYear"></span> FILMEAZ — Films A to Z</p>
+            <p>Celebrating cinema, one story at a time.</p>
+        </div>
+    </div>
 </footer>
 
 <script>
-async function loadActors() {
+(() => {
+    const grid = document.getElementById("actorsGrid");
+    const searchInput = document.getElementById("actorSearch");
+    const languageFilter = document.getElementById("languageFilter");
+    const industryFilter = document.getElementById("industryFilter");
+    const alphabet = document.getElementById("alphabetFilter");
+    const resultCount = document.getElementById("resultCount");
+    const pageStatus = document.getElementById("pageStatus");
+    const pagination = document.getElementById("pagination");
+    const pageSize = 10;
+    let actors = [];
+    let activeLetter = "";
+    let currentPage = 1;
 
-    const actorsList = document.getElementById("actors-list");
+    const valueOf = (person, keys) => {
+        for (const key of keys) {
+            const value = person[key];
+            if (typeof value === "string" && value.trim()) return value.trim();
+            if (Array.isArray(value) && value.length) return value.filter(Boolean).join(", ");
+        }
+        return "";
+    };
 
-    try {
-
-        const response = await fetch("data/people.json");
-        const people = await response.json();
-
-        const actors = people.filter(
-            person => person.profession === "Actor"
-        );
-
-        actorsList.innerHTML = "";
-
+    function fillFilter(select, keySets, label) {
+        const values = new Set();
         actors.forEach(person => {
+            keySets.forEach(keys => {
+                const value = valueOf(person, keys);
+                if (value) value.split(",").map(item => item.trim()).filter(Boolean).forEach(item => values.add(item));
+            });
+        });
+        [...values].sort((a,b) => a.localeCompare(b)).forEach(value => {
+            const option = document.createElement("option");
+            option.value = value.toLowerCase();
+            option.textContent = value;
+            select.appendChild(option);
+        });
+        if (!values.size) select.hidden = true;
+        else select.hidden = false;
+    }
 
-            const personCard = document.createElement("div");
-            personCard.className = "person-card";
+    function buildAlphabet() {
+        alphabet.innerHTML = "";
+        ["All", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"].forEach(letter => {
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "letter-btn" + ((letter === "All" && !activeLetter) || letter === activeLetter ? " active" : "");
+            button.textContent = letter;
+            button.setAttribute("aria-pressed", String((letter === "All" && !activeLetter) || letter === activeLetter));
+            button.addEventListener("click", () => {
+                activeLetter = letter === "All" ? "" : letter;
+                currentPage = 1;
+                buildAlphabet();
+                render();
+            });
+            alphabet.appendChild(button);
+        });
+    }
 
-            personCard.innerHTML = `
-    <h3>
-        <a href="person.html?id=${person.id}">
-            ${person.name}
-        </a>
-    </h3>
-    <p><strong>Profession:</strong> ${person.profession}</p>
-    <p><strong>Known For:</strong> ${person.knownFor.join(", ")}</p>
-`;
+    function makeCard(person) {
+        const card = document.createElement("a");
+        card.className = "person-tile";
+        card.href = "person.html?id=" + encodeURIComponent(person.id || "");
+        const photo = document.createElement("div");
+        photo.className = "person-photo";
+        const imageUrl = valueOf(person, [["photo"],["image"],["portrait"],["profileImage"]]);
+        if (imageUrl) {
+            const image = document.createElement("img");
+            image.src = imageUrl;
+            image.alt = person.name || "Actor portrait";
+            image.loading = "lazy";
+            image.onerror = () => {
+                photo.innerHTML = '<div class="person-placeholder"><span>' + escapeHTML((person.name || "A").charAt(0).toUpperCase()) + '</span><small>FILMEAZ</small></div>';
+            };
+            photo.appendChild(image);
+        } else {
+            photo.innerHTML = '<div class="person-placeholder"><span>' + escapeHTML((person.name || "A").charAt(0).toUpperCase()) + '</span><small>FILMEAZ</small></div>';
+        }
+        const name = document.createElement("h2");
+        name.className = "person-name";
+        name.textContent = person.name || "Unnamed Actor";
+        const metaText = valueOf(person, [["industry"],["industries"],["language"],["languages"]]);
+        card.append(photo, name);
+        if (metaText) {
+            const meta = document.createElement("p");
+            meta.className = "person-meta";
+            meta.textContent = metaText;
+            card.appendChild(meta);
+        }
+        return card;
+    }
 
-            actorsList.appendChild(personCard);
+    function escapeHTML(value) {
+        return String(value).replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
+    }
+
+    function render() {
+        const query = searchInput.value.trim().toLowerCase();
+        const language = languageFilter.value;
+        const industry = industryFilter.value;
+        const filtered = actors.filter(person => {
+            const name = (person.name || "").toLowerCase();
+            const personLanguage = valueOf(person, [["language"],["languages"]]).toLowerCase();
+            const personIndustry = valueOf(person, [["industry"],["industries"]]).toLowerCase();
+            return (!query || name.includes(query)) &&
+                (!activeLetter || name.startsWith(activeLetter.toLowerCase())) &&
+                (!language || personLanguage.split(",").map(x => x.trim()).includes(language)) &&
+                (!industry || personIndustry.split(",").map(x => x.trim()).includes(industry));
         });
 
-    } catch (error) {
-
-        actorsList.innerHTML =
-            "<p>Unable to load actors.</p>";
-
-        console.error(error);
+        const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+        currentPage = Math.min(currentPage, totalPages);
+        const visible = filtered.slice((currentPage - 1) * pageSize, currentPage * pageSize);
+        grid.innerHTML = "";
+        if (!visible.length) {
+            grid.innerHTML = '<div class="empty-state">No actors match your search yet. Actor information will be added as the FILMEAZ database grows.</div>';
+        } else {
+            visible.forEach(person => grid.appendChild(makeCard(person)));
+        }
+        resultCount.textContent = filtered.length + (filtered.length === 1 ? " actor" : " actors");
+        pageStatus.textContent = filtered.length ? "Page " + currentPage + " of " + totalPages : "";
+        renderPagination(totalPages);
     }
-}
 
-loadActors();
+    function renderPagination(totalPages) {
+        pagination.innerHTML = "";
+        if (totalPages <= 1) return;
+        const previous = document.createElement("button");
+        previous.className = "page-btn";
+        previous.textContent = "‹";
+        previous.disabled = currentPage === 1;
+        previous.setAttribute("aria-label", "Previous page");
+        previous.addEventListener("click", () => { currentPage--; render(); });
+        pagination.appendChild(previous);
+
+        for (let page = 1; page <= totalPages; page++) {
+            const button = document.createElement("button");
+            button.className = "page-btn" + (page === currentPage ? " active" : "");
+            button.textContent = page;
+            button.setAttribute("aria-current", page === currentPage ? "page" : "false");
+            button.addEventListener("click", () => { currentPage = page; render(); });
+            pagination.appendChild(button);
+        }
+
+        const next = document.createElement("button");
+        next.className = "page-btn";
+        next.textContent = "›";
+        next.disabled = currentPage === totalPages;
+        next.setAttribute("aria-label", "Next page");
+        next.addEventListener("click", () => { currentPage++; render(); });
+        pagination.appendChild(next);
+    }
+
+    async function loadActors() {
+        try {
+            const response = await fetch("./data/people.json");
+            if (!response.ok) throw new Error("Could not load people.json");
+            const people = await response.json();
+            actors = (Array.isArray(people) ? people : []).filter(person => {
+                const profession = Array.isArray(person.profession) ? person.profession : [person.profession];
+                return profession.some(item => String(item || "").toLowerCase() === "actor") ||
+                    String(person.gender || "").toLowerCase() === "male";
+            }).sort((a,b) => (a.name || "").localeCompare(b.name || ""));
+            fillFilter(languageFilter, [["language"],["languages"]], "language");
+            fillFilter(industryFilter, [["industry"],["industries"]], "industry");
+            buildAlphabet();
+            render();
+        } catch (error) {
+            console.error(error);
+            grid.innerHTML = '<div class="empty-state">We could not load the actor directory right now. Please try again later.</div>';
+            resultCount.textContent = "Actor directory unavailable";
+            pagination.innerHTML = "";
+        }
+    }
+
+    document.getElementById("directorySearch").addEventListener("submit", event => event.preventDefault());
+    searchInput.addEventListener("input", () => { currentPage = 1; render(); });
+    languageFilter.addEventListener("change", () => { currentPage = 1; render(); });
+    industryFilter.addEventListener("change", () => { currentPage = 1; render(); });
+    document.getElementById("menuToggle").addEventListener("click", () => {
+        document.getElementById("navbar").classList.toggle("active");
+    });
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+    loadActors();
+})();
 </script>
-
 </body>
 </html>
