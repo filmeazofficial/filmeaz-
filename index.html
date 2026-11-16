@@ -1,1156 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>FILMEAZ — Films A to Z</title>
+    <title>FILMEAZ - Films A to Z</title>
 
-  <meta name="description"
-    content="FILMEAZ — Explore Indian and International films, actors, actresses, industries and filmographies.">
+    <meta name="description" content="FILMEAZ - Explore Indian and International Cinema, Actors and Actresses.">
 
-  <meta name="theme-color" content="#080b12">
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #080b12;
-      color: #f5f1e8;
-      line-height: 1.5;
-      overflow-x: hidden;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    button,
-    input {
-      font: inherit;
-    }
-
-    /* =========================
-       FILMEAZ HEADER
-       ========================= */
-
-    .header {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      width: 100%;
-      background: rgba(8, 11, 18, 0.94);
-      backdrop-filter: blur(14px);
-      border-bottom: 1px solid rgba(212, 175, 55, 0.16);
-    }
-
-    .nav {
-      max-width: 1280px;
-      margin: auto;
-      min-height: 74px;
-      padding: 0 24px;
-
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 25px;
-    }
-
-    .logo {
-      font-size: 30px;
-      font-weight: 900;
-      letter-spacing: 2px;
-      color: #e7c96a;
-      white-space: nowrap;
-    }
-
-    .logo span {
-      color: #f5f1e8;
-    }
-
-    .logo-sub {
-      display: block;
-      font-size: 9px;
-      letter-spacing: 3px;
-      color: #a9a9ad;
-      margin-top: -4px;
-      font-weight: 500;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 25px;
-    }
-
-    .nav-links a {
-      color: #c9c9cd;
-      font-size: 14px;
-      font-weight: 600;
-      transition: 0.25s ease;
-    }
-
-    .nav-links a:hover {
-      color: #e7c96a;
-    }
-
-    .menu-btn {
-      display: none;
-      border: 1px solid rgba(231, 201, 106, 0.35);
-      background: transparent;
-      color: #f5f1e8;
-      padding: 8px 11px;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-
-    /* =========================
-       HERO
-       ========================= */
-
-    .hero {
-      min-height: 620px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      overflow: hidden;
-
-      background:
-        linear-gradient(
-          90deg,
-          rgba(5, 7, 12, 0.98) 0%,
-          rgba(5, 7, 12, 0.88) 40%,
-          rgba(5, 7, 12, 0.48) 72%,
-          rgba(5, 7, 12, 0.9) 100%
-        ),
-        radial-gradient(
-          circle at 78% 45%,
-          rgba(180, 140, 45, 0.20),
-          transparent 38%
-        );
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: auto 0 0 0;
-      height: 140px;
-      background: linear-gradient(
-        transparent,
-        #080b12
-      );
-      pointer-events: none;
-    }
-
-    .hero-content {
-      width: 100%;
-      max-width: 1280px;
-      margin: auto;
-      padding: 80px 24px;
-      position: relative;
-      z-index: 2;
-    }
-
-    .hero-label {
-      color: #e7c96a;
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      margin-bottom: 18px;
-    }
-
-    .hero h1 {
-      max-width: 700px;
-      font-size: clamp(42px, 6vw, 76px);
-      line-height: 0.98;
-      letter-spacing: -2px;
-      margin-bottom: 24px;
-    }
-
-    .hero h1 span {
-      color: #e7c96a;
-    }
-
-    .hero-text {
-      max-width: 650px;
-      color: #b9bbc1;
-      font-size: 17px;
-      line-height: 1.7;
-      margin-bottom: 32px;
-    }
-
-    /* =========================
-       SEARCH
-       ========================= */
-
-    .search-box {
-      width: 100%;
-      max-width: 680px;
-      display: flex;
-      align-items: center;
-      background: rgba(18, 22, 32, 0.95);
-      border: 1px solid rgba(231, 201, 106, 0.30);
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
-    }
-
-    .search-box input {
-      flex: 1;
-      min-width: 0;
-      padding: 17px 18px;
-      border: none;
-      outline: none;
-      background: transparent;
-      color: #ffffff;
-      font-size: 15px;
-    }
-
-    .search-box input::placeholder {
-      color: #777b84;
-    }
-
-    .search-btn {
-      border: none;
-      background: #e7c96a;
-      color: #101217;
-      padding: 17px 24px;
-      font-weight: 800;
-      cursor: pointer;
-      transition: 0.25s ease;
-    }
-
-    .search-btn:hover {
-      background: #f3d985;
-    }
-
-    /* =========================
-       SECTION COMMON
-       ========================= */
-
-    .section {
-      max-width: 1280px;
-      margin: auto;
-      padding: 75px 24px;
-    }
-
-    .section-header {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 20px;
-      margin-bottom: 28px;
-    }
-
-    .section-title {
-      font-size: 30px;
-      letter-spacing: -0.5px;
-    }
-
-    .section-title span {
-      color: #e7c96a;
-    }
-
-    .section-description {
-      color: #858992;
-      font-size: 14px;
-      margin-top: 7px;
-    }
-
-    .view-all {
-      color: #e7c96a;
-      font-size: 13px;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-
-    /* =========================
-       FEATURED MOVIES
-       ========================= */
-
-    .movie-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-    }
-
-    .movie-card {
-      background: #11151e;
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      border-radius: 12px;
-      overflow: hidden;
-      transition: transform 0.3s ease,
-                  border-color 0.3s ease,
-                  box-shadow 0.3s ease;
-    }
-
-    .movie-card:hover {
-      transform: translateY(-6px);
-      border-color: rgba(231, 201, 106, 0.35);
-      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.30);
-    }
-
-    .movie-poster {
-      aspect-ratio: 2 / 3;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      background:
-        linear-gradient(
-          145deg,
-          #1c2432,
-          #0d1119
-        );
-    }
-
-    .poster-placeholder {
-      color: #555b66;
-      font-size: 12px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-
-    .movie-year {
-      position: absolute;
-      top: 12px;
-      right: 12px;
-      padding: 5px 8px;
-      border-radius: 5px;
-      background: rgba(0, 0, 0, 0.72);
-      color: #e7c96a;
-      font-size: 11px;
-      font-weight: 700;
-    }
-
-    .movie-info {
-      padding: 16px;
-    }
-
-    .movie-info h3 {
-      font-size: 16px;
-      margin-bottom: 6px;
-    }
-
-    .movie-meta {
-      color: #858992;
-      font-size: 12px;
-    }
-
-    /* =========================
-       BROWSE BLOCKS
-       ========================= */
-
-    .browse-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-    }
-
-    .browse-card {
-      min-height: 150px;
-      padding: 24px;
-      border-radius: 12px;
-      border: 1px solid rgba(231, 201, 106, 0.13);
-
-      background:
-        linear-gradient(
-          145deg,
-          rgba(25, 30, 42, 0.96),
-          rgba(12, 15, 22, 0.96)
-        );
-
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-
-      transition: 0.3s ease;
-    }
-
-    .browse-card:hover {
-      border-color: rgba(231, 201, 106, 0.42);
-      transform: translateY(-4px);
-    }
-
-    .browse-icon {
-      color: #e7c96a;
-      font-size: 25px;
-      margin-bottom: auto;
-    }
-
-    .browse-card h3 {
-      font-size: 17px;
-      margin-bottom: 4px;
-    }
-
-    .browse-card p {
-      color: #858992;
-      font-size: 12px;
-    }
-
-    /* =========================
-       RESPONSIVE
-       ========================= */
-
-    @media (max-width: 1000px) {
-      .nav-links {
-        gap: 15px;
-      }
-
-      .movie-grid {
-        grid-template-columns: repeat(3, 1fr);
-      }
-
-      .browse-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 720px) {
-      .nav {
-        min-height: 66px;
-        padding: 0 16px;
-      }
-
-      .logo {
-        font-size: 25px;
-      }
-
-      .nav-links {
-        display: none;
-        position: absolute;
-        top: 66px;
-        left: 0;
-        right: 0;
-        padding: 20px;
-        background: #0b0e15;
-        border-bottom: 1px solid rgba(231, 201, 106, 0.15);
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .nav-links.active {
-        display: flex;
-      }
-
-      .menu-btn {
-        display: block;
-      }
-
-      .hero {
-        min-height: 570px;
-      }
-
-      .hero-content {
-        padding: 65px 18px;
-      }
-
-      .hero h1 {
-        font-size: 46px;
-      }
-
-      .hero-text {
-        font-size: 15px;
-      }
-
-      .search-box {
-        flex-direction: row;
-      }
-
-      .search-btn {
-        padding: 15px 17px;
-      }
-
-      .section {
-        padding: 55px 18px;
-      }
-
-      .section-header {
-        align-items: flex-start;
-      }
-
-      .movie-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 14px;
-      }
-
-      .browse-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 12px;
-      }
-
-      .browse-card {
-        min-height: 130px;
-        padding: 18px;
-      }
-    }
-
-    @media (max-width: 420px) {
-      .movie-grid {
-        grid-template-columns: 1fr 1fr;
-      }
-
-      .movie-info {
-        padding: 12px;
-      }
-
-      .movie-info h3 {
-        font-size: 14px;
-      }
-
-      .hero h1 {
-        font-size: 40px;
-      }
-    }
-  </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- =========================
-       HEADER
-       ========================= -->
+<!-- HEADER -->
+<header class="header">
+    <div class="container header-container">
 
-  <header class="header">
-    <nav class="nav">
+        <a href="index.html" class="logo">
+            FILMEAZ<span>.</span>
+            <small>FILMS A TO Z</small>
+        </a>
 
-      <a href="#" class="logo">
-        FILMEAZ<span>.</span>
-        <small class="logo-sub">FILMS A TO Z</small>
-      </a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="actors.html">Actors</a>
+            <a href="actresses.html">Actresses</a>
+            <a href="about.html">About Us</a>
+        </nav>
 
-      <div class="nav-links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="movies.html">Movies</a>
-      <a href="actors.html">Actors</a>
-      <a href="actresses.html">Actresses</a>
-      <a href="browse.html">Browse</a>
-      <a href="about.html">About Us</a>
-      </div>
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
 
-      <button class="menu-btn" id="menuBtn">
-        ☰
-      </button>
-
-    </nav>
-  </header>
+    </div>
+</header>
 
 
-  <!-- =========================
-       HERO SECTION
-       ========================= -->
+<!-- HERO SECTION -->
+<section class="hero">
 
-  <main id="home">
+    <div class="hero-content">
 
-    <section class="hero">
-
-      <div class="hero-content">
-
-        <div class="hero-label">
-          The Film Database
-        </div>
+        <span class="hero-label">WELCOME TO FILMEAZ</span>
 
         <h1>
-          Discover Films.<br>
-          Explore <span>Stories.</span>
+            DISCOVER THE WORLD
+            <span>OF CINEMA</span>
         </h1>
 
-        <p class="hero-text">
-          Explore movies, actors, actresses, film industries
-          and complete filmographies — all in one cinematic
-          database built for film lovers.
+        <p>
+            Explore the journey of Indian and International Cinema.
+            Discover legendary actors, talented actresses and
+            their cinematic journeys.
         </p>
 
-        <form class="search-box" id="searchForm">
+        <div class="hero-buttons">
+            <a href="actors.html" class="btn-primary">
+                Explore Actors
+            </a>
 
-          <input
-            type="search"
-            id="searchInput"
-            placeholder="Search movies, actors, actresses..."
-            autocomplete="off"
-          >
+            <a href="actresses.html" class="btn-secondary">
+                Explore Actresses
+            </a>
+        </div>
 
-          <button type="submit" class="search-btn">
-            Search
-          </button>
+    </div>
 
-        </form>
-
-      </div>
-
-    </section>
+</section>
 
 
-    <!-- =========================
-         FEATURED MOVIES
-         ========================= -->
+<!-- INTRODUCTION -->
+<section class="intro-section">
 
-    <section class="section" id="movies">
+    <div class="container">
 
-      <div class="section-header">
+        <span class="section-label">FILMS A TO Z</span>
+
+        <h2>
+            Everything About <span>Cinema</span>
+        </h2>
+
+        <p>
+            FILMEAZ is your destination to explore the world
+            of films and artists. Discover film personalities,
+            their careers and their contributions to cinema.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ACTORS SECTION -->
+<section class="home-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="section-label">CINEMA PERSONALITIES</span>
+                <h2>Popular <span>Actors</span></h2>
+            </div>
+
+            <a href="actors.html" class="view-all">
+                View All →
+            </a>
+
+        </div>
+
+        <div class="people-grid" id="homeActors">
+
+            <!-- Actors will load here -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ACTRESSES SECTION -->
+<section class="home-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="section-label">TALENT & ELEGANCE</span>
+                <h2>Popular <span>Actresses</span></h2>
+            </div>
+
+            <a href="actresses.html" class="view-all">
+                View All →
+            </a>
+
+        </div>
+
+        <div class="people-grid" id="homeActresses">
+
+            <!-- Actresses will load here -->
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ABOUT FILMEAZ SECTION -->
+<section class="about-preview">
+
+    <div class="container about-content">
 
         <div>
-          <h2 class="section-title">
-            Featured <span>Movies</span>
-          </h2>
+            <span class="section-label">OUR PLATFORM</span>
 
-          <p class="section-description">
-            Explore films from different industries and eras.
-          </p>
+            <h2>
+                Welcome to <span>FILMEAZ</span>
+            </h2>
+
+            <p>
+                FILMEAZ (Films A to Z) is a growing cinema
+                database dedicated to Indian and international
+                film personalities.
+
+                Our goal is to document the journeys,
+                achievements and filmographies of actors
+                and actresses from different film industries.
+            </p>
+
+            <a href="about.html" class="btn-primary">
+                About FILMEAZ →
+            </a>
         </div>
 
-        <a href="#" class="view-all">
-          View All →
-        </a>
+    </div>
 
-      </div>
+</section>
 
 
-      <div class="movie-grid">
+<!-- FOOTER -->
+<footer class="footer">
 
-        <article class="movie-card">
+    <div class="container footer-content">
 
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Movie Poster
-            </span>
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                FILMEAZ<span>.</span>
+                <small>FILMS A TO Z</small>
+            </a>
 
-            <span class="movie-year">
-              2026
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Featured Film</h3>
-            <p class="movie-meta">
-              Indian Cinema · Drama
+            <p>
+                Discover the world of cinema.
+                Explore the journey of film personalities.
             </p>
-          </div>
-
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Movie Poster
-            </span>
-
-            <span class="movie-year">
-              2025
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Featured Film</h3>
-            <p class="movie-meta">
-              Gujarati Cinema · Drama
-            </p>
-          </div>
-
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Movie Poster
-            </span>
-
-            <span class="movie-year">
-              2025
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Featured Film</h3>
-            <p class="movie-meta">
-              Hindi Cinema · Thriller
-            </p>
-          </div>
-
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Movie Poster
-            </span>
-
-            <span class="movie-year">
-              2024
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Featured Film</h3>
-            <p class="movie-meta">
-              Marathi Cinema · Drama
-            </p>
-          </div>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         BROWSE SECTION
-         ========================= -->
-
-    <section class="section" id="browse">
-
-      <div class="section-header">
-
-        <div>
-          <h2 class="section-title">
-            Browse <span>FILMEAZ</span>
-          </h2>
-
-          <p class="section-description">
-            Find films and film personalities your way.
-          </p>
         </div>
 
-      </div>
+        <div class="footer-links">
 
+            <h3>Quick Links</h3>
 
-      <div class="browse-grid">
+            <a href="index.html">Home</a>
+            <a href="actors.html">Actors</a>
+            <a href="actresses.html">Actresses</a>
+            <a href="about.html">About Us</a>
 
-        <a href="#" class="browse-card">
-          <div class="browse-icon">◉</div>
-
-          <h3>By Industry</h3>
-
-          <p>
-            Hindi · Gujarati · Marathi · Tamil · Telugu
-          </p>
-        </a>
-
-
-        <a href="#" class="browse-card">
-          <div class="browse-icon">▣</div>
-
-          <h3>By Year</h3>
-
-          <p>
-            Explore films chronologically.
-          </p>
-        </a>
-
-
-        <a href="#actors" class="browse-card">
-          <div class="browse-icon">★</div>
-
-          <h3>Actors</h3>
-
-          <p>
-            Discover actor filmographies.
-          </p>
-        </a>
-
-
-        <a href="#actresses" class="browse-card">
-          <div class="browse-icon">✦</div>
-
-          <h3>Actresses</h3>
-
-          <p>
-            Explore actress filmographies.
-          </p>
-        </a>
-
-      </div>
-
-    </section>
-        <!-- =========================
-         ACTORS SECTION
-         ========================= -->
-
-    <section class="section" id="actors">
-
-      <div class="section-header">
-
-        <div>
-          <h2 class="section-title">
-            Popular <span>Actors</span>
-          </h2>
-
-          <p class="section-description">
-            Explore actors and their complete filmographies.
-          </p>
         </div>
 
-        <a href="#" class="view-all">
-          View All →
-        </a>
+    </div>
 
-      </div>
+    <div class="footer-bottom">
+        <p>
+            © <span id="currentYear"></span> FILMEAZ.
+            All Rights Reserved.
+        </p>
+    </div>
 
+</footer>
 
-      <div class="movie-grid">
 
-        <article class="movie-card">
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
 
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Actor Photo
-            </span>
-          </div>
+<script>
+    document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
 
-          <div class="movie-info">
-            <h3>Actor Profile</h3>
-            <p class="movie-meta">
-              Filmography · Profile
-            </p>
-          </div>
+    const menuToggle = document.getElementById("menuToggle");
+    const navbar = document.querySelector(".navbar");
 
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Actor Photo
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Actor Profile</h3>
-            <p class="movie-meta">
-              Filmography · Profile
-            </p>
-          </div>
-
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Actor Photo
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Actor Profile</h3>
-            <p class="movie-meta">
-              Filmography · Profile
-            </p>
-          </div>
-
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Actor Photo
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Actor Profile</h3>
-            <p class="movie-meta">
-              Filmography · Profile
-            </p>
-          </div>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         ACTRESSES SECTION
-         ========================= -->
-
-    <section class="section" id="actresses">
-
-      <div class="section-header">
-
-        <div>
-          <h2 class="section-title">
-            Popular <span>Actresses</span>
-          </h2>
-
-          <p class="section-description">
-            Discover actresses and their film careers.
-          </p>
-        </div>
-
-        <a href="#" class="view-all">
-          View All →
-        </a>
-
-      </div>
-
-
-      <div class="movie-grid">
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Actress Photo
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Actress Profile</h3>
-            <p class="movie-meta">
-              Filmography · Profile
-            </p>
-          </div>
-
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Actress Photo
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Actress Profile</h3>
-            <p class="movie-meta">
-              Filmography · Profile
-            </p>
-          </div>
-
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Actress Photo
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Actress Profile</h3>
-            <p class="movie-meta">
-              Filmography · Profile
-            </p>
-          </div>
-
-        </article>
-
-
-        <article class="movie-card">
-
-          <div class="movie-poster">
-            <span class="poster-placeholder">
-              Actress Photo
-            </span>
-          </div>
-
-          <div class="movie-info">
-            <h3>Actress Profile</h3>
-            <p class="movie-meta">
-              Filmography · Profile
-            </p>
-          </div>
-
-        </article>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         INDUSTRIES
-         ========================= -->
-
-    <section class="section">
-
-      <div class="section-header">
-
-        <div>
-          <h2 class="section-title">
-            Film <span>Industries</span>
-          </h2>
-
-          <p class="section-description">
-            Browse cinema from different languages and regions.
-          </p>
-        </div>
-
-      </div>
-
-
-      <div class="browse-grid">
-
-        <a href="#" class="browse-card">
-          <div class="browse-icon">●</div>
-          <h3>Hindi Cinema</h3>
-          <p>Explore Hindi films and artists.</p>
-        </a>
-
-
-        <a href="#" class="browse-card">
-          <div class="browse-icon">●</div>
-          <h3>Gujarati Cinema</h3>
-          <p>Explore Gujarati films and artists.</p>
-        </a>
-
-
-        <a href="#" class="browse-card">
-          <div class="browse-icon">●</div>
-          <h3>Marathi Cinema</h3>
-          <p>Explore Marathi films and artists.</p>
-        </a>
-
-
-        <a href="#" class="browse-card">
-          <div class="browse-icon">●</div>
-          <h3>South Indian Cinema</h3>
-          <p>Tamil · Telugu · Kannada · Malayalam</p>
-        </a>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         FOOTER
-         ========================= -->
-
-    <footer
-      style="
-        border-top: 1px solid rgba(231, 201, 106, 0.12);
-        background: #06080d;
-        margin-top: 20px;
-      "
-    >
-
-      <div
-        style="
-          max-width: 1280px;
-          margin: auto;
-          padding: 45px 24px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          gap: 25px;
-          flex-wrap: wrap;
-        "
-      >
-
-        <div>
-          <div class="logo">
-            FILMEAZ<span>.</span>
-          </div>
-
-          <p
-            style="
-              color: #777b84;
-              font-size: 12px;
-              margin-top: 8px;
-            "
-          >
-            Films A to Z · Explore Cinema
-          </p>
-        </div>
-
-
-        <div
-          style="
-            color: #777b84;
-            font-size: 12px;
-          "
-        >
-          © 2026 FILMEAZ. All rights reserved.
-        </div>
-
-      </div>
-
-    </footer>
-
-  </main>
-
-
-  <!-- =========================
-       JAVASCRIPT
-       ========================= -->
-
-  <script>
-
-    /* Mobile Navigation */
-
-    const menuBtn = document.getElementById("menuBtn");
-    const navLinks = document.getElementById("navLinks");
-
-    menuBtn.addEventListener("click", function () {
-      navLinks.classList.toggle("active");
-    });
-
-
-    /* Close mobile menu after clicking a link */
-
-    document.querySelectorAll(".nav-links a").forEach(function (link) {
-
-      link.addEventListener("click", function () {
-        navLinks.classList.remove("active");
-      });
-
-    });
-
-
-    /* Search */
-
-    const searchForm = document.getElementById("searchForm");
-    const searchInput = document.getElementById("searchInput");
-
-    searchForm.addEventListener("submit", function (event) {
-
-      event.preventDefault();
-
-      const query = searchInput.value.trim();
-
-      if (query === "") {
-        searchInput.focus();
-        return;
-      }
-
-      alert(
-        "FILMEAZ Search\n\nYou searched for: " + query +
-        "\n\nSearch functionality will be connected in the next development step."
-      );
-
-    });
-
-  </script>
+    if (menuToggle && navbar) {
+        menuToggle.addEventListener("click", function () {
+            navbar.classList.toggle("active");
+        });
+    }
+</script>
 
 </body>
 </html>
