@@ -133,6 +133,11 @@ img {
     align-items: center;
     justify-content: center;
     gap: 35px;
+    margin-left: auto;
+}
+
+.header-search {
+    margin-left: 4px;
 }
 
 .nav-link {
@@ -1073,7 +1078,14 @@ img {
         margin-left: 0;
         flex-shrink: 0;
     }
-    .navbar { order: 4; }
+    .navbar {
+        order: 4;
+        margin-left: 0;
+    }
+
+    .header-search {
+        margin-left: auto;
+    }
 
     .logo-image {
         width: 145px;
