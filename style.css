@@ -1056,8 +1056,24 @@ img {
     .header-container {
         min-height: 72px;
         padding: 8px 4%;
-        gap: 10px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 8px;
     }
+
+    /* Keep search and menu together at the right on every page */
+    .logo { order: 1; }
+    .header-search {
+        order: 2;
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+    .menu-toggle {
+        order: 3;
+        margin-left: 0;
+        flex-shrink: 0;
+    }
+    .navbar { order: 4; }
 
     .logo-image {
         width: 145px;
