@@ -46,7 +46,59 @@ async function loadJSON(path) {
 
 
 // ============================================
-// 3. LOAD MOVIES AND PEOPLE
+// 3. DUPLICATE MOVIE PROTECTION
+// ============================================
+
+function removeDuplicateMovies(movies) {
+
+    const seenIds = new Set();
+    const seenTitlesAndYears = new Set();
+    const uniqueMovies = [];
+
+    movies.forEach(movie => {
+
+        const id = String(movie.id || "").trim();
+
+        const normalizedTitle = String(movie.title || "")
+            .trim()
+            .toLowerCase()
+            .replace(/[^a-z0-9]/g, "");
+
+        const year = String(movie.year || "").trim();
+
+        const titleYearKey = normalizedTitle && year
+            ? normalizedTitle + "|" + year
+            : "";
+
+        const duplicateId = id && seenIds.has(id);
+        const duplicateTitleYear = titleYearKey && seenTitlesAndYears.has(titleYearKey);
+
+        if (duplicateId || duplicateTitleYear) {
+
+            console.warn(
+                "FILMEAZ duplicate movie skipped:",
+                movie.title || id || "Unknown movie",
+                year
+            );
+
+            return;
+
+        }
+
+        if (id) seenIds.add(id);
+        if (titleYearKey) seenTitlesAndYears.add(titleYearKey);
+
+        uniqueMovies.push(movie);
+
+    });
+
+    return uniqueMovies;
+
+}
+
+
+// ============================================
+// 4. LOAD MOVIES AND PEOPLE
 // ============================================
 
 async function loadWebsiteData() {
@@ -59,7 +111,7 @@ async function loadWebsiteData() {
 
     ]);
 
-    allMovies = Array.isArray(results[0]) ? results[0] : [];
+    allMovies = Array.isArray(results[0]) ? removeDuplicateMovies(results[0]) : [];
 
     allPeople = Array.isArray(results[1]) ? results[1] : [];
 
