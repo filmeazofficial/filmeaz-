@@ -1,23 +1,391 @@
 [
   {
     "id": "movie-001",
-    "title": "Example Movie",
-    "year": 2026,
+    "title": "Mother India",
+    "year": 1957,
+    "releaseDate": "1957-10-25",
     "language": "Hindi",
     "industry": "Hindi Cinema",
-    "genre": ["Drama"],
-    "directedBy": "Example Director",
-    "featured": true,
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "Mehboob Khan",
+    "producedBy": "Mehboob Khan",
     "cast": [
       {
         "personId": "person-001",
-        "name": "Example Actor",
-        "role": "Lead Actor"
+        "name": "Nargis",
+        "role": "Radha"
       },
       {
         "personId": "person-002",
-        "name": "Example Actress",
-        "role": "Lead Actress"
+        "name": "Sunil Dutt",
+        "role": "Birju"
+      },
+      {
+        "personId": "person-003",
+        "name": "Rajendra Kumar",
+        "role": "Ramu"
+      },
+      {
+        "personId": "person-004",
+        "name": "Raaj Kumar",
+        "role": "Shamu"
+      }
+    ]
+  },
+  {
+    "id": "movie-002",
+    "title": "Mughal-e-Azam",
+    "year": 1960,
+    "releaseDate": "1960-08-05",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Historical",
+      "Romance",
+      "Drama"
+    ],
+    "directedBy": "K. Asif",
+    "producedBy": "Shapoorji Pallonji",
+    "cast": [
+      {
+        "personId": "person-005",
+        "name": "Prithviraj Kapoor",
+        "role": "Emperor Akbar"
+      },
+      {
+        "personId": "person-006",
+        "name": "Dilip Kumar",
+        "role": "Prince Salim"
+      },
+      {
+        "personId": "person-007",
+        "name": "Madhubala",
+        "role": "Anarkali"
+      },
+      {
+        "personId": "person-008",
+        "name": "Durga Khote",
+        "role": "Maharani Jodha Bai"
+      }
+    ]
+  },
+  {
+    "id": "movie-003",
+    "title": "Guide",
+    "year": 1965,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Vijay Anand",
+    "producedBy": "Dev Anand",
+    "cast": [
+      {
+        "personId": "person-009",
+        "name": "Dev Anand",
+        "role": "Raju"
+      },
+      {
+        "personId": "person-010",
+        "name": "Waheeda Rehman",
+        "role": "Rosie Marco"
+      },
+      {
+        "personId": "person-011",
+        "name": "Leela Chitnis",
+        "role": "Raju's mother"
+      },
+      {
+        "personId": "person-012",
+        "name": "Anwar Hussain",
+        "role": "Gaffoor"
+      }
+    ]
+  },
+  {
+    "id": "movie-004",
+    "title": "Pakeezah",
+    "year": 1972,
+    "releaseDate": "1972-02-04",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Musical",
+      "Romance",
+      "Drama"
+    ],
+    "directedBy": "Kamal Amrohi",
+    "producedBy": "Kamal Amrohi",
+    "cast": [
+      {
+        "personId": "person-013",
+        "name": "Meena Kumari",
+        "role": "Sahibjaan"
+      },
+      {
+        "personId": "person-014",
+        "name": "Ashok Kumar",
+        "role": "Shahbuddin"
+      },
+      {
+        "personId": "person-004",
+        "name": "Raaj Kumar",
+        "role": "Salim Ahmed Khan"
+      },
+      {
+        "personId": "person-015",
+        "name": "Veena",
+        "role": "Nawabjaan"
+      }
+    ]
+  },
+  {
+    "id": "movie-005",
+    "title": "Sholay",
+    "year": 1975,
+    "releaseDate": "1975-08-15",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "directedBy": "Ramesh Sippy",
+    "producedBy": "G. P. Sippy",
+    "cast": [
+      {
+        "personId": "person-016",
+        "name": "Dharmendra",
+        "role": "Veeru"
+      },
+      {
+        "personId": "person-017",
+        "name": "Sanjeev Kumar",
+        "role": "Thakur Baldev Singh"
+      },
+      {
+        "personId": "person-018",
+        "name": "Hema Malini",
+        "role": "Basanti"
+      },
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Jai"
+      },
+      {
+        "personId": "person-020",
+        "name": "Jaya Bhaduri",
+        "role": "Radha"
+      },
+      {
+        "personId": "person-021",
+        "name": "Amjad Khan",
+        "role": "Gabbar Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-006",
+    "title": "Deewaar",
+    "year": 1975,
+    "releaseDate": "1975-01-24",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Action"
+    ],
+    "directedBy": "Yash Chopra",
+    "producedBy": "Gulshan Rai",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Vijay Verma"
+      },
+      {
+        "personId": "person-022",
+        "name": "Shashi Kapoor",
+        "role": "Ravi Verma"
+      },
+      {
+        "personId": "person-023",
+        "name": "Nirupa Roy",
+        "role": "Sumitra Devi"
+      },
+      {
+        "personId": "person-024",
+        "name": "Neetu Singh",
+        "role": "Leena"
+      },
+      {
+        "personId": "person-025",
+        "name": "Parveen Babi",
+        "role": "Anita"
+      }
+    ]
+  },
+  {
+    "id": "movie-007",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "year": 1995,
+    "releaseDate": "1995-10-20",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Romance",
+      "Drama",
+      "Musical"
+    ],
+    "directedBy": "Aditya Chopra",
+    "producedBy": "Yash Chopra",
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raj Malhotra"
+      },
+      {
+        "personId": "person-027",
+        "name": "Kajol",
+        "role": "Simran Singh"
+      },
+      {
+        "personId": "person-028",
+        "name": "Amrish Puri",
+        "role": "Baldev Singh"
+      },
+      {
+        "personId": "person-029",
+        "name": "Farida Jalal",
+        "role": "Lajwanti Singh"
+      },
+      {
+        "personId": "person-030",
+        "name": "Anupam Kher",
+        "role": "Dharamvir Malhotra"
+      }
+    ]
+  },
+  {
+    "id": "movie-008",
+    "title": "Lagaan: Once Upon a Time in India",
+    "year": 2001,
+    "releaseDate": "2001-06-15",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Sports",
+      "Historical"
+    ],
+    "directedBy": "Ashutosh Gowariker",
+    "producedBy": "Aamir Khan",
+    "cast": [
+      {
+        "personId": "person-031",
+        "name": "Aamir Khan",
+        "role": "Bhuvan"
+      },
+      {
+        "personId": "person-032",
+        "name": "Gracy Singh",
+        "role": "Gauri"
+      },
+      {
+        "personId": "person-033",
+        "name": "Rachel Shelley",
+        "role": "Elizabeth Russell"
+      },
+      {
+        "personId": "person-034",
+        "name": "Paul Blackthorne",
+        "role": "Captain Andrew Russell"
+      }
+    ]
+  },
+  {
+    "id": "movie-009",
+    "title": "3 Idiots",
+    "year": 2009,
+    "releaseDate": "2009-12-25",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "directedBy": "Rajkumar Hirani",
+    "producedBy": "Vidhu Vinod Chopra",
+    "cast": [
+      {
+        "personId": "person-031",
+        "name": "Aamir Khan",
+        "role": "Rancho"
+      },
+      {
+        "personId": "person-035",
+        "name": "R. Madhavan",
+        "role": "Farhan Qureshi"
+      },
+      {
+        "personId": "person-036",
+        "name": "Sharman Joshi",
+        "role": "Raju Rastogi"
+      },
+      {
+        "personId": "person-037",
+        "name": "Kareena Kapoor Khan",
+        "role": "Pia Sahastrabuddhe"
+      },
+      {
+        "personId": "person-038",
+        "name": "Boman Irani",
+        "role": "Dr. Viru Sahastrabuddhe"
+      }
+    ]
+  },
+  {
+    "id": "movie-010",
+    "title": "Dangal",
+    "year": 2016,
+    "releaseDate": "2016-12-23",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Biography",
+      "Drama",
+      "Sports"
+    ],
+    "directedBy": "Nitesh Tiwari",
+    "producedBy": "Aamir Khan; Kiran Rao; Siddharth Roy Kapur",
+    "cast": [
+      {
+        "personId": "person-031",
+        "name": "Aamir Khan",
+        "role": "Mahavir Singh Phogat"
+      },
+      {
+        "personId": "person-039",
+        "name": "Sakshi Tanwar",
+        "role": "Daya Kaur"
+      },
+      {
+        "personId": "person-040",
+        "name": "Fatima Sana Shaikh",
+        "role": "Geeta Phogat"
+      },
+      {
+        "personId": "person-041",
+        "name": "Sanya Malhotra",
+        "role": "Babita Kumari"
       }
     ]
   }
