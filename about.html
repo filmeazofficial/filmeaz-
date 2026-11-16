@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Us | FILMEAZ - Films A to Z</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080a10;
+    color: #f5f0e5;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #0c0e15;
+    border-bottom: 1px solid #b58b36;
+    padding: 18px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    color: #d6ad55;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav a {
+    color: #eee5d2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover,
+nav a.active {
+    color: #e4b84e;
+}
+
+.hero {
+    min-height: 280px;
+    background: linear-gradient(
+        90deg,
+        #080a10,
+        #19150e,
+        #080a10
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 1px solid #765a28;
+}
+
+.hero h1 {
+    color: #e3b957;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #ddd2bd;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 55px 25px;
+}
+
+.section-title {
+    color: #e1b653;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.content {
+    color: #c9c4ba;
+    line-height: 1.9;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.highlight {
+    border-left: 3px solid #d4a747;
+    background: #11141d;
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.highlight h2 {
+    color: #e1b653;
+    margin-bottom: 12px;
+}
+
+footer {
+    background: #0c0e15;
+    border-top: 1px solid #b58b36;
+    padding: 30px 5%;
+    text-align: center;
+}
+
+footer .logo {
+    margin-bottom: 12px;
+}
+
+footer p {
+    color: #aaa397;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media(max-width:600px) {
+    header {
+        justify-content: center;
+    }
+
+    nav {
+        gap: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        FILMEAZ
+        <span>FILMS A TO Z</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="actors.html">Actors</a>
+        <a href="actresses.html">Actresses</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="index.html">⌕</a>
+    </nav>
+
+</header>
+
+<section class="hero">
+    <div>
+        <h1>About FILMEAZ</h1>
+        <p>Discover. Explore. Celebrate the World of Cinema.</p>
+    </div>
+</section>
+
+<main class="container">
+
+    <h2 class="section-title">Welcome to FILMEAZ</h2>
+
+    <p class="content">
+        FILMEAZ - Films A to Z is a film database platform
+        dedicated to bringing the world of cinema together.
+
+        Our platform aims to provide information about
+        actors, actresses, films and their cinematic journeys
+        from different film industries around the world.
+    </p>
+
+    <div class="highlight">
+        <h2>Our Mission</h2>
+
+        <p class="content">
+            Our mission is to create a comprehensive
+            destination where cinema lovers can explore
+            films and discover the professional journeys
+            of actors and actresses.
+        </p>
+    </div>
+
+    <h2 class="section-title">What You Can Explore</h2>
+
+    <p class="content">
+        Explore actor and actress profiles, their filmographies,
+        upcoming films, special appearances and detailed
+        information about movies.
+
+        FILMEAZ aims to bring cinematic information together
+        in one convenient destination.
+    </p>
+
+    <div class="highlight">
+        <h2>Our Vision</h2>
+
+        <p class="content">
+            To build a global film database covering
+            cinema from different countries, languages
+            and film industries.
+        </p>
+    </div>
+
+    <h2 class="section-title">FILMEAZ - Films A to Z</h2>
+
+    <p class="content">
+        Explore the world of cinema with FILMEAZ.
+        Discover films, learn about artists and celebrate
+        the magic of movies.
+    </p>
+
+</main>
+
+<footer>
+
+    <div class="logo">
+        FILMEAZ
+        <span>FILMS A TO Z</span>
+    </div>
+
+    <p>Explore. Discover. Enjoy.</p>
+
+    <p>© 2026 FILMEAZ. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
