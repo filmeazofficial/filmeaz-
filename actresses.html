@@ -3,7 +3,18 @@
 <style>
 .directory-hero{min-height:330px;display:flex;align-items:center;text-align:center;padding:65px 0;background:radial-gradient(ellipse at 50% 0,rgba(212,175,97,.23),transparent 65%),linear-gradient(120deg,#08090d,#17140f 52%,#08090d);border-bottom:1px solid var(--border)}.directory-hero h1{font:700 clamp(38px,6vw,62px) Georgia,serif;color:var(--gold-light);margin:12px 0}.directory-hero p{color:#c4bfb4;line-height:1.8}.eyebrow{color:var(--gold);font-size:11px;font-weight:700;letter-spacing:4px;text-transform:uppercase}.searchbar{max-width:680px;margin:28px auto 0;display:flex;padding:6px;border:1px solid var(--gold);border-radius:40px;background:#101116}.searchbar input{flex:1;min-width:0;padding:13px 18px;border:0;outline:0;background:transparent;color:white}.searchbar button,.industry-card{border:1px solid var(--border);background:#171922;color:var(--gold-light)}.searchbar button{border-radius:30px;padding:0 22px;background:linear-gradient(135deg,#f1d995,#98712f);color:#17120a;font-weight:800}.directory-section{padding:38px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:22px}.section-head h2{color:var(--gold-light);font:700 clamp(24px,4vw,34px) Georgia,serif}.section-head p,.summary{color:var(--muted);font-size:13px}.industry-grid,.people-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}.industry-card{min-height:116px;border-radius:10px;padding:20px 12px;text-align:left;cursor:pointer;transition:.2s}.industry-card:hover,.industry-card.active{border-color:var(--gold);background:linear-gradient(145deg,#282216,#151720);transform:translateY(-3px)}.industry-card strong{display:block;font:600 17px Georgia,serif;margin-bottom:8px}.industry-card span{font-size:11px;color:#aaa49a}.person-tile{display:block;min-width:0}.person-photo{aspect-ratio:9/16;border:1px solid var(--border);border-radius:9px;overflow:hidden;background:radial-gradient(circle at 50% 30%,rgba(212,175,97,.18),transparent 60%),#151720}.person-photo img{width:100%;height:100%;object-fit:cover}.person-placeholder{height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;color:var(--gold);font:700 42px Georgia,serif}.person-placeholder small{font:10px Arial;letter-spacing:3px;margin-top:10px}.person-name{margin-top:10px;color:var(--white);font:600 15px/1.4 Georgia,serif}.person-tile:hover .person-name{color:var(--gold-light)}.alphabet{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0}.letter-btn,.page-btn{border:1px solid var(--border);background:transparent;color:var(--gold-light);border-radius:24px;min-width:34px;height:34px;padding:0 10px}.letter-btn.active,.page-btn.active,.letter-btn:hover,.page-btn:hover{background:var(--gold);color:#111;border-color:var(--gold)}.pagination{display:flex;justify-content:center;gap:7px;flex-wrap:wrap;padding:25px 0}.empty-state{grid-column:1/-1;text-align:center;padding:45px 18px;border:1px solid var(--border);border-radius:12px;color:var(--muted);background:var(--bg-card);line-height:1.8}.back-link{color:var(--gold);cursor:pointer;background:none;border:0;margin-bottom:20px}.hidden{display:none!important}@media(max-width:900px){.industry-grid,.people-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}@media(max-width:650px){.industry-grid,.people-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.industry-card{min-height:100px;padding:15px 10px}.industry-card strong{font-size:14px}.person-name{font-size:13px}}@media(max-width:430px){.industry-grid,.people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.searchbar button{padding:0 13px}}
 </style></head><body>
-<header class="header"><div class="header-container"><a class="logo" href="index.html"><img class="logo-image" src="filmeaz-logo.png" alt="FILMEAZ"></a><button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button><nav class="navbar" id="navbar"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="actors.html">Actors</a><a class="nav-link active" href="actresses.html">Actresses</a><a class="nav-link" href="about.html">About Us</a></nav><button type="button" class="header-search" id="headerSearchToggle" aria-label="Open Search"><span>⌕</span></button></div></header>
+<header class="header"><div class="header-container"><a class="logo" href="index.html"><span class="brand-logo" aria-label="FILMEAZ — Films A to Z">
+  <svg class="brand-reel" viewBox="0 0 64 64" role="img" aria-hidden="true">
+    <defs><linearGradient id="goldReel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b5"/><stop offset=".48" stop-color="#d4af61"/><stop offset="1" stop-color="#8b6428"/></linearGradient></defs>
+    <path d="M9 8h11v9H9zM44 8h11v9H44zM9 47h11v9H9zM44 47h11v9H44z" fill="url(#goldReel)"/>
+    <circle cx="32" cy="32" r="24" fill="none" stroke="url(#goldReel)" stroke-width="4"/>
+    <circle cx="32" cy="32" r="6" fill="url(#goldReel)"/>
+    <circle cx="32" cy="18" r="4.2" fill="url(#goldReel)"/><circle cx="44" cy="25" r="4.2" fill="url(#goldReel)"/>
+    <circle cx="40" cy="40" r="4.2" fill="url(#goldReel)"/><circle cx="24" cy="40" r="4.2" fill="url(#goldReel)"/>
+    <circle cx="20" cy="25" r="4.2" fill="url(#goldReel)"/>
+  </svg>
+  <span class="brand-copy"><span class="brand-name">FILMEAZ</span><span class="brand-tagline">FILMS A TO Z</span></span>
+</span></a><button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button><nav class="navbar" id="navbar"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="actors.html">Actors</a><a class="nav-link active" href="actresses.html">Actresses</a><a class="nav-link" href="about.html">About Us</a></nav><button type="button" class="header-search" id="headerSearchToggle" aria-label="Open Search"><span>⌕</span></button></div></header>
 <div class="header-search-panel" id="headerSearchPanel">
  <form action="search.html" method="GET">
   <input type="search" name="q" placeholder="Search movies, actors and actresses..." required>
@@ -17,7 +28,18 @@
 <div class="container">
 <div class="footer-grid">
 <div class="footer-column footer-brand">
-<a href="index.html" class="footer-logo"><img src="filmeaz-logo.png" alt="FILMEAZ Logo"></a>
+<a href="index.html" class="footer-logo"><span class="brand-logo" aria-label="FILMEAZ — Films A to Z">
+  <svg class="brand-reel" viewBox="0 0 64 64" role="img" aria-hidden="true">
+    <defs><linearGradient id="goldReel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0b5"/><stop offset=".48" stop-color="#d4af61"/><stop offset="1" stop-color="#8b6428"/></linearGradient></defs>
+    <path d="M9 8h11v9H9zM44 8h11v9H44zM9 47h11v9H9zM44 47h11v9H44z" fill="url(#goldReel)"/>
+    <circle cx="32" cy="32" r="24" fill="none" stroke="url(#goldReel)" stroke-width="4"/>
+    <circle cx="32" cy="32" r="6" fill="url(#goldReel)"/>
+    <circle cx="32" cy="18" r="4.2" fill="url(#goldReel)"/><circle cx="44" cy="25" r="4.2" fill="url(#goldReel)"/>
+    <circle cx="40" cy="40" r="4.2" fill="url(#goldReel)"/><circle cx="24" cy="40" r="4.2" fill="url(#goldReel)"/>
+    <circle cx="20" cy="25" r="4.2" fill="url(#goldReel)"/>
+  </svg>
+  <span class="brand-copy"><span class="brand-name">FILMEAZ</span><span class="brand-tagline">FILMS A TO Z</span></span>
+</span></a>
 <p>FILMEAZ — Films A to Z. Explore the world of cinema, discover legendary artists and celebrate films from every industry.</p>
 </div>
 <div class="footer-column"><h3>Quick Links</h3><ul>
