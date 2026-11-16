@@ -894,9 +894,9 @@ img {
 .footer-grid {
     display: grid;
 
-    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
 
-    gap: 35px;
+    gap: 30px;
 }
 
 /* FOOTER LOGO */
