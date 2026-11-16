@@ -1,31 +1,726 @@
 [
   {
     "id": "person-001",
-    "name": "Example Actor",
-    "gender": "Male",
-    "profession": "Actor",
-    "knownFor": ["Example Movie"],
+    "name": "Nargis",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Mother India"
+    ],
     "filmography": [
       {
         "movieId": "movie-001",
-        "movieTitle": "Example Movie",
-        "year": 2026,
-        "role": "Lead Actor"
+        "movieTitle": "Mother India",
+        "year": 1957,
+        "role": "Radha"
       }
     ]
   },
   {
     "id": "person-002",
-    "name": "Example Actress",
-    "gender": "Female",
-    "profession": "Actress",
-    "knownFor": ["Example Movie"],
+    "name": "Sunil Dutt",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Mother India"
+    ],
     "filmography": [
       {
         "movieId": "movie-001",
-        "movieTitle": "Example Movie",
-        "year": 2026,
-        "role": "Lead Actress"
+        "movieTitle": "Mother India",
+        "year": 1957,
+        "role": "Birju"
+      }
+    ]
+  },
+  {
+    "id": "person-003",
+    "name": "Rajendra Kumar",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Mother India"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-001",
+        "movieTitle": "Mother India",
+        "year": 1957,
+        "role": "Ramu"
+      }
+    ]
+  },
+  {
+    "id": "person-004",
+    "name": "Raaj Kumar",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Mother India",
+      "Pakeezah"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-001",
+        "movieTitle": "Mother India",
+        "year": 1957,
+        "role": "Shamu"
+      },
+      {
+        "movieId": "movie-004",
+        "movieTitle": "Pakeezah",
+        "year": 1972,
+        "role": "Salim Ahmed Khan"
+      }
+    ]
+  },
+  {
+    "id": "person-005",
+    "name": "Prithviraj Kapoor",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Mughal-e-Azam"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-002",
+        "movieTitle": "Mughal-e-Azam",
+        "year": 1960,
+        "role": "Emperor Akbar"
+      }
+    ]
+  },
+  {
+    "id": "person-006",
+    "name": "Dilip Kumar",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Mughal-e-Azam"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-002",
+        "movieTitle": "Mughal-e-Azam",
+        "year": 1960,
+        "role": "Prince Salim"
+      }
+    ]
+  },
+  {
+    "id": "person-007",
+    "name": "Madhubala",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Mughal-e-Azam"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-002",
+        "movieTitle": "Mughal-e-Azam",
+        "year": 1960,
+        "role": "Anarkali"
+      }
+    ]
+  },
+  {
+    "id": "person-008",
+    "name": "Durga Khote",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Mughal-e-Azam"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-002",
+        "movieTitle": "Mughal-e-Azam",
+        "year": 1960,
+        "role": "Maharani Jodha Bai"
+      }
+    ]
+  },
+  {
+    "id": "person-009",
+    "name": "Dev Anand",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Guide"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-003",
+        "movieTitle": "Guide",
+        "year": 1965,
+        "role": "Raju"
+      }
+    ]
+  },
+  {
+    "id": "person-010",
+    "name": "Waheeda Rehman",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Guide"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-003",
+        "movieTitle": "Guide",
+        "year": 1965,
+        "role": "Rosie Marco"
+      }
+    ]
+  },
+  {
+    "id": "person-011",
+    "name": "Leela Chitnis",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Guide"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-003",
+        "movieTitle": "Guide",
+        "year": 1965,
+        "role": "Raju's mother"
+      }
+    ]
+  },
+  {
+    "id": "person-012",
+    "name": "Anwar Hussain",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Guide"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-003",
+        "movieTitle": "Guide",
+        "year": 1965,
+        "role": "Gaffoor"
+      }
+    ]
+  },
+  {
+    "id": "person-013",
+    "name": "Meena Kumari",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Pakeezah"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-004",
+        "movieTitle": "Pakeezah",
+        "year": 1972,
+        "role": "Sahibjaan"
+      }
+    ]
+  },
+  {
+    "id": "person-014",
+    "name": "Ashok Kumar",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Pakeezah"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-004",
+        "movieTitle": "Pakeezah",
+        "year": 1972,
+        "role": "Shahbuddin"
+      }
+    ]
+  },
+  {
+    "id": "person-015",
+    "name": "Veena",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Pakeezah"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-004",
+        "movieTitle": "Pakeezah",
+        "year": 1972,
+        "role": "Nawabjaan"
+      }
+    ]
+  },
+  {
+    "id": "person-016",
+    "name": "Dharmendra",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Sholay"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-005",
+        "movieTitle": "Sholay",
+        "year": 1975,
+        "role": "Veeru"
+      }
+    ]
+  },
+  {
+    "id": "person-017",
+    "name": "Sanjeev Kumar",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Sholay"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-005",
+        "movieTitle": "Sholay",
+        "year": 1975,
+        "role": "Thakur Baldev Singh"
+      }
+    ]
+  },
+  {
+    "id": "person-018",
+    "name": "Hema Malini",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Sholay"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-005",
+        "movieTitle": "Sholay",
+        "year": 1975,
+        "role": "Basanti"
+      }
+    ]
+  },
+  {
+    "id": "person-019",
+    "name": "Amitabh Bachchan",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Sholay",
+      "Deewaar"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-005",
+        "movieTitle": "Sholay",
+        "year": 1975,
+        "role": "Jai"
+      },
+      {
+        "movieId": "movie-006",
+        "movieTitle": "Deewaar",
+        "year": 1975,
+        "role": "Vijay Verma"
+      }
+    ]
+  },
+  {
+    "id": "person-020",
+    "name": "Jaya Bhaduri",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Sholay"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-005",
+        "movieTitle": "Sholay",
+        "year": 1975,
+        "role": "Radha"
+      }
+    ]
+  },
+  {
+    "id": "person-021",
+    "name": "Amjad Khan",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Sholay"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-005",
+        "movieTitle": "Sholay",
+        "year": 1975,
+        "role": "Gabbar Singh"
+      }
+    ]
+  },
+  {
+    "id": "person-022",
+    "name": "Shashi Kapoor",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Deewaar"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-006",
+        "movieTitle": "Deewaar",
+        "year": 1975,
+        "role": "Ravi Verma"
+      }
+    ]
+  },
+  {
+    "id": "person-023",
+    "name": "Nirupa Roy",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Deewaar"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-006",
+        "movieTitle": "Deewaar",
+        "year": 1975,
+        "role": "Sumitra Devi"
+      }
+    ]
+  },
+  {
+    "id": "person-024",
+    "name": "Neetu Singh",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Deewaar"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-006",
+        "movieTitle": "Deewaar",
+        "year": 1975,
+        "role": "Leena"
+      }
+    ]
+  },
+  {
+    "id": "person-025",
+    "name": "Parveen Babi",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Deewaar"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-006",
+        "movieTitle": "Deewaar",
+        "year": 1975,
+        "role": "Anita"
+      }
+    ]
+  },
+  {
+    "id": "person-026",
+    "name": "Shah Rukh Khan",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Dilwale Dulhania Le Jayenge"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-007",
+        "movieTitle": "Dilwale Dulhania Le Jayenge",
+        "year": 1995,
+        "role": "Raj Malhotra"
+      }
+    ]
+  },
+  {
+    "id": "person-027",
+    "name": "Kajol",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Dilwale Dulhania Le Jayenge"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-007",
+        "movieTitle": "Dilwale Dulhania Le Jayenge",
+        "year": 1995,
+        "role": "Simran Singh"
+      }
+    ]
+  },
+  {
+    "id": "person-028",
+    "name": "Amrish Puri",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Dilwale Dulhania Le Jayenge"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-007",
+        "movieTitle": "Dilwale Dulhania Le Jayenge",
+        "year": 1995,
+        "role": "Baldev Singh"
+      }
+    ]
+  },
+  {
+    "id": "person-029",
+    "name": "Farida Jalal",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Dilwale Dulhania Le Jayenge"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-007",
+        "movieTitle": "Dilwale Dulhania Le Jayenge",
+        "year": 1995,
+        "role": "Lajwanti Singh"
+      }
+    ]
+  },
+  {
+    "id": "person-030",
+    "name": "Anupam Kher",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Dilwale Dulhania Le Jayenge"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-007",
+        "movieTitle": "Dilwale Dulhania Le Jayenge",
+        "year": 1995,
+        "role": "Dharamvir Malhotra"
+      }
+    ]
+  },
+  {
+    "id": "person-031",
+    "name": "Aamir Khan",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Lagaan: Once Upon a Time in India",
+      "3 Idiots",
+      "Dangal"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-008",
+        "movieTitle": "Lagaan: Once Upon a Time in India",
+        "year": 2001,
+        "role": "Bhuvan"
+      },
+      {
+        "movieId": "movie-009",
+        "movieTitle": "3 Idiots",
+        "year": 2009,
+        "role": "Rancho"
+      },
+      {
+        "movieId": "movie-010",
+        "movieTitle": "Dangal",
+        "year": 2016,
+        "role": "Mahavir Singh Phogat"
+      }
+    ]
+  },
+  {
+    "id": "person-032",
+    "name": "Gracy Singh",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Lagaan: Once Upon a Time in India"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-008",
+        "movieTitle": "Lagaan: Once Upon a Time in India",
+        "year": 2001,
+        "role": "Gauri"
+      }
+    ]
+  },
+  {
+    "id": "person-033",
+    "name": "Rachel Shelley",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Lagaan: Once Upon a Time in India"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-008",
+        "movieTitle": "Lagaan: Once Upon a Time in India",
+        "year": 2001,
+        "role": "Elizabeth Russell"
+      }
+    ]
+  },
+  {
+    "id": "person-034",
+    "name": "Paul Blackthorne",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "Lagaan: Once Upon a Time in India"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-008",
+        "movieTitle": "Lagaan: Once Upon a Time in India",
+        "year": 2001,
+        "role": "Captain Andrew Russell"
+      }
+    ]
+  },
+  {
+    "id": "person-035",
+    "name": "R. Madhavan",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "3 Idiots"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-009",
+        "movieTitle": "3 Idiots",
+        "year": 2009,
+        "role": "Farhan Qureshi"
+      }
+    ]
+  },
+  {
+    "id": "person-036",
+    "name": "Sharman Joshi",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "3 Idiots"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-009",
+        "movieTitle": "3 Idiots",
+        "year": 2009,
+        "role": "Raju Rastogi"
+      }
+    ]
+  },
+  {
+    "id": "person-037",
+    "name": "Kareena Kapoor Khan",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "3 Idiots"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-009",
+        "movieTitle": "3 Idiots",
+        "year": 2009,
+        "role": "Pia Sahastrabuddhe"
+      }
+    ]
+  },
+  {
+    "id": "person-038",
+    "name": "Boman Irani",
+    "gender": "Male",
+    "profession": "Actor",
+    "knownFor": [
+      "3 Idiots"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-009",
+        "movieTitle": "3 Idiots",
+        "year": 2009,
+        "role": "Dr. Viru Sahastrabuddhe"
+      }
+    ]
+  },
+  {
+    "id": "person-039",
+    "name": "Sakshi Tanwar",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Dangal"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-010",
+        "movieTitle": "Dangal",
+        "year": 2016,
+        "role": "Daya Kaur"
+      }
+    ]
+  },
+  {
+    "id": "person-040",
+    "name": "Fatima Sana Shaikh",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Dangal"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-010",
+        "movieTitle": "Dangal",
+        "year": 2016,
+        "role": "Geeta Phogat"
+      }
+    ]
+  },
+  {
+    "id": "person-041",
+    "name": "Sanya Malhotra",
+    "gender": "Female",
+    "profession": "Actress",
+    "knownFor": [
+      "Dangal"
+    ],
+    "filmography": [
+      {
+        "movieId": "movie-010",
+        "movieTitle": "Dangal",
+        "year": 2016,
+        "role": "Babita Kumari"
       }
     ]
   }
