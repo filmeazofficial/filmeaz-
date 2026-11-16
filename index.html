@@ -1,69 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>FILMEAZ - Films A to Z</title>
 
-    <meta name="description" content="FILMEAZ - Explore Indian and International Cinema, Actors and Actresses.">
+    <meta name="description"
+    content="Explore Indian and International Cinema, Actors, Actresses and Films on FILMEAZ.">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!-- HEADER -->
+<!-- ================= HEADER ================= -->
+
 <header class="header">
+
     <div class="container header-container">
 
         <a href="index.html" class="logo">
-         <img src="filmeaz-logo.png"
-         alt="FILMEAZ - Films A to Z"
-         class="logo-image">
-            </a>
+
+            <img src="filmeaz-logo.png"
+            alt="FILMEAZ"
+            class="logo-image">
+
+        </a>
+
 
         <nav class="navbar">
+
             <a href="index.html" class="active">Home</a>
+
             <a href="actors.html">Actors</a>
+
             <a href="actresses.html">Actresses</a>
+
             <a href="about.html">About Us</a>
+
         </nav>
 
+
+        <a href="search.html" class="header-search"
+        aria-label="Search">
+
+            🔍
+
+        </a>
+
+
         <button class="menu-toggle" id="menuToggle">
+
             ☰
+
         </button>
 
     </div>
+
 </header>
 
 
-<!-- HERO SECTION -->
+<!-- ================= HERO BANNER ================= -->
+
 <section class="hero">
 
     <div class="hero-content">
 
-        <span class="hero-label">WELCOME TO FILMEAZ</span>
+        <span class="hero-label">
+
+            WELCOME TO FILMEAZ
+
+        </span>
+
 
         <h1>
-            DISCOVER THE WORLD
-            <span>OF CINEMA</span>
+
+            THE WORLD OF
+
+            <span>CINEMA</span>
+
         </h1>
 
+
         <p>
-            Explore the journey of Indian and International Cinema.
-            Discover legendary actors, talented actresses and
-            their cinematic journeys.
+
+            Discover Every Film.
+            Explore Every Artist.
+            Experience Cinema Without Boundaries.
+
         </p>
+
+
+        <form action="search.html" method="GET"
+        class="hero-search">
+
+            <input
+            type="search"
+            name="q"
+            placeholder="Search Movies, Actors & Actresses..."
+            required>
+
+            <button type="submit">
+
+                SEARCH
+
+            </button>
+
+        </form>
+
 
         <div class="hero-buttons">
+
             <a href="actors.html" class="btn-primary">
+
                 Explore Actors
+
             </a>
+
 
             <a href="actresses.html" class="btn-secondary">
+
                 Explore Actresses
+
             </a>
+
         </div>
 
     </div>
@@ -71,49 +135,53 @@
 </section>
 
 
-<!-- INTRODUCTION -->
-<section class="intro-section">
+<!-- ================= LATEST FILMS ================= -->
 
-    <div class="container">
-
-        <span class="section-label">FILMS A TO Z</span>
-
-        <h2>
-            Everything About <span>Cinema</span>
-        </h2>
-
-        <p>
-            FILMEAZ is your destination to explore the world
-            of films and artists. Discover film personalities,
-            their careers and their contributions to cinema.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ACTORS SECTION -->
-<section class="home-section">
+<section class="home-section latest-section">
 
     <div class="container">
 
         <div class="section-heading">
 
             <div>
-                <span class="section-label">CINEMA PERSONALITIES</span>
-                <h2>Popular <span>Actors</span></h2>
-            </div>
 
-            <a href="actors.html" class="view-all">
-                View All →
-            </a>
+                <span class="section-label">
+
+                    RECENT CINEMA
+
+                </span>
+
+                <h2>
+
+                    Latest <span>Films</span>
+
+                </h2>
+
+            </div>
 
         </div>
 
-        <div class="people-grid" id="homeActors">
 
-            <!-- Actors will load here -->
+        <!-- Latest Movies Row -->
+
+        <div class="movie-row" id="latestMovies">
+
+            <!-- Movies will load through JavaScript -->
+
+        </div>
+
+
+        <!-- View More -->
+
+        <div class="view-more-container">
+
+            <button
+            class="view-more"
+            id="latestViewMore">
+
+                View More →
+
+            </button>
 
         </div>
 
@@ -122,121 +190,273 @@
 </section>
 
 
-<!-- ACTRESSES SECTION -->
-<section class="home-section">
+
+<!-- ================= UPCOMING FILMS ================= -->
+
+<section class="home-section upcoming-section">
 
     <div class="container">
 
         <div class="section-heading">
 
             <div>
-                <span class="section-label">TALENT & ELEGANCE</span>
-                <h2>Popular <span>Actresses</span></h2>
-            </div>
 
-            <a href="actresses.html" class="view-all">
-                View All →
-            </a>
+                <span class="section-label">
+
+                    COMING SOON
+
+                </span>
+
+                <h2>
+
+                    Upcoming <span>Films</span>
+
+                </h2>
+
+            </div>
 
         </div>
 
-        <div class="people-grid" id="homeActresses">
 
-            <!-- Actresses will load here -->
+        <!-- Upcoming Movies Row -->
+
+        <div class="movie-row" id="upcomingMovies">
+
+            <!-- Upcoming Movies will load through JavaScript -->
+
+        </div>
+
+
+        <!-- View More -->
+
+        <div class="view-more-container">
+
+            <button
+            class="view-more"
+            id="upcomingViewMore">
+
+                View More →
+
+            </button>
 
         </div>
 
     </div>
 
 </section>
-<!-- ABOUT FILMEAZ SECTION -->
+
+
+
+<!-- ================= ABOUT FILMEAZ ================= -->
+
 <section class="about-preview">
 
     <div class="container about-content">
 
-        <div>
-            <span class="section-label">OUR PLATFORM</span>
+        <span class="section-label">
 
-            <h2>
-                Welcome to <span>FILMEAZ</span>
-            </h2>
+            ABOUT OUR PLATFORM
 
-            <p>
-                FILMEAZ (Films A to Z) is a growing cinema
-                database dedicated to Indian and international
-                film personalities.
+        </span>
 
-                Our goal is to document the journeys,
-                achievements and filmographies of actors
-                and actresses from different film industries.
-            </p>
 
-            <a href="about.html" class="btn-primary">
-                About FILMEAZ →
-            </a>
-        </div>
+        <h2>
+
+            Discover the World of
+
+            <span>FILMEAZ</span>
+
+        </h2>
+
+
+        <p>
+
+            FILMEAZ (Films A to Z) is a growing international
+            cinema database dedicated to films, actors,
+            actresses and their cinematic journeys.
+
+            Our mission is to bring the world of cinema
+            together in one place.
+
+        </p>
+
+
+        <a href="about.html" class="btn-primary">
+
+            Discover FILMEAZ →
+
+        </a>
 
     </div>
 
 </section>
 
 
-<!-- FOOTER -->
+
+<!-- ================= FOOTER ================= -->
+
 <footer class="footer">
 
     <div class="container footer-content">
 
+
+        <!-- BRAND -->
+
         <div class="footer-brand">
+
             <a href="index.html" class="logo">
-         <img src="filmeaz-logo.png"
-         alt="FILMEAZ - Films A to Z"
-         class="logo-image">
+
+                <img src="filmeaz-logo.png"
+                alt="FILMEAZ"
+                class="logo-image">
+
             </a>
+
+
             <p>
-                Discover the world of cinema.
-                Explore the journey of film personalities.
+
+                FILMEAZ – Films A to Z.
+
+                Discover films, explore artists
+                and celebrate cinema from around the world.
+
             </p>
+
         </div>
+
+
+
+        <!-- QUICK LINKS -->
 
         <div class="footer-links">
 
             <h3>Quick Links</h3>
 
             <a href="index.html">Home</a>
+
             <a href="actors.html">Actors</a>
+
             <a href="actresses.html">Actresses</a>
+
             <a href="about.html">About Us</a>
 
         </div>
 
+
+
+        <!-- EXPLORE -->
+
+        <div class="footer-links">
+
+            <h3>Explore</h3>
+
+            <a href="search.html">Search Films</a>
+
+            <a href="actors.html">Explore Actors</a>
+
+            <a href="actresses.html">Explore Actresses</a>
+
+        </div>
+
+
+
+        <!-- CONTACT -->
+
+        <div class="footer-links">
+
+            <h3>Contact Us</h3>
+
+            <a href="mailto:contact@filmeaz.com">
+
+                Email Us
+
+            </a>
+
+            <p>
+
+                For suggestions, corrections
+                and website enquiries.
+
+            </p>
+
+        </div>
+
+
     </div>
 
+
+
+    <!-- SOCIAL MEDIA -->
+
+    <div class="footer-social">
+
+        <a href="#" aria-label="Instagram">Instagram</a>
+
+        <a href="#" aria-label="Facebook">Facebook</a>
+
+        <a href="#" aria-label="YouTube">YouTube</a>
+
+    </div>
+
+
+
+    <!-- COPYRIGHT -->
+
     <div class="footer-bottom">
+
         <p>
-            © <span id="currentYear"></span> FILMEAZ.
+
+            © <span id="currentYear"></span>
+
+            FILMEAZ.
+
             All Rights Reserved.
+
         </p>
+
+        <p>
+
+            FILMS A TO Z
+
+        </p>
+
     </div>
 
 </footer>
 
 
-<!-- JAVASCRIPT -->
+
+<!-- ================= JAVASCRIPT ================= -->
+
 <script src="script.js"></script>
 
-<script>
-    document.getElementById("currentYear").textContent =
-        new Date().getFullYear();
 
-    const menuToggle = document.getElementById("menuToggle");
-    const navbar = document.querySelector(".navbar");
+<script>
+
+    document.getElementById("currentYear").textContent =
+    new Date().getFullYear();
+
+
+    const menuToggle =
+    document.getElementById("menuToggle");
+
+    const navbar =
+    document.querySelector(".navbar");
+
 
     if (menuToggle && navbar) {
+
         menuToggle.addEventListener("click", function () {
+
             navbar.classList.toggle("active");
+
         });
+
     }
+
 </script>
 
+
 </body>
+
 </html>
