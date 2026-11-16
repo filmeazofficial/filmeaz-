@@ -2,460 +2,434 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>FILMEAZ - Films A to Z</title>
+    <title>FILMEAZ | Films A to Z</title>
 
-    <meta name="description"
-    content="Explore Indian and International Cinema, Actors, Actresses and Films on FILMEAZ.">
+    <meta name="description" content="Discover movies, actors and actresses from cinema around the world.">
 
+    <link rel="icon" href="filmeaz-logo.png" type="image/png">
+
+    <!-- Main CSS File -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
+    <!-- ================= HEADER ================= -->
 
-<header class="header">
+    <header class="header">
 
-    <div class="container header-container">
+        <div class="header-container">
 
-        <a href="index.html" class="logo">
-
-            <img src="filmeaz-logo.png"
-            alt="FILMEAZ"
-            class="logo-image">
-
-        </a>
-
-
-        <nav class="navbar">
-
-            <a href="index.html" class="active">Home</a>
-
-            <a href="actors.html">Actors</a>
-
-            <a href="actresses.html">Actresses</a>
-
-            <a href="about.html">About Us</a>
-
-        </nav>
-
-
-        <a href="search.html" class="header-search"
-        aria-label="Search">
-
-            🔍
-
-        </a>
-
-
-        <button class="menu-toggle" id="menuToggle">
-
-            ☰
-
-        </button>
-
-    </div>
-
-</header>
-
-
-<!-- ================= HERO BANNER ================= -->
-
-<section class="hero">
-
-    <div class="hero-content">
-
-        <span class="hero-label">
-
-            WELCOME TO FILMEAZ
-
-        </span>
-
-
-        <h1>
-
-            THE WORLD OF
-
-            <span>CINEMA</span>
-
-        </h1>
-
-
-        <p>
-
-            Discover Every Film.
-            Explore Every Artist.
-            Experience Cinema Without Boundaries.
-
-        </p>
-
-
-        <form action="search.html" method="GET"
-        class="hero-search">
-
-            <input
-            type="search"
-            name="q"
-            placeholder="Search Movies, Actors & Actresses..."
-            required>
-
-            <button type="submit">
-
-                SEARCH
-
-            </button>
-
-        </form>
-
-
-        <div class="hero-buttons">
-
-            <a href="actors.html" class="btn-primary">
-
-                Explore Actors
-
-            </a>
-
-
-            <a href="actresses.html" class="btn-secondary">
-
-                Explore Actresses
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= LATEST FILMS ================= -->
-
-<section class="home-section latest-section">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div>
-
-                <span class="section-label">
-
-                    RECENT CINEMA
-
-                </span>
-
-                <h2>
-
-                    Latest <span>Films</span>
-
-                </h2>
-
-            </div>
-
-        </div>
-
-
-        <!-- Latest Movies Row -->
-
-        <div class="movie-row" id="latestMovies">
-
-            <!-- Movies will load through JavaScript -->
-
-        </div>
-
-
-        <!-- View More -->
-
-        <div class="view-more-container">
-
-            <button
-            class="view-more"
-            id="latestViewMore">
-
-                View More →
-
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- ================= UPCOMING FILMS ================= -->
-
-<section class="home-section upcoming-section">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div>
-
-                <span class="section-label">
-
-                    COMING SOON
-
-                </span>
-
-                <h2>
-
-                    Upcoming <span>Films</span>
-
-                </h2>
-
-            </div>
-
-        </div>
-
-
-        <!-- Upcoming Movies Row -->
-
-        <div class="movie-row" id="upcomingMovies">
-
-            <!-- Upcoming Movies will load through JavaScript -->
-
-        </div>
-
-
-        <!-- View More -->
-
-        <div class="view-more-container">
-
-            <button
-            class="view-more"
-            id="upcomingViewMore">
-
-                View More →
-
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- ================= ABOUT FILMEAZ ================= -->
-
-<section class="about-preview">
-
-    <div class="container about-content">
-
-        <span class="section-label">
-
-            ABOUT OUR PLATFORM
-
-        </span>
-
-
-        <h2>
-
-            Discover the World of
-
-            <span>FILMEAZ</span>
-
-        </h2>
-
-
-        <p>
-
-            FILMEAZ (Films A to Z) is a growing international
-            cinema database dedicated to films, actors,
-            actresses and their cinematic journeys.
-
-            Our mission is to bring the world of cinema
-            together in one place.
-
-        </p>
-
-
-        <a href="about.html" class="btn-primary">
-
-            Discover FILMEAZ →
-
-        </a>
-
-    </div>
-
-</section>
-
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer class="footer">
-
-    <div class="container footer-content">
-
-
-        <!-- BRAND -->
-
-        <div class="footer-brand">
-
+            <!-- LOGO -->
             <a href="index.html" class="logo">
-
-                <img src="filmeaz-logo.png"
-                alt="FILMEAZ"
-                class="logo-image">
-
+                <img
+                    src="filmeaz-logo.png"
+                    alt="FILMEAZ - Films A to Z"
+                    class="logo-image">
             </a>
 
+            <!-- NAVIGATION -->
+            <nav class="navbar" id="navbar">
+
+                <a href="index.html" class="nav-link active">Home</a>
+
+                <a href="actors.html" class="nav-link">Actor</a>
+
+                <a href="actresses.html" class="nav-link">Actress</a>
+
+                <a href="about.html" class="nav-link">About Us</a>
+
+            </nav>
+
+            <!-- HEADER SEARCH -->
+            <button
+                type="button"
+                class="header-search"
+                id="headerSearchToggle"
+                aria-label="Open Search">
+
+                <span>⌕</span>
+
+            </button>
+
+            <!-- MOBILE MENU -->
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open Menu">
+
+                ☰
+
+            </button>
+
+        </div>
+
+        <!-- HEADER SEARCH PANEL -->
+        <div class="header-search-panel" id="headerSearchPanel">
+
+            <form action="search.html" method="GET">
+
+                <input
+                    type="search"
+                    name="q"
+                    placeholder="Search movies, actors and actresses..."
+                    required>
+
+                <button type="submit">SEARCH</button>
+
+            </form>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO BANNER ================= -->
+
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="hero-label">
+                WELCOME TO FILMEAZ
+            </span>
+
+            <h1>
+                DISCOVER THE<br>
+                WORLD OF CINEMA
+            </h1>
 
             <p>
-
-                FILMEAZ – Films A to Z.
-
-                Discover films, explore artists
-                and celebrate cinema from around the world.
-
+                Films A to Z — Explore movies, discover legendary artists
+                and experience cinema from around the world.
             </p>
 
-        </div>
+            <!-- HERO SEARCH -->
+            <form
+                class="hero-search"
+                action="search.html"
+                method="GET">
 
+                <input
+                    type="search"
+                    name="q"
+                    placeholder="Search Movies, Actors, Actresses..."
+                    required>
 
+                <button type="submit">
+                    SEARCH
+                </button>
 
-        <!-- QUICK LINKS -->
-
-        <div class="footer-links">
-
-            <h3>Quick Links</h3>
-
-            <a href="index.html">Home</a>
-
-            <a href="actors.html">Actors</a>
-
-            <a href="actresses.html">Actresses</a>
-
-            <a href="about.html">About Us</a>
-
-        </div>
-
-
-
-        <!-- EXPLORE -->
-
-        <div class="footer-links">
-
-            <h3>Explore</h3>
-
-            <a href="search.html">Search Films</a>
-
-            <a href="actors.html">Explore Actors</a>
-
-            <a href="actresses.html">Explore Actresses</a>
+            </form>
 
         </div>
 
+    </section>
 
 
-        <!-- CONTACT -->
+    <!-- ================= MAIN CONTENT ================= -->
 
-        <div class="footer-links">
+    <main>
 
-            <h3>Contact Us</h3>
 
-            <a href="mailto:contact@filmeaz.com">
+        <!-- ================= LATEST FILMS ================= -->
 
-                Email Us
+        <section class="home-section latest-section">
 
-            </a>
+            <div class="container">
 
-            <p>
+                <div class="section-heading">
 
-                For suggestions, corrections
-                and website enquiries.
+                    <div class="section-title-box">
 
-            </p>
+                        <span class="section-label">
+                            EXPLORE CINEMA
+                        </span>
+
+                        <h2>Latest Films</h2>
+
+                        <div class="gold-line"></div>
+
+                        <p>
+                            Discover the latest films from your favourite artists.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- LATEST FILMS ROW -->
+                <div class="movie-row" id="latestFilms">
+
+                    <p class="loading-message">
+                        Loading Latest Films...
+                    </p>
+
+                </div>
+
+
+                <!-- VIEW MORE -->
+                <div class="view-more-container">
+
+                    <button
+                        type="button"
+                        class="view-more-btn"
+                        id="latestViewMore"
+                        hidden>
+
+                        View More
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= UPCOMING FILMS ================= -->
+
+        <section class="home-section upcoming-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div class="section-title-box">
+
+                        <span class="section-label">
+                            COMING SOON
+                        </span>
+
+                        <h2>Upcoming Films</h2>
+
+                        <div class="gold-line"></div>
+
+                        <p>
+                            Explore upcoming movies from cinema industries worldwide.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- UPCOMING FILMS ROW -->
+                <div class="movie-row" id="upcomingFilms">
+
+                    <p class="loading-message">
+                        Loading Upcoming Films...
+                    </p>
+
+                </div>
+
+
+                <!-- VIEW MORE -->
+                <div class="view-more-container">
+
+                    <button
+                        type="button"
+                        class="view-more-btn"
+                        id="upcomingViewMore"
+                        hidden>
+
+                        View More
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ABOUT PREVIEW ================= -->
+
+        <section class="about-preview">
+
+            <div class="container">
+
+                <span class="section-label">
+                    ABOUT OUR PLATFORM
+                </span>
+
+                <h2>Welcome to FILMEAZ</h2>
+
+                <p>
+                    FILMEAZ — Films A to Z is a platform dedicated to the
+                    world of cinema. Discover movies, explore actors and
+                    actresses, follow their film journeys and learn about
+                    cinema across languages and industries.
+                </p>
+
+                <a href="about.html" class="gold-btn">
+                    KNOW MORE
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+
+                <!-- BRAND -->
+                <div class="footer-column footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+
+                        <img
+                            src="filmeaz-logo.png"
+                            alt="FILMEAZ Logo">
+
+                    </a>
+
+                    <p>
+                        FILMEAZ — Films A to Z.
+
+                        Explore the world of cinema,
+                        discover legendary artists and
+                        celebrate films from every industry.
+                    </p>
+
+                </div>
+
+
+
+                <!-- QUICK LINKS -->
+                <div class="footer-column">
+
+                    <h3>Quick Links</h3>
+
+                    <ul>
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="actors.html">Actors</a>
+                        </li>
+
+                        <li>
+                            <a href="actresses.html">Actresses</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <!-- EXPLORE -->
+                <div class="footer-column">
+
+                    <h3>Explore</h3>
+
+                    <ul>
+
+                        <li>
+                            <a href="search.html">Search Films</a>
+                        </li>
+
+                        <li>
+                            <a href="movies.html">All Movies</a>
+                        </li>
+
+                        <li>
+                            <a href="featured.html">Featured Films</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <!-- CONTACT -->
+                <div class="footer-column">
+
+                    <h3>Contact Us</h3>
+
+                    <ul>
+
+                        <li>
+                            <a href="mailto:contact@filmeaz.com">
+                                Email Us
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <h3 class="social-heading">
+                        Follow Us
+                    </h3>
+
+                    <div class="social-links">
+
+                        <a href="#" aria-label="Instagram">IG</a>
+
+                        <a href="#" aria-label="Facebook">FB</a>
+
+                        <a href="#" aria-label="YouTube">YT</a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- COPYRIGHT -->
+            <div class="footer-bottom">
+
+                <p>
+                    © <span id="currentYear"></span>
+                    FILMEAZ. All Rights Reserved.
+                </p>
+
+                <p>
+                    FILMS A TO Z
+                </p>
+
+            </div>
 
         </div>
 
-
-    </div>
-
-
-
-    <!-- SOCIAL MEDIA -->
-
-    <div class="footer-social">
-
-        <a href="#" aria-label="Instagram">Instagram</a>
-
-        <a href="#" aria-label="Facebook">Facebook</a>
-
-        <a href="#" aria-label="YouTube">YouTube</a>
-
-    </div>
+    </footer>
 
 
 
-    <!-- COPYRIGHT -->
+    <!-- ================= JAVASCRIPT ================= -->
 
-    <div class="footer-bottom">
-
-        <p>
-
-            © <span id="currentYear"></span>
-
-            FILMEAZ.
-
-            All Rights Reserved.
-
-        </p>
-
-        <p>
-
-            FILMS A TO Z
-
-        </p>
-
-    </div>
-
-</footer>
-
-
-
-<!-- ================= JAVASCRIPT ================= -->
-
-<script src="script.js"></script>
-
-
-<script>
-
-    document.getElementById("currentYear").textContent =
-    new Date().getFullYear();
-
-
-    const menuToggle =
-    document.getElementById("menuToggle");
-
-    const navbar =
-    document.querySelector(".navbar");
-
-
-    if (menuToggle && navbar) {
-
-        menuToggle.addEventListener("click", function () {
-
-            navbar.classList.toggle("active");
-
-        });
-
-    }
-
-</script>
-
+    <script src="script.js"></script>
 
 </body>
 
