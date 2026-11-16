@@ -1,0 +1,687 @@
+/* =====================================
+   FILMEAZ - MASTER DESIGN SYSTEM
+   Premium Gold Cinematic Theme
+===================================== */
+
+:root {
+    --bg-main: #08090d;
+    --bg-secondary: #101116;
+    --bg-card: #15161c;
+    --gold: #d4af61;
+    --gold-light: #f1d48b;
+    --gold-dark: #98712f;
+    --text-main: #f5f0e6;
+    --text-muted: #aaa49a;
+    --border: rgba(212,175,97,0.25);
+    --shadow: 0 8px 30px rgba(0,0,0,0.45);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg-main);
+    color: var(--text-main);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* =====================================
+   HEADER
+===================================== */
+
+header {
+    width: 100%;
+    min-height: 82px;
+    background: rgba(8,9,13,0.97);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: var(--gold);
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.logo span {
+    display: block;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 5px;
+    color: var(--gold-light);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav a {
+    color: var(--text-main);
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: var(--gold-light);
+}
+
+/* Search Icon */
+
+.search-icon {
+    color: var(--gold);
+    font-size: 23px;
+    cursor: pointer;
+}
+
+/* =====================================
+   HERO BANNER
+===================================== */
+
+.hero {
+    min-height: 430px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(5,6,10,0.95),
+            rgba(5,6,10,0.55),
+            rgba(5,6,10,0.9)
+        ),
+        linear-gradient(135deg,#302516,#101116,#08090d);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.hero h1 {
+    font-size: clamp(32px,5vw,58px);
+    color: var(--gold-light);
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: var(--text-muted);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* =====================================
+   SEARCH BAR
+===================================== */
+
+.search-box {
+    display: flex;
+    max-width: 650px;
+    margin: auto;
+    background: #17181e;
+    border: 1px solid var(--gold-dark);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.search-box input {
+    flex: 1;
+    min-width: 0;
+    padding: 17px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.search-box button {
+    padding: 0 25px;
+    background: var(--gold);
+    color: #111;
+    border: none;
+    font-weight: bold;
+}
+
+/* =====================================
+   GENERAL SECTIONS
+===================================== */
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.section {
+    padding: 45px 0;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+.section-title {
+    color: var(--gold-light);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 3px;
+    background: var(--gold);
+    margin-top: 9px;
+}
+
+/* =====================================
+   HORIZONTAL MOVIE ROW
+===================================== */
+
+.movie-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 3px 20px;
+    scroll-behavior: smooth;
+}
+
+.movie-row::-webkit-scrollbar {
+    height: 5px;
+}
+
+.movie-row::-webkit-scrollbar-thumb {
+    background: var(--gold-dark);
+    border-radius: 10px;
+}
+
+.movie-card {
+    flex: 0 0 150px;
+    min-width: 150px;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-6px);
+}
+
+.movie-poster {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+}
+
+.movie-card h3 {
+    color: var(--text-main);
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.movie-card .release-year {
+    color: var(--gold);
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* =====================================
+   VIEW MORE BUTTON
+===================================== */
+
+.view-more {
+    display: inline-block;
+    color: var(--gold-light);
+    border: 1px solid var(--gold-dark);
+    padding: 9px 22px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.view-more:hover {
+    background: var(--gold);
+    color: #111;
+}
+
+/* =====================================
+   ACTOR / ACTRESS GRID
+===================================== */
+
+.people-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0,1fr));
+    gap: 25px;
+}
+
+.person-card {
+    text-align: center;
+    transition: 0.3s;
+}
+
+.person-card:hover {
+    transform: translateY(-5px);
+}
+
+.person-card img {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 1px solid var(--border);
+}
+
+.person-card h3 {
+    color: var(--text-main);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* =====================================
+   INDUSTRY / LANGUAGE OPTIONS
+===================================== */
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+}
+
+.industry-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 20px 10px;
+    text-align: center;
+    color: var(--gold-light);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.industry-card:hover {
+    background: #272014;
+    border-color: var(--gold);
+}
+
+/* =====================================
+   PAGINATION
+===================================== */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 35px 0;
+}
+
+.pagination a,
+.pagination button {
+    min-width: 38px;
+    padding: 9px 13px;
+    background: var(--bg-card);
+    color: var(--gold-light);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+}
+
+.pagination .active {
+    background: var(--gold);
+    color: #111;
+}
+
+/* =====================================
+   PERSON PROFILE
+===================================== */
+
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+    padding: 50px 0;
+}
+
+.profile-image {
+    width: 260px;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--gold-dark);
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    color: var(--gold-light);
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.profile-info p {
+    color: var(--text-muted);
+    margin: 10px 0;
+}
+
+/* =====================================
+   PROFILE TABS
+===================================== */
+
+.profile-tabs {
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    border-bottom: 1px solid var(--border);
+    padding: 15px 0;
+}
+
+.profile-tabs a {
+    color: var(--text-muted);
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-tabs a.active,
+.profile-tabs a:hover {
+    color: var(--gold-light);
+}
+
+/* =====================================
+   FILMOGRAPHY LIST
+===================================== */
+
+.filmography-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.filmography-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+}
+
+.filmography-item img {
+    width: 90px;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.filmography-item h3 {
+    color: var(--gold-light);
+    font-size: 16px;
+}
+
+/* =====================================
+   MOVIE DETAILS
+===================================== */
+
+.movie-details {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+    padding: 45px 0;
+}
+
+.movie-details img {
+    width: 240px;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--gold-dark);
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-info h1 {
+    color: var(--gold-light);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.movie-info p {
+    color: var(--text-muted);
+    margin: 12px 0;
+}
+
+.movie-info a {
+    color: var(--gold-light);
+}
+
+/* =====================================
+   ABOUT US
+===================================== */
+
+.about-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 55px 25px;
+}
+
+.about-content h2 {
+    color: var(--gold-light);
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    color: var(--text-muted);
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+/* =====================================
+   FOOTER
+===================================== */
+
+footer {
+    background: #0d0e13;
+    border-top: 1px solid var(--gold-dark);
+    padding: 50px 5% 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.footer-column h3 {
+    color: var(--gold-light);
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.footer-column a,
+.footer-column p {
+    display: block;
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.footer-column a:hover {
+    color: var(--gold);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--border);
+    margin-top: 35px;
+    padding-top: 20px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+/* =====================================
+   RESPONSIVE DESIGN
+===================================== */
+
+@media(max-width:900px) {
+
+    .people-grid {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .industry-grid {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:600px) {
+
+    header {
+        padding: 12px 4%;
+        min-height: 70px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .hero {
+        min-height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .section-title {
+        font-size: 21px;
+    }
+
+    .movie-card {
+        flex: 0 0 125px;
+        min-width: 125px;
+    }
+
+    .people-grid {
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+
+    .industry-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .profile-section,
+    .movie-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 190px;
+    }
+
+    .movie-details img {
+        width: 180px;
+    }
+
+    .profile-info,
+    .movie-info {
+        width: 100%;
+    }
+
+    .profile-info h1,
+    .movie-info h1 {
+        font-size: 26px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+}
+
+@media(max-width:380px) {
+
+    nav {
+        gap: 7px;
+    }
+
+    nav a {
+        font-size: 11px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+  }
