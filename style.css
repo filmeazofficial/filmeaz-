@@ -1434,3 +1434,42 @@ img {
     .brand-reel { width: 30px; height: 30px; flex-basis: 30px; }
     .brand-name { font-size: 16px; }
 }
+
+
+/* Compact refined FILMEAZ brand mark */
+.brand-logo { gap: 7px; }
+.brand-reel {
+    width: 27px;
+    height: 27px;
+    flex: 0 0 27px;
+    filter: drop-shadow(0 0 3px rgba(212,175,97,.14));
+}
+.brand-name {
+    font-size: 18px;
+    letter-spacing: 1.7px;
+}
+.brand-tagline {
+    margin-top: 4px;
+    font-size: 6px;
+    letter-spacing: 2.2px;
+}
+.footer-logo .brand-reel {
+    width: 29px;
+    height: 29px;
+    flex-basis: 29px;
+}
+.footer-logo .brand-name { font-size: 19px; }
+@media (max-width: 1000px) {
+    .brand-reel { width: 25px; height: 25px; flex-basis: 25px; }
+    .brand-name { font-size: 17px; }
+}
+@media (max-width: 480px) {
+    .brand-logo { gap: 6px; }
+    .brand-reel { width: 23px; height: 23px; flex-basis: 23px; }
+    .brand-name { font-size: 16px; letter-spacing: 1.3px; }
+    .brand-tagline { font-size: 5.5px; letter-spacing: 1.8px; }
+}
+@media (max-width: 350px) {
+    .brand-reel { width: 21px; height: 21px; flex-basis: 21px; }
+    .brand-name { font-size: 15px; }
+}
