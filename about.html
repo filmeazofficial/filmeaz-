@@ -37,9 +37,15 @@
   <nav class="navbar" id="navbar">
    <a class="nav-link" href="index.html">Home</a><a class="nav-link" href="actors.html">Actors</a><a class="nav-link" href="actresses.html">Actresses</a><a class="nav-link active" href="about.html">About Us</a>
   </nav>
-  <a class="header-search" href="search.html" aria-label="Search">⌕</a>
+  <button type="button" class="header-search" id="headerSearchToggle" aria-label="Open Search"><span>⌕</span></button>
  </div>
 </header>
+<div class="header-search-panel" id="headerSearchPanel">
+ <form action="search.html" method="GET">
+  <input type="search" name="q" placeholder="Search movies, actors and actresses..." required>
+  <button type="submit">SEARCH</button>
+ </form>
+</div>
 
 <section class="about-hero">
  <div class="about-hero-inner">
@@ -117,6 +123,9 @@
 </footer>
 <script>
 document.getElementById("menuToggle").addEventListener("click",function(){const nav=document.getElementById("navbar");nav.classList.toggle("active");this.setAttribute("aria-expanded",nav.classList.contains("active")?"true":"false")});
+const headerSearchToggle=document.getElementById("headerSearchToggle");
+const headerSearchPanel=document.getElementById("headerSearchPanel");
+headerSearchToggle.addEventListener("click",function(){headerSearchPanel.classList.toggle("active");if(headerSearchPanel.classList.contains("active"))headerSearchPanel.querySelector("input").focus()});
 document.getElementById("currentYear").textContent=new Date().getFullYear();
 </script>
 </body>
