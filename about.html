@@ -3,254 +3,121 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>About Us | FILMEAZ - Films A to Z</title>
-
+<meta name="description" content="Learn about FILMEAZ — Films A to Z, a platform celebrating films, artists and cinema industries from around the world.">
+<title>About Us | FILMEAZ — Films A to Z</title>
+<link rel="icon" href="filmeaz-logo.png" type="image/png">
+<link rel="stylesheet" href="style.css">
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #080a10;
-    color: #f5f0e5;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background: #0c0e15;
-    border-bottom: 1px solid #b58b36;
-    padding: 18px 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.logo {
-    color: #d6ad55;
-    font-size: 27px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.logo span {
-    display: block;
-    font-size: 10px;
-    text-align: center;
-    letter-spacing: 3px;
-}
-
-nav {
-    display: flex;
-    gap: 25px;
-    align-items: center;
-}
-
-nav a {
-    color: #eee5d2;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-nav a:hover,
-nav a.active {
-    color: #e4b84e;
-}
-
-.hero {
-    min-height: 280px;
-    background: linear-gradient(
-        90deg,
-        #080a10,
-        #19150e,
-        #080a10
-    );
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 50px 20px;
-    border-bottom: 1px solid #765a28;
-}
-
-.hero h1 {
-    color: #e3b957;
-    font-size: 42px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    color: #ddd2bd;
-    font-size: 16px;
-}
-
-.container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 55px 25px;
-}
-
-.section-title {
-    color: #e1b653;
-    font-size: 27px;
-    margin-bottom: 20px;
-}
-
-.content {
-    color: #c9c4ba;
-    line-height: 1.9;
-    font-size: 15px;
-    margin-bottom: 40px;
-}
-
-.highlight {
-    border-left: 3px solid #d4a747;
-    background: #11141d;
-    padding: 25px;
-    margin: 30px 0;
-}
-
-.highlight h2 {
-    color: #e1b653;
-    margin-bottom: 12px;
-}
-
-footer {
-    background: #0c0e15;
-    border-top: 1px solid #b58b36;
-    padding: 30px 5%;
-    text-align: center;
-}
-
-footer .logo {
-    margin-bottom: 12px;
-}
-
-footer p {
-    color: #aaa397;
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-@media(max-width:600px) {
-    header {
-        justify-content: center;
-    }
-
-    nav {
-        gap: 14px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    nav a {
-        font-size: 12px;
-    }
-
-    .hero h1 {
-        font-size: 32px;
-    }
-}
+.about-hero{min-height:390px;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;padding:75px 18px;overflow:hidden;border-bottom:1px solid var(--border);background:radial-gradient(ellipse at 50% 5%,rgba(212,175,97,.24),transparent 58%),linear-gradient(115deg,#08090d,#19150f 52%,#08090d)}
+.about-hero:before{content:"FILMEAZ";position:absolute;font-size:clamp(75px,17vw,210px);font-weight:900;letter-spacing:12px;color:rgba(212,175,97,.035);white-space:nowrap}
+.about-hero-inner{position:relative;z-index:1;max-width:850px}.about-hero h1{font:700 clamp(40px,7vw,68px)/1.12 Georgia,serif;color:var(--gold-light);margin:14px 0 18px}.about-hero p{max-width:720px;margin:auto;color:#c4bfb4;line-height:1.9;font-size:16px}
+.about-section{padding:66px 0}.about-section.alt{background:linear-gradient(120deg,rgba(212,175,97,.045),transparent 65%),#0b0c11;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.about-heading{text-align:center;margin-bottom:34px}.about-heading h2{font:700 clamp(27px,4vw,38px) Georgia,serif;color:var(--gold-light);margin:8px 0 12px}.about-heading p{color:var(--muted);max-width:760px;margin:auto;line-height:1.85;font-size:14px}
+.about-intro{max-width:950px;margin:auto;text-align:center;color:#c4bfb4;font-size:15px;line-height:2}
+.about-intro strong{color:var(--gold-light)}
+.about-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.about-card{padding:27px 24px;background:linear-gradient(145deg,#191a20,#101116);border:1px solid var(--border);border-radius:12px;box-shadow:var(--shadow);transition:.25s}
+.about-card:hover{transform:translateY(-5px);border-color:rgba(212,175,97,.55)}
+.about-icon{width:48px;height:48px;display:flex;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:50%;color:var(--gold-light);font-size:22px;margin-bottom:18px;background:rgba(212,175,97,.07)}
+.about-card h3{font:700 21px Georgia,serif;color:var(--gold-light);margin-bottom:11px}.about-card p{font-size:13px;line-height:1.9;color:var(--muted)}
+.about-split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+.about-panel{padding:30px;border:1px solid var(--border);border-radius:12px;background:#11131a}.about-panel h3{font:700 25px Georgia,serif;color:var(--gold-light);margin-bottom:14px}.about-panel p{color:#bdb8ae;font-size:14px;line-height:1.95}
+.about-list{list-style:none;margin-top:16px;display:grid;gap:12px}.about-list li{color:#c4bfb4;font-size:14px;display:flex;gap:11px;align-items:flex-start}.about-list li:before{content:"✦";color:var(--gold);flex:0 0 auto}
+.about-quote{max-width:900px;margin:auto;text-align:center;padding:38px 28px;border:1px solid var(--border);border-radius:14px;background:radial-gradient(ellipse at center,rgba(212,175,97,.12),transparent 72%),#101116}.about-quote blockquote{font:italic 25px/1.6 Georgia,serif;color:var(--gold-light)}.about-quote p{color:var(--muted);font-size:11px;letter-spacing:3px;margin-top:16px}
+.about-contact{text-align:center}.about-contact p{color:var(--muted);font-size:14px;line-height:1.9;max-width:680px;margin:0 auto}.about-contact .gold-btn{margin-top:23px}
+@media(max-width:800px){.about-hero{min-height:340px}.about-section{padding:48px 0}.about-cards{grid-template-columns:1fr 1fr}.about-split{grid-template-columns:1fr}}
+@media(max-width:520px){.about-cards{grid-template-columns:1fr}.about-card{padding:23px}.about-hero p{font-size:14px}.about-quote blockquote{font-size:21px}}
 </style>
 </head>
-
 <body>
-
-<header>
-
-    <div class="logo">
-        FILMEAZ
-        <span>FILMS A TO Z</span>
-    </div>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="actors.html">Actors</a>
-        <a href="actresses.html">Actresses</a>
-        <a href="about.html" class="active">About Us</a>
-        <a href="index.html">⌕</a>
-    </nav>
-
+<header class="header">
+ <div class="header-container">
+  <a class="logo" href="index.html"><img class="logo-image" src="filmeaz-logo.png" alt="FILMEAZ — Films A to Z"></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav class="navbar" id="navbar">
+   <a class="nav-link" href="index.html">Home</a><a class="nav-link" href="actors.html">Actors</a><a class="nav-link" href="actresses.html">Actresses</a><a class="nav-link active" href="about.html">About Us</a>
+  </nav>
+  <a class="header-search" href="search.html" aria-label="Search">⌕</a>
+ </div>
 </header>
 
-<section class="hero">
-    <div>
-        <h1>About FILMEAZ</h1>
-        <p>Discover. Explore. Celebrate the World of Cinema.</p>
-    </div>
+<section class="about-hero">
+ <div class="about-hero-inner">
+  <span class="hero-label">THE STORY BEHIND FILMEAZ</span>
+  <h1>ABOUT FILMEAZ</h1>
+  <p>Films A to Z — A place to discover cinema, explore the artists behind it and celebrate stories from around the world.</p>
+ </div>
 </section>
 
-<main class="container">
+<main>
+ <section class="about-section">
+  <div class="container">
+   <div class="about-heading"><span class="section-label">WELCOME TO OUR WORLD</span><h2>More Than Just Movies</h2></div>
+   <p class="about-intro"><strong>FILMEAZ — Films A to Z</strong> is an evolving film-information platform built around a simple idea: cinema has no borders. From familiar favourites to regional and international film industries, we want to make it easier for movie lovers to discover films, learn about actors and actresses, and follow the creative journeys behind the screen. Our aim is to bring useful cinematic information together in one easy-to-explore destination.</p>
+  </div>
+ </section>
 
-    <h2 class="section-title">Welcome to FILMEAZ</h2>
+ <section class="about-section alt">
+  <div class="container">
+   <div class="about-heading"><span class="section-label">WHAT WE STAND FOR</span><h2>Our Mission & Vision</h2><p>Guided by curiosity, discovery and a lasting love for cinema.</p></div>
+   <div class="about-cards">
+    <article class="about-card"><div class="about-icon">✦</div><h3>Our Mission</h3><p>To organise and present film and artist information in a clear, accessible way, helping audiences explore movies and the people who bring them to life.</p></article>
+    <article class="about-card"><div class="about-icon">◎</div><h3>Our Vision</h3><p>To grow into a broad global film directory that recognises cinema across languages, regions, countries and cultures — from major industries to regional storytelling.</p></article>
+    <article class="about-card"><div class="about-icon">◇</div><h3>Our Values</h3><p>We value discovery, inclusivity, clarity and respect for the many voices and creative traditions that make world cinema vibrant.</p></article>
+   </div>
+  </div>
+ </section>
 
-    <p class="content">
-        FILMEAZ - Films A to Z is a film database platform
-        dedicated to bringing the world of cinema together.
+ <section class="about-section">
+  <div class="container">
+   <div class="about-heading"><span class="section-label">EXPLORE FILMEAZ</span><h2>What You Can Discover</h2><p>Explore connected film and artist information as the FILMEAZ database continues to grow.</p></div>
+   <div class="about-cards">
+    <article class="about-card"><div class="about-icon">▣</div><h3>Films & Film Details</h3><p>Discover movie pages with available information such as release dates, language, genre, runtime, directors, producers and cast.</p></article>
+    <article class="about-card"><div class="about-icon">♙</div><h3>Actors & Actresses</h3><p>Explore artist profiles, biographies and filmographies, with links connecting people to the films they have worked in.</p></article>
+    <article class="about-card"><div class="about-icon">⌘</div><h3>World Cinema</h3><p>Browse cinema by language and industry, and discover the variety of storytelling traditions found around the world.</p></article>
+   </div>
+  </div>
+ </section>
 
-        Our platform aims to provide information about
-        actors, actresses, films and their cinematic journeys
-        from different film industries around the world.
-    </p>
+ <section class="about-section alt">
+  <div class="container">
+   <div class="about-heading"><span class="section-label">BUILT FOR DISCOVERY</span><h2>A Connected Cinema Directory</h2></div>
+   <div class="about-split">
+    <div class="about-panel"><h3>Follow Every Film Journey</h3><p>FILMEAZ is designed to connect the different parts of cinema. A film can lead you to its cast; an artist profile can lead you through their filmography; and an industry page can introduce you to more artists and stories.</p><ul class="about-list"><li>Explore artist profiles and available biographies.</li><li>Follow filmographies and upcoming film credits where listed.</li><li>Move between movie details and cast profiles.</li></ul></div>
+    <div class="about-panel"><h3>A Global Outlook</h3><p>Cinema is created in many languages and communities. FILMEAZ aims to make room for mainstream, regional and international industries, so that stories from every corner of the film world can be discovered.</p><ul class="about-list"><li>Indian languages and regional film industries.</li><li>International languages and world cinema.</li><li>A growing catalogue as information is added and verified.</li></ul></div>
+   </div>
+  </div>
+ </section>
 
-    <div class="highlight">
-        <h2>Our Mission</h2>
+ <section class="about-section">
+  <div class="container">
+   <div class="about-quote"><blockquote>“Every film has a story. Every artist has a journey. Every language has a world of cinema.”</blockquote><p>FILMEAZ — FILMS A TO Z</p></div>
+  </div>
+ </section>
 
-        <p class="content">
-            Our mission is to create a comprehensive
-            destination where cinema lovers can explore
-            films and discover the professional journeys
-            of actors and actresses.
-        </p>
-    </div>
-
-    <h2 class="section-title">What You Can Explore</h2>
-
-    <p class="content">
-        Explore actor and actress profiles, their filmographies,
-        upcoming films, special appearances and detailed
-        information about movies.
-
-        FILMEAZ aims to bring cinematic information together
-        in one convenient destination.
-    </p>
-
-    <div class="highlight">
-        <h2>Our Vision</h2>
-
-        <p class="content">
-            To build a global film database covering
-            cinema from different countries, languages
-            and film industries.
-        </p>
-    </div>
-
-    <h2 class="section-title">FILMEAZ - Films A to Z</h2>
-
-    <p class="content">
-        Explore the world of cinema with FILMEAZ.
-        Discover films, learn about artists and celebrate
-        the magic of movies.
-    </p>
-
+ <section class="about-section alt">
+  <div class="container about-contact">
+   <span class="section-label">LET'S CONNECT</span><div class="about-heading"><h2>Be Part of the Cinema Journey</h2></div>
+   <p>Have a suggestion, correction or feedback that can help make FILMEAZ better? We welcome thoughtful contributions from cinema lovers. Reach out to us by email.</p>
+   <a class="gold-btn" href="mailto:contact@filmeaz.com">CONTACT FILMEAZ</a>
+  </div>
+ </section>
 </main>
 
-<footer>
-
-    <div class="logo">
-        FILMEAZ
-        <span>FILMS A TO Z</span>
-    </div>
-
-    <p>Explore. Discover. Enjoy.</p>
-
-    <p>© 2026 FILMEAZ. All Rights Reserved.</p>
-
+<footer class="footer">
+ <div class="container">
+  <div class="footer-grid">
+   <div class="footer-column footer-brand"><a href="index.html" class="footer-logo"><img src="filmeaz-logo.png" alt="FILMEAZ Logo"></a><p>FILMEAZ — Films A to Z. Explore the world of cinema, discover legendary artists and celebrate films from every industry.</p></div>
+   <div class="footer-column"><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="actors.html">Actors</a></li><li><a href="actresses.html">Actresses</a></li><li><a href="about.html">About Us</a></li></ul></div>
+   <div class="footer-column"><h3>Explore</h3><ul><li><a href="search.html">Search Films</a></li><li><a href="movies.html">All Movies</a></li><li><a href="featured.html">Featured Films</a></li></ul></div>
+   <div class="footer-column"><h3>Contact Us</h3><ul><li><a href="mailto:contact@filmeaz.com">Email Us</a></li></ul><h3 class="social-heading">Follow Us</h3><div class="social-links"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="YouTube">YT</a></div></div>
+  </div>
+  <div class="footer-bottom"><p>© <span id="currentYear"></span> FILMEAZ. All Rights Reserved.</p><p>FILMS A TO Z</p></div>
+ </div>
 </footer>
-
+<script>
+document.getElementById("menuToggle").addEventListener("click",function(){const nav=document.getElementById("navbar");nav.classList.toggle("active");this.setAttribute("aria-expanded",nav.classList.contains("active")?"true":"false")});
+document.getElementById("currentYear").textContent=new Date().getFullYear();
+</script>
 </body>
 </html>
