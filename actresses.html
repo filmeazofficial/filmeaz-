@@ -81,6 +81,6 @@ $("directorySearch").addEventListener("submit",e=>e.preventDefault());$("searchI
 $("menuToggle").addEventListener("click",()=>$("navbar").classList.toggle("active"));
 const headerSearchToggle=$("headerSearchToggle"),headerSearchPanel=$("headerSearchPanel");
 headerSearchToggle.addEventListener("click",()=>{headerSearchPanel.classList.toggle("active");if(headerSearchPanel.classList.contains("active"))headerSearchPanel.querySelector("input").focus()});$("currentYear").textContent=new Date().getFullYear();
-fetch("data/people.json").then(r=>r.json()).then(data=>{people=Array.isArray(data)?data:[];if(!restoreDirectoryState())drawIndustries()}).catch(()=>{$("industryGrid").innerHTML='<div class="empty-state">Unable to load actor data.</div>'});
+fetch("./data/people.json?v=20261117b",{cache:"no-store"}).then(r=>r.json()).then(data=>{people=Array.isArray(data)?data:[];if(!restoreDirectoryState())drawIndustries()}).catch(()=>{$("industryGrid").innerHTML='<div class="empty-state">Unable to load actor data.</div>'});
 })();
 </script></body></html>
