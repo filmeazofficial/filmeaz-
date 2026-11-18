@@ -2308,8 +2308,8 @@
     "id": "movie-097",
     "title": "Paan Khaye Saiyaan Hamaar",
     "year": 1984,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Bhojpuri",
+    "industry": "Bhojpuri Cinema",
     "genre": [
       "Drama"
     ],
@@ -3719,8 +3719,8 @@
     "id": "movie-180",
     "title": "The Last Lear",
     "year": 2008,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "English",
+    "industry": "English-language Cinema",
     "genre": [
       "Drama"
     ],
@@ -3855,8 +3855,8 @@
     "id": "movie-188",
     "title": "Kandahar",
     "year": 2010,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Malayalam",
+    "industry": "Malayalam Cinema",
     "genre": [
       "Drama"
     ],
@@ -3974,8 +3974,8 @@
     "id": "movie-195",
     "title": "The Great Gatsby",
     "year": 2013,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "English",
+    "industry": "English-language Cinema",
     "genre": [
       "Drama"
     ],
@@ -4042,8 +4042,8 @@
     "id": "movie-199",
     "title": "Kochadaiiyaan",
     "year": 2014,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Tamil",
+    "industry": "Tamil Cinema",
     "genre": [
       "Drama"
     ],
@@ -4059,8 +4059,8 @@
     "id": "movie-200",
     "title": "Manam",
     "year": 2014,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Telugu",
+    "industry": "Telugu Cinema",
     "genre": [
       "Drama"
     ],
@@ -4331,8 +4331,8 @@
     "id": "movie-216",
     "title": "Sye Raa Narasimha Reddy",
     "year": 2019,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Telugu",
+    "industry": "Telugu Cinema",
     "genre": [
       "Drama"
     ],
@@ -4382,8 +4382,8 @@
     "id": "movie-219",
     "title": "AB Aani CD",
     "year": 2020,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Marathi",
+    "industry": "Marathi Cinema",
     "genre": [
       "Drama"
     ],
@@ -4450,8 +4450,8 @@
     "id": "movie-223",
     "title": "Radhe Shyam",
     "year": 2022,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Telugu",
+    "industry": "Telugu Cinema",
     "genre": [
       "Drama"
     ],
@@ -4552,8 +4552,8 @@
     "id": "movie-229",
     "title": "Fakt Mahilao Maate",
     "year": 2022,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Gujarati",
+    "industry": "Gujarati Cinema",
     "genre": [
       "Drama"
     ],
@@ -4637,8 +4637,8 @@
     "id": "movie-234",
     "title": "Kalki 2898 AD",
     "year": 2024,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Telugu",
+    "industry": "Telugu Cinema",
     "genre": [
       "Drama"
     ],
@@ -4654,8 +4654,8 @@
     "id": "movie-235",
     "title": "Vettaiyan",
     "year": 2024,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Tamil",
+    "industry": "Tamil Cinema",
     "genre": [
       "Drama"
     ],
@@ -4671,8 +4671,8 @@
     "id": "movie-236",
     "title": "Fakt Purusho Maate",
     "year": 2024,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Gujarati",
+    "industry": "Gujarati Cinema",
     "genre": [
       "Drama"
     ],
@@ -4807,8 +4807,8 @@
     "id": "movie-244",
     "title": "Jaban",
     "year": 1972,
-    "language": "Hindi",
-    "industry": "Hindi Cinema",
+    "language": "Bengali",
+    "industry": "Bengali Cinema",
     "genre": [
       "Drama"
     ],
@@ -4945,6 +4945,109 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Vijay Singh Rajput"
+      }
+    ]
+  },
+  {
+    "id": "movie-252",
+    "title": "Anusandhan",
+    "year": 1981,
+    "language": "Bengali",
+    "industry": "Bengali Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Abhijit"
+      }
+    ]
+  },
+  {
+    "id": "movie-253",
+    "title": "Walayati Babu",
+    "year": 1981,
+    "language": "Punjabi",
+    "industry": "Punjabi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Special appearance"
+      }
+    ]
+  },
+  {
+    "id": "movie-254",
+    "title": "Akka",
+    "year": 1994,
+    "language": "Marathi",
+    "industry": "Marathi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Special appearance"
+      }
+    ]
+  },
+  {
+    "id": "movie-255",
+    "title": "Amrithadhare",
+    "year": 2005,
+    "language": "Kannada",
+    "industry": "Kannada Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Himself (special appearance)"
+      }
+    ]
+  },
+  {
+    "id": "movie-256",
+    "title": "Ganga",
+    "year": 2006,
+    "language": "Bhojpuri",
+    "industry": "Bhojpuri Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Thakur Vijay Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-257",
+    "title": "Ek Krantiveer: Vasudev Balwant Phadke",
+    "year": 2007,
+    "language": "Marathi",
+    "industry": "Marathi Cinema",
+    "genre": [
+      "Historical",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Narrator (voice-over)"
       }
     ]
   }
