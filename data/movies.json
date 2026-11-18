@@ -2931,6 +2931,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Narayan Shankar"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raj Aryan Malhotra"
       }
     ]
   },
@@ -2982,6 +2987,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Yashvardhan 'Yash' Raichand"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rahul Y. Raichand"
       }
     ]
   },
@@ -3305,6 +3315,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Chaudhary Sumer Singh"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Veer Pratap Singh"
       }
     ]
   },
@@ -3407,6 +3422,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Gadariya"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Kishanlal / The Ghost"
       }
     ]
   },
@@ -3526,6 +3546,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Samarjit 'Sam' Talwar"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Dev Saran"
       }
     ]
   },
@@ -3662,6 +3687,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Himself"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Om Kapoor / Om Prakash Makhija"
       }
     ]
   },
@@ -3696,6 +3726,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Kailash Nath"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Aditya Sharma"
       }
     ]
   },
@@ -3968,6 +4003,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Himself"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
       }
     ]
   },
@@ -4036,6 +4076,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Bhoothnath"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Aditya Sharma"
       }
     ]
   },
@@ -4495,6 +4540,11 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Guru"
+      },
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Mohan Bhargav"
       }
     ]
   },
@@ -5100,6 +5150,1341 @@
         "personId": "person-019",
         "name": "Amitabh Bachchan",
         "role": "Thakur Vijay Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-261",
+    "title": "Deewana",
+    "year": 1992,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raja Sahai"
+      }
+    ]
+  },
+  {
+    "id": "movie-262",
+    "title": "Chamatkar",
+    "year": 1992,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Sundar Shrivastav"
+      }
+    ]
+  },
+  {
+    "id": "movie-263",
+    "title": "Raju Ban Gaya Gentleman",
+    "year": 1992,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raj Mathur"
+      }
+    ]
+  },
+  {
+    "id": "movie-264",
+    "title": "Dil Aashna Hai",
+    "year": 1992,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Karan Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-265",
+    "title": "Kabhi Haan Kabhi Naa",
+    "year": 1993,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Sunil"
+      }
+    ]
+  },
+  {
+    "id": "movie-266",
+    "title": "King Uncle",
+    "year": 1993,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Anil Bansal"
+      }
+    ]
+  },
+  {
+    "id": "movie-267",
+    "title": "Maya Memsaab",
+    "year": 1993,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Lalit Kumar"
+      }
+    ]
+  },
+  {
+    "id": "movie-268",
+    "title": "Pehla Nasha",
+    "year": 1993,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-269",
+    "title": "Baazigar",
+    "year": 1993,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Ajay Sharma / Vicky Malhotra"
+      }
+    ]
+  },
+  {
+    "id": "movie-270",
+    "title": "Darr",
+    "year": 1993,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rahul Mehra"
+      }
+    ]
+  },
+  {
+    "id": "movie-271",
+    "title": "Anjaam",
+    "year": 1994,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Vijay Agnihotri"
+      }
+    ]
+  },
+  {
+    "id": "movie-272",
+    "title": "Karan Arjun",
+    "year": 1995,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Arjun Singh / Vijay Singh Sharma"
+      }
+    ]
+  },
+  {
+    "id": "movie-273",
+    "title": "Zamaana Deewana",
+    "year": 1995,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rahul Malhotra"
+      }
+    ]
+  },
+  {
+    "id": "movie-274",
+    "title": "Guddu",
+    "year": 1995,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Guddu Bahadur"
+      }
+    ]
+  },
+  {
+    "id": "movie-275",
+    "title": "Oh Darling! Yeh Hai India!",
+    "year": 1995,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Hero"
+      }
+    ]
+  },
+  {
+    "id": "movie-276",
+    "title": "Ram Jaane",
+    "year": 1995,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Ram Jaane"
+      }
+    ]
+  },
+  {
+    "id": "movie-277",
+    "title": "Trimurti",
+    "year": 1995,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Romi Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-278",
+    "title": "English Babu Desi Mem",
+    "year": 1996,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Gopal Mayur / Hari Mayur / Vikram Mayur"
+      }
+    ]
+  },
+  {
+    "id": "movie-279",
+    "title": "Chaahat",
+    "year": 1996,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Roop Rathore"
+      }
+    ]
+  },
+  {
+    "id": "movie-280",
+    "title": "Army",
+    "year": 1996,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Major Arjun Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-281",
+    "title": "Dushman Duniya Ka",
+    "year": 1996,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Badru"
+      }
+    ]
+  },
+  {
+    "id": "movie-282",
+    "title": "Gudgudee",
+    "year": 1997,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-283",
+    "title": "Koyla",
+    "year": 1997,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Shankar Thakur"
+      }
+    ]
+  },
+  {
+    "id": "movie-284",
+    "title": "Yes Boss",
+    "year": 1997,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rahul Joshi"
+      }
+    ]
+  },
+  {
+    "id": "movie-285",
+    "title": "Pardes",
+    "year": 1997,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Arjun Sagar"
+      }
+    ]
+  },
+  {
+    "id": "movie-286",
+    "title": "Dil To Pagal Hai",
+    "year": 1997,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rahul"
+      }
+    ]
+  },
+  {
+    "id": "movie-287",
+    "title": "Duplicate",
+    "year": 1998,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Bablu Chaudhry / Manu Dada"
+      }
+    ]
+  },
+  {
+    "id": "movie-288",
+    "title": "Achanak",
+    "year": 1998,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-289",
+    "title": "Dil Se..",
+    "year": 1998,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Amarkant Verma"
+      }
+    ]
+  },
+  {
+    "id": "movie-290",
+    "title": "Kuch Kuch Hota Hai",
+    "year": 1998,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rahul Khanna"
+      }
+    ]
+  },
+  {
+    "id": "movie-291",
+    "title": "Baadshah",
+    "year": 1999,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raj (Baadshah)"
+      }
+    ]
+  },
+  {
+    "id": "movie-292",
+    "title": "Phir Bhi Dil Hai Hindustani",
+    "year": 2000,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Ajay Bakshi"
+      }
+    ]
+  },
+  {
+    "id": "movie-293",
+    "title": "Hey Ram",
+    "year": 2000,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Amjad Khan"
+      }
+    ]
+  },
+  {
+    "id": "movie-294",
+    "title": "Josh",
+    "year": 2000,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Max Dias"
+      }
+    ]
+  },
+  {
+    "id": "movie-295",
+    "title": "Har Dil Jo Pyar Karega",
+    "year": 2000,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rahul"
+      }
+    ]
+  },
+  {
+    "id": "movie-296",
+    "title": "Gaja Gamini",
+    "year": 2000,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-297",
+    "title": "One 2 Ka 4",
+    "year": 2001,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Arun Verma"
+      }
+    ]
+  },
+  {
+    "id": "movie-298",
+    "title": "Asoka",
+    "year": 2001,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Ashoka Maurya"
+      }
+    ]
+  },
+  {
+    "id": "movie-299",
+    "title": "Hum Tumhare Hain Sanam",
+    "year": 2002,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Gopal"
+      }
+    ]
+  },
+  {
+    "id": "movie-300",
+    "title": "Devdas",
+    "year": 2002,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Devdas Mukherjee"
+      }
+    ]
+  },
+  {
+    "id": "movie-301",
+    "title": "Shakti: The Power",
+    "year": 2002,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Jai Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-302",
+    "title": "Saathiya",
+    "year": 2002,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Yeshwant Rao"
+      }
+    ]
+  },
+  {
+    "id": "movie-303",
+    "title": "Chalte Chalte",
+    "year": 2003,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raj Mathur"
+      }
+    ]
+  },
+  {
+    "id": "movie-304",
+    "title": "Kal Ho Naa Ho",
+    "year": 2003,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Aman Mathur"
+      }
+    ]
+  },
+  {
+    "id": "movie-305",
+    "title": "Yeh Lamhe Judaai Ke",
+    "year": 2004,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Dushant"
+      }
+    ]
+  },
+  {
+    "id": "movie-306",
+    "title": "Main Hoon Na",
+    "year": 2004,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Ram Prasad Sharma"
+      }
+    ]
+  },
+  {
+    "id": "movie-307",
+    "title": "Swades",
+    "year": 2004,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Mohan Bhargav"
+      }
+    ]
+  },
+  {
+    "id": "movie-308",
+    "title": "Kuchh Meetha Ho Jaye",
+    "year": 2005,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-309",
+    "title": "Kaal",
+    "year": 2005,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-310",
+    "title": "Silsiilay",
+    "year": 2005,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Sutradhar"
+      }
+    ]
+  },
+  {
+    "id": "movie-311",
+    "title": "Alag",
+    "year": 2006,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-312",
+    "title": "Don: The Chase Begins Again",
+    "year": 2006,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Don / Vijay"
+      }
+    ]
+  },
+  {
+    "id": "movie-313",
+    "title": "I See You",
+    "year": 2006,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-314",
+    "title": "Chak De! India",
+    "year": 2007,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Kabir Khan"
+      }
+    ]
+  },
+  {
+    "id": "movie-315",
+    "title": "Heyy Babyy",
+    "year": 2007,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raj Malhotra"
+      }
+    ]
+  },
+  {
+    "id": "movie-316",
+    "title": "Rab Ne Bana Di Jodi",
+    "year": 2008,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Surinder Sahni / Raj Kapoor"
+      }
+    ]
+  },
+  {
+    "id": "movie-317",
+    "title": "Krazzy 4",
+    "year": 2008,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-318",
+    "title": "Shaurya",
+    "year": 2008,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Voiceover"
+      }
+    ]
+  },
+  {
+    "id": "movie-319",
+    "title": "Kismat Konnection",
+    "year": 2008,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Narrator"
+      }
+    ]
+  },
+  {
+    "id": "movie-320",
+    "title": "Luck by Chance",
+    "year": 2009,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-321",
+    "title": "Billu",
+    "year": 2009,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Sahir Khan"
+      }
+    ]
+  },
+  {
+    "id": "movie-322",
+    "title": "My Name Is Khan",
+    "year": 2010,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rizwan Khan"
+      }
+    ]
+  },
+  {
+    "id": "movie-323",
+    "title": "Dulha Mil Gaya",
+    "year": 2010,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Pawan Raj Gandhi"
+      }
+    ]
+  },
+  {
+    "id": "movie-324",
+    "title": "Shahrukh Bola Khoobsurat Hai Tu",
+    "year": 2010,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-325",
+    "title": "Ra.One",
+    "year": 2011,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "G.One / Shekhar Subramanium"
+      }
+    ]
+  },
+  {
+    "id": "movie-326",
+    "title": "Don 2",
+    "year": 2011,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Don"
+      }
+    ]
+  },
+  {
+    "id": "movie-327",
+    "title": "Love Breakups Zindagi",
+    "year": 2011,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-328",
+    "title": "Always Kabhi Kabhi",
+    "year": 2011,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-329",
+    "title": "Jab Tak Hai Jaan",
+    "year": 2012,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Samar Anand"
+      }
+    ]
+  },
+  {
+    "id": "movie-330",
+    "title": "Chennai Express",
+    "year": 2013,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Rahul Y. Y. Mithaiwala"
+      }
+    ]
+  },
+  {
+    "id": "movie-331",
+    "title": "Happy New Year",
+    "year": 2014,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Charlie"
+      }
+    ]
+  },
+  {
+    "id": "movie-332",
+    "title": "Dilwale",
+    "year": 2015,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raj / Kaali"
+      }
+    ]
+  },
+  {
+    "id": "movie-333",
+    "title": "Bhaag Jeetu Bhaag",
+    "year": 2016,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-334",
+    "title": "Fan",
+    "year": 2016,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Aryan Khanna / Gaurav Chandna"
+      }
+    ]
+  },
+  {
+    "id": "movie-335",
+    "title": "Ae Dil Hai Mushkil",
+    "year": 2016,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Tahir Taliyar Khan"
+      }
+    ]
+  },
+  {
+    "id": "movie-336",
+    "title": "Dear Zindagi",
+    "year": 2016,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Dr. Jehangir Khan"
+      }
+    ]
+  },
+  {
+    "id": "movie-337",
+    "title": "Raees",
+    "year": 2017,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Raees Aalam"
+      }
+    ]
+  },
+  {
+    "id": "movie-338",
+    "title": "Tubelight",
+    "year": 2017,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Gogo Pasha"
+      }
+    ]
+  },
+  {
+    "id": "movie-339",
+    "title": "Jab Harry Met Sejal",
+    "year": 2017,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Harinder Harry Singh Nehra"
+      }
+    ]
+  },
+  {
+    "id": "movie-340",
+    "title": "Zero",
+    "year": 2018,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Bauaa Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-341",
+    "title": "The Zoya Factor",
+    "year": 2019,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Narrator"
+      }
+    ]
+  },
+  {
+    "id": "movie-342",
+    "title": "Rocketry: The Nambi Effect",
+    "year": 2022,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-343",
+    "title": "Laal Singh Chaddha",
+    "year": 2022,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-344",
+    "title": "Pathaan",
+    "year": 2023,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Pathaan"
+      }
+    ]
+  },
+  {
+    "id": "movie-345",
+    "title": "Jawan",
+    "year": 2023,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Vikram Rathore / Azad Rathore"
+      }
+    ]
+  },
+  {
+    "id": "movie-346",
+    "title": "Tiger 3",
+    "year": 2023,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Pathaan"
+      }
+    ]
+  },
+  {
+    "id": "movie-347",
+    "title": "Dunki",
+    "year": 2023,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "Hardayal Hardy Singh Dhillon"
+      }
+    ]
+  },
+  {
+    "id": "movie-348",
+    "title": "King",
+    "year": 2026,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "TBA"
+      }
+    ]
+  },
+  {
+    "id": "movie-349",
+    "title": "Tiger vs Pathaan",
+    "year": 2027,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [],
+    "cast": [
+      {
+        "personId": "person-026",
+        "name": "Shah Rukh Khan",
+        "role": "TBA"
       }
     ]
   }
