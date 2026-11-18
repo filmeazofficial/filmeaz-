@@ -670,7 +670,12 @@
       "Garam Masala",
       "Jaban",
       "Chhoti Si Baat",
-      "Suhaag"
+      "Suhaag",
+      "Sholay: The Final Cut",
+      "120 Bahadur",
+      "Zamaanat: And Justice for All",
+      "Section 84",
+      "Ramayana: Part One"
     ],
     "filmography": [
       {
@@ -2155,6 +2160,46 @@
         "year": 1979,
         "role": "Vikram Kapoor",
         "category": "Film"
+      },
+      {
+        "movieId": "movie-247",
+        "movieTitle": "Sholay: The Final Cut",
+        "year": 2025,
+        "releaseDate": "2025-12-12",
+        "role": "Jai",
+        "category": "Film"
+      },
+      {
+        "movieId": "movie-248",
+        "movieTitle": "120 Bahadur",
+        "year": 2025,
+        "releaseDate": "2025-11-21",
+        "role": "Narrator (voice)",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-249",
+        "movieTitle": "Zamaanat: And Justice for All",
+        "year": 2025,
+        "releaseDate": "2025-12-05",
+        "role": "Shiv Shankar",
+        "category": "Film"
+      },
+      {
+        "movieId": "movie-250",
+        "movieTitle": "Section 84",
+        "year": 2026,
+        "releaseDate": "2026-11-19",
+        "role": "Justice",
+        "category": "Upcoming"
+      },
+      {
+        "movieId": "movie-251",
+        "movieTitle": "Ramayana: Part One",
+        "year": 2026,
+        "releaseDate": "2026-11-08",
+        "role": "Jatayu (voice)",
+        "category": "Upcoming"
       }
     ],
     "languages": [
