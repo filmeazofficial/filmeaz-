@@ -2239,6 +2239,25 @@
         "year": 2007,
         "role": "Narrator (voice-over)",
         "category": "Narrator"
+      },
+      {
+        "movieId": "movie-258",
+        "movieTitle": "Gangotri",
+        "year": 2007,
+        "role": "Thakur Vijay 'Thakur Kaka' Singh"
+      },
+      {
+        "movieId": "movie-259",
+        "movieTitle": "Ganga Devi",
+        "year": 2012,
+        "role": "Special appearance",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-260",
+        "movieTitle": "Naam Chhe Maru Ganga",
+        "year": 2013,
+        "role": "Thakur Vijay Singh"
       }
     ],
     "languages": [
