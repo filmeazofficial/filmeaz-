@@ -483,7 +483,17 @@
       "Immaan Dharam",
       "Khoon Pasina",
       "Parvarish",
-      "Shatranj Ke Khilari"
+      "Shatranj Ke Khilari",
+      "Besharam",
+      "Ganga Ki Saugandh",
+      "Kasme Vaade",
+      "Trishul",
+      "Muqaddar Ka Sikandar",
+      "The Great Gambler",
+      "Jurmana",
+      "Manzil",
+      "Mr. Natwarlal",
+      "Kaala Patthar"
     ],
     "filmography": [
       {
@@ -781,6 +791,75 @@
         "year": 1977,
         "role": "Narrator (voice-over)",
         "category": "Narrator"
+      },
+      {
+        "movieId": "movie-060",
+        "movieTitle": "Besharam",
+        "year": 1978,
+        "role": "Ram Kumar Chandra / Prince Chandrashekar"
+      },
+      {
+        "movieId": "movie-061",
+        "movieTitle": "Ganga Ki Saugandh",
+        "year": 1978,
+        "releaseDate": "1978-02-10",
+        "role": "Jeeva"
+      },
+      {
+        "movieId": "movie-062",
+        "movieTitle": "Kasme Vaade",
+        "year": 1978,
+        "releaseDate": "1978-04-20",
+        "role": "Amit / Shankar"
+      },
+      {
+        "movieId": "movie-063",
+        "movieTitle": "Trishul",
+        "year": 1978,
+        "releaseDate": "1978-05-04",
+        "role": "Vijay Kumar"
+      },
+      {
+        "movieId": "movie-064",
+        "movieTitle": "Muqaddar Ka Sikandar",
+        "year": 1978,
+        "releaseDate": "1978-10-27",
+        "role": "Sikandar"
+      },
+      {
+        "movieId": "movie-065",
+        "movieTitle": "The Great Gambler",
+        "year": 1979,
+        "releaseDate": "1979-04-06",
+        "role": "Jay / Inspector Vijay"
+      },
+      {
+        "movieId": "movie-066",
+        "movieTitle": "Jurmana",
+        "year": 1979,
+        "releaseDate": "1979-05-11",
+        "role": "Inder Saxena"
+      },
+      {
+        "movieId": "movie-067",
+        "movieTitle": "Manzil",
+        "year": 1979,
+        "releaseDate": "1979-05-14",
+        "role": "Ajay Chandra"
+      },
+      {
+        "movieId": "movie-068",
+        "movieTitle": "Mr. Natwarlal",
+        "year": 1979,
+        "releaseDate": "1979-06-08",
+        "role": "Mr. Natwarlal / Avtar Singh"
+      },
+      {
+        "movieId": "movie-069",
+        "movieTitle": "Kaala Patthar",
+        "year": 1979,
+        "releaseDate": "1979-08-24",
+        "role": "Vijay Pal Singh"
       }
     ],
     "languages": [
