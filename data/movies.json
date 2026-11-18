@@ -1645,5 +1645,204 @@
       }
     ],
     "category": "Narrator"
+  },
+  {
+    "id": "movie-060",
+    "title": "Besharam",
+    "year": 1978,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "directedBy": "Deven Verma",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Ram Kumar Chandra / Prince Chandrashekar"
+      }
+    ]
+  },
+  {
+    "id": "movie-061",
+    "title": "Ganga Ki Saugandh",
+    "year": 1978,
+    "releaseDate": "1978-02-10",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "directedBy": "Sultan Ahmed",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Jeeva"
+      }
+    ]
+  },
+  {
+    "id": "movie-062",
+    "title": "Kasme Vaade",
+    "year": 1978,
+    "releaseDate": "1978-04-20",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "directedBy": "Ramesh Behl",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Amit / Shankar"
+      }
+    ]
+  },
+  {
+    "id": "movie-063",
+    "title": "Trishul",
+    "year": 1978,
+    "releaseDate": "1978-05-04",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "directedBy": "Yash Chopra",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Vijay Kumar"
+      }
+    ]
+  },
+  {
+    "id": "movie-064",
+    "title": "Muqaddar Ka Sikandar",
+    "year": 1978,
+    "releaseDate": "1978-10-27",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Prakash Mehra",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Sikandar"
+      }
+    ]
+  },
+  {
+    "id": "movie-065",
+    "title": "The Great Gambler",
+    "year": 1979,
+    "releaseDate": "1979-04-06",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "directedBy": "Shakti Samanta",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Jay / Inspector Vijay"
+      }
+    ]
+  },
+  {
+    "id": "movie-066",
+    "title": "Jurmana",
+    "year": 1979,
+    "releaseDate": "1979-05-11",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Inder Saxena"
+      }
+    ]
+  },
+  {
+    "id": "movie-067",
+    "title": "Manzil",
+    "year": 1979,
+    "releaseDate": "1979-05-14",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Basu Chatterjee",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Ajay Chandra"
+      }
+    ]
+  },
+  {
+    "id": "movie-068",
+    "title": "Mr. Natwarlal",
+    "year": 1979,
+    "releaseDate": "1979-06-08",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Comedy"
+    ],
+    "directedBy": "Rakesh Kumar",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Mr. Natwarlal / Avtar Singh"
+      }
+    ]
+  },
+  {
+    "id": "movie-069",
+    "title": "Kaala Patthar",
+    "year": 1979,
+    "releaseDate": "1979-08-24",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "directedBy": "Yash Chopra",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Vijay Pal Singh"
+      }
+    ]
   }
 ]
