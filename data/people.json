@@ -464,7 +464,17 @@
       "Namak Haraam",
       "Dost",
       "Kasauti",
-      "Benaam"
+      "Benaam",
+      "Kunwara Baap",
+      "Roti Kapada Aur Makaan",
+      "Majboor",
+      "Zameer",
+      "Chupke Chupke",
+      "Mili",
+      "Faraar",
+      "Do Anjaane",
+      "Hera Pheri",
+      "Adalat"
     ],
     "filmography": [
       {
@@ -628,6 +638,75 @@
         "year": 1974,
         "releaseDate": "1974-10-18",
         "role": "Amit Srivastav"
+      },
+      {
+        "movieId": "movie-041",
+        "movieTitle": "Kunwara Baap",
+        "year": 1974,
+        "releaseDate": "1974-11-29",
+        "role": "Augustine"
+      },
+      {
+        "movieId": "movie-042",
+        "movieTitle": "Roti Kapada Aur Makaan",
+        "year": 1974,
+        "releaseDate": "1974-10-18",
+        "role": "Vijay"
+      },
+      {
+        "movieId": "movie-043",
+        "movieTitle": "Majboor",
+        "year": 1974,
+        "releaseDate": "1974-12-06",
+        "role": "Ravi Khanna"
+      },
+      {
+        "movieId": "movie-044",
+        "movieTitle": "Zameer",
+        "year": 1975,
+        "releaseDate": "1975-03-21",
+        "role": "Badal"
+      },
+      {
+        "movieId": "movie-045",
+        "movieTitle": "Chupke Chupke",
+        "year": 1975,
+        "releaseDate": "1975-04-11",
+        "role": "Professor Sukumar Sinha"
+      },
+      {
+        "movieId": "movie-046",
+        "movieTitle": "Mili",
+        "year": 1975,
+        "releaseDate": "1975-06-20",
+        "role": "Shekhar Dayal"
+      },
+      {
+        "movieId": "movie-047",
+        "movieTitle": "Faraar",
+        "year": 1975,
+        "releaseDate": "1975-11-21",
+        "role": "Rajesh"
+      },
+      {
+        "movieId": "movie-048",
+        "movieTitle": "Do Anjaane",
+        "year": 1976,
+        "releaseDate": "1976-11-26",
+        "role": "Amit Roy / Naresh Dutta"
+      },
+      {
+        "movieId": "movie-049",
+        "movieTitle": "Hera Pheri",
+        "year": 1976,
+        "releaseDate": "1976-10-03",
+        "role": "Vijay"
+      },
+      {
+        "movieId": "movie-050",
+        "movieTitle": "Adalat",
+        "year": 1976,
+        "role": "Thakur Dharam Chand / Raju"
       }
     ],
     "languages": [
