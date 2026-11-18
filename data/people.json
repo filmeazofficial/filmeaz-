@@ -474,7 +474,16 @@
       "Faraar",
       "Do Anjaane",
       "Hera Pheri",
-      "Adalat"
+      "Adalat",
+      "Kabhi Kabhie",
+      "Balika Badhu",
+      "Alaap",
+      "Charandas",
+      "Chala Murari Hero Banne",
+      "Immaan Dharam",
+      "Khoon Pasina",
+      "Parvarish",
+      "Shatranj Ke Khilari"
     ],
     "filmography": [
       {
@@ -707,6 +716,71 @@
         "movieTitle": "Adalat",
         "year": 1976,
         "role": "Thakur Dharam Chand / Raju"
+      },
+      {
+        "movieId": "movie-051",
+        "movieTitle": "Kabhi Kabhie",
+        "year": 1976,
+        "role": "Amitabh Malhotra"
+      },
+      {
+        "movieId": "movie-052",
+        "movieTitle": "Balika Badhu",
+        "year": 1976,
+        "releaseDate": "1976-08-20",
+        "role": "Adult Amal (voice-over)",
+        "category": "Voice Over"
+      },
+      {
+        "movieId": "movie-053",
+        "movieTitle": "Alaap",
+        "year": 1977,
+        "releaseDate": "1977-03-12",
+        "role": "Alok Prasad"
+      },
+      {
+        "movieId": "movie-054",
+        "movieTitle": "Charandas",
+        "year": 1977,
+        "releaseDate": "1977-10-21",
+        "role": "Qawwali singer (special appearance)",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-055",
+        "movieTitle": "Chala Murari Hero Banne",
+        "year": 1977,
+        "releaseDate": "1977-01-01",
+        "role": "Himself (special appearance)",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-056",
+        "movieTitle": "Immaan Dharam",
+        "year": 1977,
+        "releaseDate": "1977-01-07",
+        "role": "Ahmed Raza"
+      },
+      {
+        "movieId": "movie-057",
+        "movieTitle": "Khoon Pasina",
+        "year": 1977,
+        "releaseDate": "1977-01-21",
+        "role": "Shiva / Tiger"
+      },
+      {
+        "movieId": "movie-058",
+        "movieTitle": "Parvarish",
+        "year": 1977,
+        "releaseDate": "1977-10-23",
+        "role": "Amit"
+      },
+      {
+        "movieId": "movie-059",
+        "movieTitle": "Shatranj Ke Khilari",
+        "year": 1977,
+        "role": "Narrator (voice-over)",
+        "category": "Narrator"
       }
     ],
     "languages": [
