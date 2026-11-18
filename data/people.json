@@ -662,7 +662,15 @@
       "Vettaiyan",
       "Fakt Purusho Maate",
       "The Umesh Chronicles",
-      "A Son of Himalaya"
+      "A Son of Himalaya",
+      "Bombay to Goa",
+      "Bansi Birju",
+      "Ek Nazar",
+      "Raaste Kaa Patthar",
+      "Garam Masala",
+      "Jaban",
+      "Chhoti Si Baat",
+      "Suhaag"
     ],
     "filmography": [
       {
@@ -2091,6 +2099,62 @@
         "year": 2024,
         "role": "Himself",
         "category": "Cameo"
+      },
+      {
+        "movieId": "movie-239",
+        "movieTitle": "Bombay to Goa",
+        "year": 1972,
+        "role": "Ravi Kumar",
+        "category": "Film"
+      },
+      {
+        "movieId": "movie-240",
+        "movieTitle": "Bansi Birju",
+        "year": 1972,
+        "role": "Birju",
+        "category": "Film"
+      },
+      {
+        "movieId": "movie-241",
+        "movieTitle": "Ek Nazar",
+        "year": 1972,
+        "role": "Manmohan Tyagi (Akash)",
+        "category": "Film"
+      },
+      {
+        "movieId": "movie-242",
+        "movieTitle": "Raaste Kaa Patthar",
+        "year": 1972,
+        "role": "Jai Shankar Rai",
+        "category": "Film"
+      },
+      {
+        "movieId": "movie-243",
+        "movieTitle": "Garam Masala",
+        "year": 1972,
+        "role": "Robert Taylor",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-244",
+        "movieTitle": "Jaban",
+        "year": 1972,
+        "role": "Dalaljit",
+        "category": "Film"
+      },
+      {
+        "movieId": "movie-245",
+        "movieTitle": "Chhoti Si Baat",
+        "year": 1975,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-246",
+        "movieTitle": "Suhaag",
+        "year": 1979,
+        "role": "Vikram Kapoor",
+        "category": "Film"
       }
     ],
     "languages": [
