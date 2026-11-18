@@ -4853,5 +4853,100 @@
         "role": "Vikram Kapoor"
       }
     ]
+  },
+  {
+    "id": "movie-247",
+    "title": "Sholay: The Final Cut",
+    "year": 2025,
+    "releaseDate": "2025-12-12",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "status": "Released",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Jai"
+      }
+    ]
+  },
+  {
+    "id": "movie-248",
+    "title": "120 Bahadur",
+    "year": 2025,
+    "releaseDate": "2025-11-21",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "status": "Released",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Narrator (voice)"
+      }
+    ]
+  },
+  {
+    "id": "movie-249",
+    "title": "Zamaanat: And Justice for All",
+    "year": 2025,
+    "releaseDate": "2025-12-05",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "status": "Released",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Shiv Shankar"
+      }
+    ]
+  },
+  {
+    "id": "movie-250",
+    "title": "Section 84",
+    "year": 2026,
+    "releaseDate": "2026-11-19",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "status": "Upcoming",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Justice"
+      }
+    ]
+  },
+  {
+    "id": "movie-251",
+    "title": "Ramayana: Part One",
+    "year": 2026,
+    "releaseDate": "2026-11-08",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "status": "Upcoming",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Jatayu (voice)"
+      }
+    ]
   }
 ]
