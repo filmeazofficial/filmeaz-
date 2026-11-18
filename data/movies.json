@@ -1454,5 +1454,196 @@
         "role": "Thakur Dharam Chand / Raju"
       }
     ]
+  },
+  {
+    "id": "movie-051",
+    "title": "Kabhi Kabhie",
+    "year": 1976,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "directedBy": "Yash Chopra",
+    "producedBy": "Yash Chopra",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Amitabh Malhotra"
+      }
+    ]
+  },
+  {
+    "id": "movie-052",
+    "title": "Balika Badhu",
+    "year": 1976,
+    "releaseDate": "1976-08-20",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "directedBy": "Tarun Majumdar",
+    "producedBy": "Shakti Samanta",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Adult Amal (voice-over)"
+      }
+    ],
+    "category": "Voice Over"
+  },
+  {
+    "id": "movie-053",
+    "title": "Alaap",
+    "year": 1977,
+    "releaseDate": "1977-03-12",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Musical"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "producedBy": "Hrishikesh Mukherjee",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Alok Prasad"
+      }
+    ]
+  },
+  {
+    "id": "movie-054",
+    "title": "Charandas",
+    "year": 1977,
+    "releaseDate": "1977-10-21",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "B. R. Ishara",
+    "producedBy": "B. R. Ishara",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Qawwali singer (special appearance)"
+      }
+    ],
+    "category": "Cameo"
+  },
+  {
+    "id": "movie-055",
+    "title": "Chala Murari Hero Banne",
+    "year": 1977,
+    "releaseDate": "1977-01-01",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy"
+    ],
+    "directedBy": "Asrani",
+    "producedBy": "Asrani",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Himself (special appearance)"
+      }
+    ],
+    "category": "Cameo"
+  },
+  {
+    "id": "movie-056",
+    "title": "Immaan Dharam",
+    "year": 1977,
+    "releaseDate": "1977-01-07",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "directedBy": "Desh Mukherjee",
+    "producedBy": "Premji",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Ahmed Raza"
+      }
+    ]
+  },
+  {
+    "id": "movie-057",
+    "title": "Khoon Pasina",
+    "year": 1977,
+    "releaseDate": "1977-01-21",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "directedBy": "Rakesh Kumar",
+    "producedBy": "Babboo Mehra",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Shiva / Tiger"
+      }
+    ]
+  },
+  {
+    "id": "movie-058",
+    "title": "Parvarish",
+    "year": 1977,
+    "releaseDate": "1977-10-23",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "directedBy": "Manmohan Desai",
+    "producedBy": "A. A. Nadiadwala",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Amit"
+      }
+    ]
+  },
+  {
+    "id": "movie-059",
+    "title": "Shatranj Ke Khilari",
+    "year": 1977,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Historical",
+      "Drama"
+    ],
+    "directedBy": "Satyajit Ray",
+    "producedBy": "Suresh Jindal",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Narrator (voice-over)"
+      }
+    ],
+    "category": "Narrator"
   }
 ]
