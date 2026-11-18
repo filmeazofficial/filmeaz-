@@ -128,6 +128,26 @@ async function loadWebsiteData() {
 // 4. PREPARE LATEST AND UPCOMING FILMS
 // ============================================
 
+// Compare films by exact release date when available; otherwise use release year.
+function getFilmReleaseTime(movie, filmographyEntry) {
+
+    const releaseDate = movie?.releaseDate || filmographyEntry?.releaseDate || "";
+
+    if (releaseDate) {
+
+        const timestamp = Date.parse(releaseDate);
+
+        if (!Number.isNaN(timestamp)) return timestamp;
+
+    }
+
+    const year = Number(movie?.year || filmographyEntry?.year || 0);
+
+    return year ? Date.UTC(year, 0, 1) : 0;
+
+}
+
+
 function prepareHomepageFilms() {
 
     const movieMap = new Map();
@@ -169,7 +189,10 @@ function prepareHomepageFilms() {
             })
             .sort((a, b) => {
 
-                return Number(b.year || 0) - Number(a.year || 0);
+                const movieA = movieMap.get(String(a.movieId || a.id));
+                const movieB = movieMap.get(String(b.movieId || b.id));
+
+                return getFilmReleaseTime(movieB, b) - getFilmReleaseTime(movieA, a);
 
             });
 
@@ -227,7 +250,7 @@ function prepareHomepageFilms() {
 
         .sort((a, b) => {
 
-            return Number(b.year || 0) - Number(a.year || 0);
+            return getFilmReleaseTime(b) - getFilmReleaseTime(a);
 
         });
 
