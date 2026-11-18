@@ -4717,5 +4717,141 @@
         "role": "Himself"
       }
     ]
+  },
+  {
+    "id": "movie-239",
+    "title": "Bombay to Goa",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Ravi Kumar"
+      }
+    ]
+  },
+  {
+    "id": "movie-240",
+    "title": "Bansi Birju",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Birju"
+      }
+    ]
+  },
+  {
+    "id": "movie-241",
+    "title": "Ek Nazar",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Manmohan Tyagi (Akash)"
+      }
+    ]
+  },
+  {
+    "id": "movie-242",
+    "title": "Raaste Kaa Patthar",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Jai Shankar Rai"
+      }
+    ]
+  },
+  {
+    "id": "movie-243",
+    "title": "Garam Masala",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Robert Taylor"
+      }
+    ]
+  },
+  {
+    "id": "movie-244",
+    "title": "Jaban",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Dalaljit"
+      }
+    ]
+  },
+  {
+    "id": "movie-245",
+    "title": "Chhoti Si Baat",
+    "year": 1975,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Himself"
+      }
+    ]
+  },
+  {
+    "id": "movie-246",
+    "title": "Suhaag",
+    "year": 1979,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Vikram Kapoor"
+      }
+    ]
   }
 ]
