@@ -454,7 +454,17 @@
       "Guddi",
       "Piya Ka Ghar",
       "Sanjog",
-      "Bawarchi"
+      "Bawarchi",
+      "Bandhe Haath",
+      "Zanjeer",
+      "Bada Kabutar",
+      "Abhimaan",
+      "Gehri Chaal",
+      "Saudagar",
+      "Namak Haraam",
+      "Dost",
+      "Kasauti",
+      "Benaam"
     ],
     "filmography": [
       {
@@ -546,6 +556,78 @@
         "movieTitle": "Don",
         "year": 1978,
         "role": "Don / Vijay"
+      },
+      {
+        "movieId": "movie-031",
+        "movieTitle": "Bandhe Haath",
+        "year": 1973,
+        "releaseDate": "1973-02-16",
+        "role": "Shyamu / Deepak"
+      },
+      {
+        "movieId": "movie-032",
+        "movieTitle": "Zanjeer",
+        "year": 1973,
+        "releaseDate": "1973-05-11",
+        "role": "Inspector Vijay Khanna"
+      },
+      {
+        "movieId": "movie-033",
+        "movieTitle": "Bada Kabutar",
+        "year": 1973,
+        "releaseDate": "1973-07-06",
+        "role": "Guest appearance (cameo)",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-034",
+        "movieTitle": "Abhimaan",
+        "year": 1973,
+        "releaseDate": "1973-07-27",
+        "role": "Subir Kumar"
+      },
+      {
+        "movieId": "movie-035",
+        "movieTitle": "Gehri Chaal",
+        "year": 1973,
+        "releaseDate": "1973-07-27",
+        "role": "Ratan"
+      },
+      {
+        "movieId": "movie-036",
+        "movieTitle": "Saudagar",
+        "year": 1973,
+        "releaseDate": "1973-10-26",
+        "role": "Moti"
+      },
+      {
+        "movieId": "movie-037",
+        "movieTitle": "Namak Haraam",
+        "year": 1973,
+        "releaseDate": "1973-11-23",
+        "role": "Vikram 'Vicky' Maharaj"
+      },
+      {
+        "movieId": "movie-038",
+        "movieTitle": "Dost",
+        "year": 1974,
+        "releaseDate": "1974-04-12",
+        "role": "Anand (guest appearance)",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-039",
+        "movieTitle": "Kasauti",
+        "year": 1974,
+        "releaseDate": "1974-08-09",
+        "role": "Amitabh Sharma"
+      },
+      {
+        "movieId": "movie-040",
+        "movieTitle": "Benaam",
+        "year": 1974,
+        "releaseDate": "1974-10-18",
+        "role": "Amit Srivastav"
       }
     ],
     "languages": [
