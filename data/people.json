@@ -675,7 +675,7 @@
       "120 Bahadur",
       "Zamaanat: And Justice for All",
       "Section 84",
-      "Ramayana: Part One"
+      "Aankhen 2"
     ],
     "filmography": [
       {
@@ -2181,7 +2181,7 @@
         "movieId": "movie-249",
         "movieTitle": "Zamaanat: And Justice for All",
         "year": 2025,
-        "releaseDate": "2025-12-05",
+        "releaseDate": "2025-03-21",
         "role": "Shiv Shankar",
         "category": "Film"
       },
@@ -2195,10 +2195,9 @@
       },
       {
         "movieId": "movie-251",
-        "movieTitle": "Ramayana: Part One",
+        "movieTitle": "Aankhen 2",
         "year": 2026,
-        "releaseDate": "2026-11-08",
-        "role": "Jatayu (voice)",
+        "role": "Vijay Singh Rajput",
         "category": "Upcoming"
       }
     ],
