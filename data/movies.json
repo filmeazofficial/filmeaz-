@@ -834,5 +834,202 @@
         "role": "Tapasvi Maharaj"
       }
     ]
+  },
+  {
+    "id": "movie-021",
+    "title": "Bhuvan Shome",
+    "year": 1969,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "Mrinal Sen",
+    "producedBy": "Mrinal Sen",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Narrator (voice)"
+      }
+    ]
+  },
+  {
+    "id": "movie-022",
+    "title": "Saat Hindustani",
+    "year": 1969,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "Khwaja Ahmad Abbas",
+    "producedBy": "Khwaja Ahmad Abbas",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Anwar Ali"
+      }
+    ]
+  },
+  {
+    "id": "movie-023",
+    "title": "Bombay Talkie",
+    "year": 1970,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "James Ivory",
+    "producedBy": "Ismail Merchant",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Special appearance"
+      }
+    ]
+  },
+  {
+    "id": "movie-024",
+    "title": "Parwana",
+    "year": 1971,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Thriller",
+      "Romance",
+      "Drama"
+    ],
+    "directedBy": "Jyoti Swaroop",
+    "producedBy": "R. L. Suri",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Kumar Sen"
+      }
+    ]
+  },
+  {
+    "id": "movie-025",
+    "title": "Pyar Ki Kahani",
+    "year": 1971,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "directedBy": "Ravikant Nagaich",
+    "producedBy": "Ravikant Nagaich",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Ram Chandra"
+      }
+    ]
+  },
+  {
+    "id": "movie-026",
+    "title": "Reshma Aur Shera",
+    "year": 1971,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Sunil Dutt",
+    "producedBy": "Sunil Dutt",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Chhotu"
+      }
+    ]
+  },
+  {
+    "id": "movie-027",
+    "title": "Guddi",
+    "year": 1971,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "producedBy": "Hrishikesh Mukherjee",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Himself (cameo)"
+      }
+    ]
+  },
+  {
+    "id": "movie-028",
+    "title": "Piya Ka Ghar",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "directedBy": "Basu Chatterjee",
+    "producedBy": "Tarachand Barjatya",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Special appearance"
+      }
+    ]
+  },
+  {
+    "id": "movie-029",
+    "title": "Sanjog",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "S. S. Balan",
+    "producedBy": "S. S. Balan",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Mohan"
+      }
+    ]
+  },
+  {
+    "id": "movie-030",
+    "title": "Bawarchi",
+    "year": 1972,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "producedBy": "Hrishikesh Mukherjee",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Narrator (voice)"
+      }
+    ]
   }
 ]
