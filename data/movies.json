@@ -1243,5 +1243,216 @@
         "role": "Amit Srivastav"
       }
     ]
+  },
+  {
+    "id": "movie-041",
+    "title": "Kunwara Baap",
+    "year": 1974,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "directedBy": "Mehmood",
+    "producedBy": "Mehmood",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Augustine"
+      }
+    ],
+    "releaseDate": "1974-11-29"
+  },
+  {
+    "id": "movie-042",
+    "title": "Roti Kapada Aur Makaan",
+    "year": 1974,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Manoj Kumar",
+    "producedBy": "Manoj Kumar",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Vijay"
+      }
+    ],
+    "releaseDate": "1974-10-18"
+  },
+  {
+    "id": "movie-043",
+    "title": "Majboor",
+    "year": 1974,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "directedBy": "Ravi Tandon",
+    "producedBy": "Premji",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Ravi Khanna"
+      }
+    ],
+    "releaseDate": "1974-12-06"
+  },
+  {
+    "id": "movie-044",
+    "title": "Zameer",
+    "year": 1975,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "directedBy": "Ravi Chopra",
+    "producedBy": "B. R. Chopra",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Badal"
+      }
+    ],
+    "releaseDate": "1975-03-21"
+  },
+  {
+    "id": "movie-045",
+    "title": "Chupke Chupke",
+    "year": 1975,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "producedBy": "N. C. Sippy",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Professor Sukumar Sinha"
+      }
+    ],
+    "releaseDate": "1975-04-11"
+  },
+  {
+    "id": "movie-046",
+    "title": "Mili",
+    "year": 1975,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "producedBy": "Jaya Bhaduri",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Shekhar Dayal"
+      }
+    ],
+    "releaseDate": "1975-06-20"
+  },
+  {
+    "id": "movie-047",
+    "title": "Faraar",
+    "year": 1975,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "directedBy": "Shankar Mukherjee",
+    "producedBy": "R. N. Kumar",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Rajesh"
+      }
+    ],
+    "releaseDate": "1975-11-21"
+  },
+  {
+    "id": "movie-048",
+    "title": "Do Anjaane",
+    "year": 1976,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "directedBy": "Dulal Guha",
+    "producedBy": "J. K. Kapoor",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Amit Roy / Naresh Dutta"
+      }
+    ],
+    "releaseDate": "1976-11-26"
+  },
+  {
+    "id": "movie-049",
+    "title": "Hera Pheri",
+    "year": 1976,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directedBy": "Prakash Mehra",
+    "producedBy": "Prakash Mehra",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Vijay"
+      }
+    ],
+    "releaseDate": "1976-10-03"
+  },
+  {
+    "id": "movie-050",
+    "title": "Adalat",
+    "year": 1976,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "directedBy": "Narendra Bedi",
+    "producedBy": "A. K. Nadiadwala",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Thakur Dharam Chand / Raju"
+      }
+    ]
   }
 ]
