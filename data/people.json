@@ -2199,14 +2199,73 @@
         "year": 2026,
         "role": "Vijay Singh Rajput",
         "category": "Upcoming"
+      },
+      {
+        "movieId": "movie-252",
+        "movieTitle": "Anusandhan",
+        "year": 1981,
+        "role": "Abhijit"
+      },
+      {
+        "movieId": "movie-253",
+        "movieTitle": "Walayati Babu",
+        "year": 1981,
+        "role": "Special appearance",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-254",
+        "movieTitle": "Akka",
+        "year": 1994,
+        "role": "Special appearance",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-255",
+        "movieTitle": "Amrithadhare",
+        "year": 2005,
+        "role": "Himself (special appearance)",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-256",
+        "movieTitle": "Ganga",
+        "year": 2006,
+        "role": "Thakur Vijay Singh"
+      },
+      {
+        "movieId": "movie-257",
+        "movieTitle": "Ek Krantiveer: Vasudev Balwant Phadke",
+        "year": 2007,
+        "role": "Narrator (voice-over)",
+        "category": "Narrator"
       }
     ],
     "languages": [
       "Hindi",
-      "English"
+      "English",
+      "Bengali",
+      "Punjabi",
+      "Bhojpuri",
+      "Marathi",
+      "Kannada",
+      "Malayalam",
+      "Tamil",
+      "Telugu",
+      "Gujarati"
     ],
     "industries": [
       "Hindi Cinema",
+      "English-language Cinema",
+      "Bengali Cinema",
+      "Punjabi Cinema",
+      "Bhojpuri Cinema",
+      "Marathi Cinema",
+      "Kannada Cinema",
+      "Malayalam Cinema",
+      "Tamil Cinema",
+      "Telugu Cinema",
+      "Gujarati Cinema",
       "Indian Cinema"
     ]
   },
