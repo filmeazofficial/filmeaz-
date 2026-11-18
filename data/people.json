@@ -2446,18 +2446,657 @@
     "gender": "Male",
     "profession": "Actor",
     "knownFor": [
-      "Dilwale Dulhania Le Jayenge"
+      "Deewana",
+      "Baazigar",
+      "Dilwale Dulhania Le Jayenge",
+      "Kuch Kuch Hota Hai",
+      "Devdas",
+      "Chak De! India",
+      "My Name Is Khan",
+      "Pathaan",
+      "Jawan"
     ],
     "filmography": [
+      {
+        "movieId": "movie-262",
+        "movieTitle": "Chamatkar",
+        "year": 1992,
+        "role": "Sundar Shrivastav"
+      },
+      {
+        "movieId": "movie-261",
+        "movieTitle": "Deewana",
+        "year": 1992,
+        "role": "Raja Sahai"
+      },
+      {
+        "movieId": "movie-264",
+        "movieTitle": "Dil Aashna Hai",
+        "year": 1992,
+        "role": "Karan Singh"
+      },
+      {
+        "movieId": "movie-263",
+        "movieTitle": "Raju Ban Gaya Gentleman",
+        "year": 1992,
+        "role": "Raj Mathur"
+      },
+      {
+        "movieId": "movie-269",
+        "movieTitle": "Baazigar",
+        "year": 1993,
+        "role": "Ajay Sharma / Vicky Malhotra"
+      },
+      {
+        "movieId": "movie-270",
+        "movieTitle": "Darr",
+        "year": 1993,
+        "role": "Rahul Mehra"
+      },
+      {
+        "movieId": "movie-265",
+        "movieTitle": "Kabhi Haan Kabhi Naa",
+        "year": 1993,
+        "role": "Sunil"
+      },
+      {
+        "movieId": "movie-266",
+        "movieTitle": "King Uncle",
+        "year": 1993,
+        "role": "Anil Bansal"
+      },
+      {
+        "movieId": "movie-267",
+        "movieTitle": "Maya Memsaab",
+        "year": 1993,
+        "role": "Lalit Kumar"
+      },
+      {
+        "movieId": "movie-268",
+        "movieTitle": "Pehla Nasha",
+        "year": 1993,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-271",
+        "movieTitle": "Anjaam",
+        "year": 1994,
+        "role": "Vijay Agnihotri"
+      },
       {
         "movieId": "movie-007",
         "movieTitle": "Dilwale Dulhania Le Jayenge",
         "year": 1995,
         "role": "Raj Malhotra"
+      },
+      {
+        "movieId": "movie-274",
+        "movieTitle": "Guddu",
+        "year": 1995,
+        "role": "Guddu Bahadur"
+      },
+      {
+        "movieId": "movie-272",
+        "movieTitle": "Karan Arjun",
+        "year": 1995,
+        "role": "Arjun Singh / Vijay Singh Sharma"
+      },
+      {
+        "movieId": "movie-275",
+        "movieTitle": "Oh Darling! Yeh Hai India!",
+        "year": 1995,
+        "role": "Hero"
+      },
+      {
+        "movieId": "movie-276",
+        "movieTitle": "Ram Jaane",
+        "year": 1995,
+        "role": "Ram Jaane"
+      },
+      {
+        "movieId": "movie-277",
+        "movieTitle": "Trimurti",
+        "year": 1995,
+        "role": "Romi Singh"
+      },
+      {
+        "movieId": "movie-273",
+        "movieTitle": "Zamaana Deewana",
+        "year": 1995,
+        "role": "Rahul Malhotra"
+      },
+      {
+        "movieId": "movie-280",
+        "movieTitle": "Army",
+        "year": 1996,
+        "role": "Major Arjun Singh",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-279",
+        "movieTitle": "Chaahat",
+        "year": 1996,
+        "role": "Roop Rathore"
+      },
+      {
+        "movieId": "movie-281",
+        "movieTitle": "Dushman Duniya Ka",
+        "year": 1996,
+        "role": "Badru",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-278",
+        "movieTitle": "English Babu Desi Mem",
+        "year": 1996,
+        "role": "Gopal Mayur / Hari Mayur / Vikram Mayur"
+      },
+      {
+        "movieId": "movie-286",
+        "movieTitle": "Dil To Pagal Hai",
+        "year": 1997,
+        "role": "Rahul"
+      },
+      {
+        "movieId": "movie-282",
+        "movieTitle": "Gudgudee",
+        "year": 1997,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-283",
+        "movieTitle": "Koyla",
+        "year": 1997,
+        "role": "Shankar Thakur"
+      },
+      {
+        "movieId": "movie-285",
+        "movieTitle": "Pardes",
+        "year": 1997,
+        "role": "Arjun Sagar"
+      },
+      {
+        "movieId": "movie-284",
+        "movieTitle": "Yes Boss",
+        "year": 1997,
+        "role": "Rahul Joshi"
+      },
+      {
+        "movieId": "movie-288",
+        "movieTitle": "Achanak",
+        "year": 1998,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-289",
+        "movieTitle": "Dil Se..",
+        "year": 1998,
+        "role": "Amarkant Verma"
+      },
+      {
+        "movieId": "movie-287",
+        "movieTitle": "Duplicate",
+        "year": 1998,
+        "role": "Bablu Chaudhry / Manu Dada"
+      },
+      {
+        "movieId": "movie-290",
+        "movieTitle": "Kuch Kuch Hota Hai",
+        "year": 1998,
+        "role": "Rahul Khanna"
+      },
+      {
+        "movieId": "movie-291",
+        "movieTitle": "Baadshah",
+        "year": 1999,
+        "role": "Raj (Baadshah)"
+      },
+      {
+        "movieId": "movie-296",
+        "movieTitle": "Gaja Gamini",
+        "year": 2000,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-295",
+        "movieTitle": "Har Dil Jo Pyar Karega",
+        "year": 2000,
+        "role": "Rahul",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-293",
+        "movieTitle": "Hey Ram",
+        "year": 2000,
+        "role": "Amjad Khan"
+      },
+      {
+        "movieId": "movie-294",
+        "movieTitle": "Josh",
+        "year": 2000,
+        "role": "Max Dias"
+      },
+      {
+        "movieId": "movie-133",
+        "movieTitle": "Mohabbatein",
+        "year": 2000,
+        "role": "Raj Aryan Malhotra"
+      },
+      {
+        "movieId": "movie-292",
+        "movieTitle": "Phir Bhi Dil Hai Hindustani",
+        "year": 2000,
+        "role": "Ajay Bakshi"
+      },
+      {
+        "movieId": "movie-298",
+        "movieTitle": "Asoka",
+        "year": 2001,
+        "role": "Ashoka Maurya"
+      },
+      {
+        "movieId": "movie-136",
+        "movieTitle": "Kabhi Khushi Kabhie Gham",
+        "year": 2001,
+        "role": "Rahul Y. Raichand"
+      },
+      {
+        "movieId": "movie-297",
+        "movieTitle": "One 2 Ka 4",
+        "year": 2001,
+        "role": "Arun Verma"
+      },
+      {
+        "movieId": "movie-300",
+        "movieTitle": "Devdas",
+        "year": 2002,
+        "role": "Devdas Mukherjee"
+      },
+      {
+        "movieId": "movie-299",
+        "movieTitle": "Hum Tumhare Hain Sanam",
+        "year": 2002,
+        "role": "Gopal"
+      },
+      {
+        "movieId": "movie-302",
+        "movieTitle": "Saathiya",
+        "year": 2002,
+        "role": "Yeshwant Rao",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-301",
+        "movieTitle": "Shakti: The Power",
+        "year": 2002,
+        "role": "Jai Singh",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-303",
+        "movieTitle": "Chalte Chalte",
+        "year": 2003,
+        "role": "Raj Mathur"
+      },
+      {
+        "movieId": "movie-304",
+        "movieTitle": "Kal Ho Naa Ho",
+        "year": 2003,
+        "role": "Aman Mathur"
+      },
+      {
+        "movieId": "movie-306",
+        "movieTitle": "Main Hoon Na",
+        "year": 2004,
+        "role": "Ram Prasad Sharma"
+      },
+      {
+        "movieId": "movie-307",
+        "movieTitle": "Swades",
+        "year": 2004,
+        "role": "Mohan Bhargav"
+      },
+      {
+        "movieId": "movie-155",
+        "movieTitle": "Veer-Zaara",
+        "year": 2004,
+        "role": "Veer Pratap Singh"
+      },
+      {
+        "movieId": "movie-305",
+        "movieTitle": "Yeh Lamhe Judaai Ke",
+        "year": 2004,
+        "role": "Dushant"
+      },
+      {
+        "movieId": "movie-309",
+        "movieTitle": "Kaal",
+        "year": 2005,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-308",
+        "movieTitle": "Kuchh Meetha Ho Jaye",
+        "year": 2005,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-161",
+        "movieTitle": "Paheli",
+        "year": 2005,
+        "role": "Kishanlal / The Ghost"
+      },
+      {
+        "movieId": "movie-310",
+        "movieTitle": "Silsiilay",
+        "year": 2005,
+        "role": "Sutradhar",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-311",
+        "movieTitle": "Alag",
+        "year": 2006,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-312",
+        "movieTitle": "Don: The Chase Begins Again",
+        "year": 2006,
+        "role": "Don / Vijay"
+      },
+      {
+        "movieId": "movie-313",
+        "movieTitle": "I See You",
+        "year": 2006,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-168",
+        "movieTitle": "Kabhi Alvida Naa Kehna",
+        "year": 2006,
+        "role": "Dev Saran"
+      },
+      {
+        "movieId": "movie-314",
+        "movieTitle": "Chak De! India",
+        "year": 2007,
+        "role": "Kabir Khan"
+      },
+      {
+        "movieId": "movie-315",
+        "movieTitle": "Heyy Babyy",
+        "year": 2007,
+        "role": "Raj Malhotra",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-176",
+        "movieTitle": "Om Shanti Om",
+        "year": 2007,
+        "role": "Om Kapoor / Om Prakash Makhija"
+      },
+      {
+        "movieId": "movie-178",
+        "movieTitle": "Bhoothnath",
+        "year": 2008,
+        "role": "Aditya Sharma",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-319",
+        "movieTitle": "Kismat Konnection",
+        "year": 2008,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-317",
+        "movieTitle": "Krazzy 4",
+        "year": 2008,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-316",
+        "movieTitle": "Rab Ne Bana Di Jodi",
+        "year": 2008,
+        "role": "Surinder Sahni / Raj Kapoor"
+      },
+      {
+        "movieId": "movie-318",
+        "movieTitle": "Shaurya",
+        "year": 2008,
+        "role": "Voiceover",
+        "category": "Voice Over"
+      },
+      {
+        "movieId": "movie-321",
+        "movieTitle": "Billu",
+        "year": 2009,
+        "role": "Sahir Khan"
+      },
+      {
+        "movieId": "movie-320",
+        "movieTitle": "Luck by Chance",
+        "year": 2009,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-323",
+        "movieTitle": "Dulha Mil Gaya",
+        "year": 2010,
+        "role": "Pawan Raj Gandhi",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-322",
+        "movieTitle": "My Name Is Khan",
+        "year": 2010,
+        "role": "Rizwan Khan"
+      },
+      {
+        "movieId": "movie-324",
+        "movieTitle": "Shahrukh Bola Khoobsurat Hai Tu",
+        "year": 2010,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-328",
+        "movieTitle": "Always Kabhi Kabhi",
+        "year": 2011,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-326",
+        "movieTitle": "Don 2",
+        "year": 2011,
+        "role": "Don"
+      },
+      {
+        "movieId": "movie-327",
+        "movieTitle": "Love Breakups Zindagi",
+        "year": 2011,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-325",
+        "movieTitle": "Ra.One",
+        "year": 2011,
+        "role": "G.One / Shekhar Subramanium"
+      },
+      {
+        "movieId": "movie-329",
+        "movieTitle": "Jab Tak Hai Jaan",
+        "year": 2012,
+        "role": "Samar Anand"
+      },
+      {
+        "movieId": "movie-194",
+        "movieTitle": "Bombay Talkies",
+        "year": 2013,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-330",
+        "movieTitle": "Chennai Express",
+        "year": 2013,
+        "role": "Rahul Y. Y. Mithaiwala"
+      },
+      {
+        "movieId": "movie-198",
+        "movieTitle": "Bhoothnath Returns",
+        "year": 2014,
+        "role": "Aditya Sharma",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-331",
+        "movieTitle": "Happy New Year",
+        "year": 2014,
+        "role": "Charlie"
+      },
+      {
+        "movieId": "movie-332",
+        "movieTitle": "Dilwale",
+        "year": 2015,
+        "role": "Raj / Kaali"
+      },
+      {
+        "movieId": "movie-335",
+        "movieTitle": "Ae Dil Hai Mushkil",
+        "year": 2016,
+        "role": "Tahir Taliyar Khan",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-333",
+        "movieTitle": "Bhaag Jeetu Bhaag",
+        "year": 2016,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-336",
+        "movieTitle": "Dear Zindagi",
+        "year": 2016,
+        "role": "Dr. Jehangir Khan"
+      },
+      {
+        "movieId": "movie-334",
+        "movieTitle": "Fan",
+        "year": 2016,
+        "role": "Aryan Khanna / Gaurav Chandna"
+      },
+      {
+        "movieId": "movie-339",
+        "movieTitle": "Jab Harry Met Sejal",
+        "year": 2017,
+        "role": "Harinder Harry Singh Nehra"
+      },
+      {
+        "movieId": "movie-337",
+        "movieTitle": "Raees",
+        "year": 2017,
+        "role": "Raees Aalam"
+      },
+      {
+        "movieId": "movie-338",
+        "movieTitle": "Tubelight",
+        "year": 2017,
+        "role": "Gogo Pasha",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-340",
+        "movieTitle": "Zero",
+        "year": 2018,
+        "role": "Bauaa Singh"
+      },
+      {
+        "movieId": "movie-341",
+        "movieTitle": "The Zoya Factor",
+        "year": 2019,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-225",
+        "movieTitle": "Brahmastra: Part One – Shiva",
+        "year": 2022,
+        "role": "Mohan Bhargav",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-343",
+        "movieTitle": "Laal Singh Chaddha",
+        "year": 2022,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-342",
+        "movieTitle": "Rocketry: The Nambi Effect",
+        "year": 2022,
+        "role": "Himself",
+        "category": "Special Appearance"
+      },
+      {
+        "movieId": "movie-347",
+        "movieTitle": "Dunki",
+        "year": 2023,
+        "role": "Hardayal Hardy Singh Dhillon"
+      },
+      {
+        "movieId": "movie-345",
+        "movieTitle": "Jawan",
+        "year": 2023,
+        "role": "Vikram Rathore / Azad Rathore"
+      },
+      {
+        "movieId": "movie-344",
+        "movieTitle": "Pathaan",
+        "year": 2023,
+        "role": "Pathaan"
+      },
+      {
+        "movieId": "movie-346",
+        "movieTitle": "Tiger 3",
+        "year": 2023,
+        "role": "Pathaan",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-348",
+        "movieTitle": "King",
+        "year": 2026,
+        "role": "TBA",
+        "category": "Upcoming"
+      },
+      {
+        "movieId": "movie-349",
+        "movieTitle": "Tiger vs Pathaan",
+        "year": 2027,
+        "role": "TBA",
+        "category": "Upcoming"
       }
     ],
     "languages": [
-      "Hindi"
+      "Hindi",
+      "Tamil"
     ],
     "industries": [
       "Hindi Cinema"
