@@ -444,14 +444,84 @@
       "Deewaar",
       "Anand",
       "Amar Akbar Anthony",
-      "Don"
+      "Don",
+      "Bhuvan Shome",
+      "Saat Hindustani",
+      "Bombay Talkie",
+      "Parwana",
+      "Pyar Ki Kahani",
+      "Reshma Aur Shera",
+      "Guddi",
+      "Piya Ka Ghar",
+      "Sanjog",
+      "Bawarchi"
     ],
     "filmography": [
       {
-        "movieId": "movie-005",
-        "movieTitle": "Sholay",
-        "year": 1975,
-        "role": "Jai"
+        "movieId": "movie-021",
+        "movieTitle": "Bhuvan Shome",
+        "year": 1969,
+        "role": "Narrator (voice)"
+      },
+      {
+        "movieId": "movie-022",
+        "movieTitle": "Saat Hindustani",
+        "year": 1969,
+        "role": "Anwar Ali"
+      },
+      {
+        "movieId": "movie-023",
+        "movieTitle": "Bombay Talkie",
+        "year": 1970,
+        "role": "Special appearance"
+      },
+      {
+        "movieId": "movie-011",
+        "movieTitle": "Anand",
+        "year": 1971,
+        "role": "Dr. Bhaskar Banerjee"
+      },
+      {
+        "movieId": "movie-027",
+        "movieTitle": "Guddi",
+        "year": 1971,
+        "role": "Himself (cameo)"
+      },
+      {
+        "movieId": "movie-024",
+        "movieTitle": "Parwana",
+        "year": 1971,
+        "role": "Kumar Sen"
+      },
+      {
+        "movieId": "movie-025",
+        "movieTitle": "Pyar Ki Kahani",
+        "year": 1971,
+        "role": "Ram Chandra"
+      },
+      {
+        "movieId": "movie-026",
+        "movieTitle": "Reshma Aur Shera",
+        "year": 1971,
+        "role": "Chhotu"
+      },
+      {
+        "movieId": "movie-030",
+        "movieTitle": "Bawarchi",
+        "year": 1972,
+        "role": "Narrator (voice)"
+      },
+      {
+        "movieId": "movie-028",
+        "movieTitle": "Piya Ka Ghar",
+        "year": 1972,
+        "role": "Special appearance"
+      },
+      {
+        "movieId": "movie-029",
+        "movieTitle": "Sanjog",
+        "year": 1972,
+        "role": "Mohan"
       },
       {
         "movieId": "movie-006",
@@ -460,10 +530,10 @@
         "role": "Vijay Verma"
       },
       {
-        "movieId": "movie-011",
-        "movieTitle": "Anand",
-        "year": 1971,
-        "role": "Dr. Bhaskar Banerjee"
+        "movieId": "movie-005",
+        "movieTitle": "Sholay",
+        "year": 1975,
+        "role": "Jai"
       },
       {
         "movieId": "movie-012",
@@ -479,10 +549,12 @@
       }
     ],
     "languages": [
-      "Hindi"
+      "Hindi",
+      "English"
     ],
     "industries": [
-      "Hindi Cinema"
+      "Hindi Cinema",
+      "Indian Cinema"
     ]
   },
   {
