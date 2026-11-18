@@ -4896,7 +4896,7 @@
     "id": "movie-249",
     "title": "Zamaanat: And Justice for All",
     "year": 2025,
-    "releaseDate": "2025-12-05",
+    "releaseDate": "2025-03-21",
     "language": "Hindi",
     "industry": "Hindi Cinema",
     "genre": [
@@ -4932,20 +4932,19 @@
   },
   {
     "id": "movie-251",
-    "title": "Ramayana: Part One",
+    "title": "Aankhen 2",
     "year": 2026,
-    "releaseDate": "2026-11-08",
     "language": "Hindi",
     "industry": "Hindi Cinema",
     "genre": [
-      "Drama"
+      "Thriller"
     ],
     "status": "Upcoming",
     "cast": [
       {
         "personId": "person-019",
         "name": "Amitabh Bachchan",
-        "role": "Jatayu (voice)"
+        "role": "Vijay Singh Rajput"
       }
     ]
   }
