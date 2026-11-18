@@ -556,7 +556,113 @@
       "Hindustan Ki Kasam",
       "Kohram",
       "Hello Brother",
-      "Biwi No.1"
+      "Biwi No.1",
+      "Mohabbatein",
+      "Ek Rishtaa: The Bond of Love",
+      "Aks",
+      "Kabhi Khushi Kabhie Gham",
+      "Aankhen",
+      "Hum Kisise Kum Nahin",
+      "Agni Varsha",
+      "Kaante",
+      "Khushi",
+      "Armaan",
+      "Mumbai Se Aaya Mera Dost",
+      "Boom",
+      "Baghban",
+      "Khakee",
+      "Aetbaar",
+      "Rudraksh",
+      "Insaaf: The Justice",
+      "Dev",
+      "Lakshya",
+      "Deewaar: Let's Bring Our Heroes Home",
+      "Kyun! Ho Gaya Na...",
+      "Hum Kaun Hai?",
+      "Veer-Zaara",
+      "Ab Tumhare Hawale Watan Saathiyo",
+      "Black",
+      "Waqt: The Race Against Time",
+      "Bunty Aur Babli",
+      "Parineeta",
+      "Paheli",
+      "Sarkar",
+      "Viruddh... Family Comes First",
+      "Dil Jo Bhi Kahey...",
+      "Ek Ajnabee",
+      "Family: Ties of Blood",
+      "Darna Zaroori Hai",
+      "Kabhi Alvida Naa Kehna",
+      "Baabul",
+      "Eklavya: The Royal Guard",
+      "Nishabd",
+      "Cheeni Kum",
+      "Shootout at Lokhandwala",
+      "Jhoom Barabar Jhoom",
+      "Ram Gopal Varma Ki Aag",
+      "Om Shanti Om",
+      "Jodhaa Akbar",
+      "Bhoothnath",
+      "Sarkar Raj",
+      "The Last Lear",
+      "God Tussi Great Ho",
+      "Yaar Meri Zindagi",
+      "Delhi-6",
+      "Aladin",
+      "Paa",
+      "Rann",
+      "Teen Patti",
+      "Kandahar",
+      "Bbuddah... Hoga Terra Baap",
+      "Aarakshan",
+      "Department",
+      "Bol Bachchan",
+      "English Vinglish",
+      "Bombay Talkies",
+      "The Great Gatsby",
+      "Satyagraha",
+      "Mahabharat 3D",
+      "Bhoothnath Returns",
+      "Kochadaiiyaan",
+      "Manam",
+      "Shamitabh",
+      "Piku",
+      "Hey Bro",
+      "Wazir",
+      "TE3N",
+      "Pink",
+      "Ki & Ka",
+      "The Ghazi Attack",
+      "Sarkar 3",
+      "Begum Jaan",
+      "Pad Man",
+      "102 Not Out",
+      "Thugs of Hindostan",
+      "Helicopter Eela",
+      "Badla",
+      "Sye Raa Narasimha Reddy",
+      "Gulabo Sitabo",
+      "Ghoomketu",
+      "AB Aani CD",
+      "Family: A Made at Home Short Film",
+      "Chehre",
+      "Jhund",
+      "Radhe Shyam",
+      "Runway 34",
+      "Brahmastra: Part One – Shiva",
+      "Chup",
+      "Goodbye",
+      "Uunchai",
+      "Fakt Mahilao Maate",
+      "The Great Leader",
+      "Ganapath",
+      "Ghoomer",
+      "Non Stop Dhamaal",
+      "Kalki 2898 AD",
+      "Vettaiyan",
+      "Fakt Purusho Maate",
+      "The Umesh Chronicles",
+      "A Son of Himalaya"
     ],
     "filmography": [
       {
@@ -1317,6 +1423,673 @@
         "movieTitle": "Biwi No.1",
         "year": 1999,
         "role": "Speaker",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-133",
+        "movieTitle": "Mohabbatein",
+        "year": 2000,
+        "role": "Narayan Shankar"
+      },
+      {
+        "movieId": "movie-134",
+        "movieTitle": "Ek Rishtaa: The Bond of Love",
+        "year": 2001,
+        "role": "Vijay Kapoor"
+      },
+      {
+        "movieId": "movie-135",
+        "movieTitle": "Aks",
+        "year": 2001,
+        "role": "Manu Verma"
+      },
+      {
+        "movieId": "movie-136",
+        "movieTitle": "Kabhi Khushi Kabhie Gham",
+        "year": 2001,
+        "role": "Yashvardhan 'Yash' Raichand"
+      },
+      {
+        "movieId": "movie-137",
+        "movieTitle": "Aankhen",
+        "year": 2002,
+        "role": "Vijay Singh Rajput"
+      },
+      {
+        "movieId": "movie-138",
+        "movieTitle": "Hum Kisise Kum Nahin",
+        "year": 2002,
+        "role": "Dr. Rastogi"
+      },
+      {
+        "movieId": "movie-139",
+        "movieTitle": "Agni Varsha",
+        "year": 2002,
+        "role": "Indra"
+      },
+      {
+        "movieId": "movie-140",
+        "movieTitle": "Kaante",
+        "year": 2002,
+        "role": "Yashvardhan 'Major' Rampal"
+      },
+      {
+        "movieId": "movie-141",
+        "movieTitle": "Khushi",
+        "year": 2003,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-142",
+        "movieTitle": "Armaan",
+        "year": 2003,
+        "role": "Dr. Siddharth Sinha"
+      },
+      {
+        "movieId": "movie-143",
+        "movieTitle": "Mumbai Se Aaya Mera Dost",
+        "year": 2003,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-144",
+        "movieTitle": "Boom",
+        "year": 2003,
+        "role": "Bade Mia"
+      },
+      {
+        "movieId": "movie-145",
+        "movieTitle": "Baghban",
+        "year": 2003,
+        "role": "Raj Malhotra"
+      },
+      {
+        "movieId": "movie-146",
+        "movieTitle": "Khakee",
+        "year": 2004,
+        "role": "DCP Anant Kumar Shrivastav"
+      },
+      {
+        "movieId": "movie-147",
+        "movieTitle": "Aetbaar",
+        "year": 2004,
+        "role": "Dr. Ranveer Malhotra"
+      },
+      {
+        "movieId": "movie-148",
+        "movieTitle": "Rudraksh",
+        "year": 2004,
+        "role": "Dr. Varun"
+      },
+      {
+        "movieId": "movie-149",
+        "movieTitle": "Insaaf: The Justice",
+        "year": 2004,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-150",
+        "movieTitle": "Dev",
+        "year": 2004,
+        "role": "DCP Dev Pratap Singh"
+      },
+      {
+        "movieId": "movie-151",
+        "movieTitle": "Lakshya",
+        "year": 2004,
+        "role": "Col. Sunil Damle"
+      },
+      {
+        "movieId": "movie-152",
+        "movieTitle": "Deewaar: Let's Bring Our Heroes Home",
+        "year": 2004,
+        "role": "Major Ranvir Kaul"
+      },
+      {
+        "movieId": "movie-153",
+        "movieTitle": "Kyun! Ho Gaya Na...",
+        "year": 2004,
+        "role": "Raj Chauhan"
+      },
+      {
+        "movieId": "movie-154",
+        "movieTitle": "Hum Kaun Hai?",
+        "year": 2004,
+        "role": "Major Frank John Williams"
+      },
+      {
+        "movieId": "movie-155",
+        "movieTitle": "Veer-Zaara",
+        "year": 2004,
+        "role": "Chaudhary Sumer Singh"
+      },
+      {
+        "movieId": "movie-156",
+        "movieTitle": "Ab Tumhare Hawale Watan Saathiyo",
+        "year": 2004,
+        "role": "Major General Amarjeet Singh"
+      },
+      {
+        "movieId": "movie-157",
+        "movieTitle": "Black",
+        "year": 2005,
+        "role": "Debraj Sahai"
+      },
+      {
+        "movieId": "movie-158",
+        "movieTitle": "Waqt: The Race Against Time",
+        "year": 2005,
+        "role": "Ishwarchand Thakur"
+      },
+      {
+        "movieId": "movie-159",
+        "movieTitle": "Bunty Aur Babli",
+        "year": 2005,
+        "role": "DCP Dashrath Singh"
+      },
+      {
+        "movieId": "movie-160",
+        "movieTitle": "Parineeta",
+        "year": 2005,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-161",
+        "movieTitle": "Paheli",
+        "year": 2005,
+        "role": "Gadariya",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-162",
+        "movieTitle": "Sarkar",
+        "year": 2005,
+        "role": "Subhash Nagre"
+      },
+      {
+        "movieId": "movie-163",
+        "movieTitle": "Viruddh... Family Comes First",
+        "year": 2005,
+        "role": "Vidyadhar Patwardhan"
+      },
+      {
+        "movieId": "movie-164",
+        "movieTitle": "Dil Jo Bhi Kahey...",
+        "year": 2005,
+        "role": "Shekhar Sinha"
+      },
+      {
+        "movieId": "movie-165",
+        "movieTitle": "Ek Ajnabee",
+        "year": 2005,
+        "role": "Colonel Suryaveer Singh"
+      },
+      {
+        "movieId": "movie-166",
+        "movieTitle": "Family: Ties of Blood",
+        "year": 2006,
+        "role": "Virendra 'Viren' Sahi"
+      },
+      {
+        "movieId": "movie-167",
+        "movieTitle": "Darna Zaroori Hai",
+        "year": 2006,
+        "role": "Professor",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-168",
+        "movieTitle": "Kabhi Alvida Naa Kehna",
+        "year": 2006,
+        "role": "Samarjit 'Sam' Talwar"
+      },
+      {
+        "movieId": "movie-169",
+        "movieTitle": "Baabul",
+        "year": 2006,
+        "role": "Balraj Kapoor"
+      },
+      {
+        "movieId": "movie-170",
+        "movieTitle": "Eklavya: The Royal Guard",
+        "year": 2007,
+        "role": "Eklavya"
+      },
+      {
+        "movieId": "movie-171",
+        "movieTitle": "Nishabd",
+        "year": 2007,
+        "role": "Vijay Anand"
+      },
+      {
+        "movieId": "movie-172",
+        "movieTitle": "Cheeni Kum",
+        "year": 2007,
+        "role": "Buddhadev Gupta"
+      },
+      {
+        "movieId": "movie-173",
+        "movieTitle": "Shootout at Lokhandwala",
+        "year": 2007,
+        "role": "Dhingra"
+      },
+      {
+        "movieId": "movie-174",
+        "movieTitle": "Jhoom Barabar Jhoom",
+        "year": 2007,
+        "role": "Sutradhar",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-175",
+        "movieTitle": "Ram Gopal Varma Ki Aag",
+        "year": 2007,
+        "role": "Babban Singh"
+      },
+      {
+        "movieId": "movie-176",
+        "movieTitle": "Om Shanti Om",
+        "year": 2007,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-177",
+        "movieTitle": "Jodhaa Akbar",
+        "year": 2008,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-178",
+        "movieTitle": "Bhoothnath",
+        "year": 2008,
+        "role": "Kailash Nath"
+      },
+      {
+        "movieId": "movie-179",
+        "movieTitle": "Sarkar Raj",
+        "year": 2008,
+        "role": "Subhash Nagre"
+      },
+      {
+        "movieId": "movie-180",
+        "movieTitle": "The Last Lear",
+        "year": 2008,
+        "role": "Harish Mishra"
+      },
+      {
+        "movieId": "movie-181",
+        "movieTitle": "God Tussi Great Ho",
+        "year": 2008,
+        "role": "God"
+      },
+      {
+        "movieId": "movie-182",
+        "movieTitle": "Yaar Meri Zindagi",
+        "year": 2008,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-183",
+        "movieTitle": "Delhi-6",
+        "year": 2009,
+        "role": "Dadaji"
+      },
+      {
+        "movieId": "movie-184",
+        "movieTitle": "Aladin",
+        "year": 2009,
+        "role": "Genius"
+      },
+      {
+        "movieId": "movie-185",
+        "movieTitle": "Paa",
+        "year": 2009,
+        "role": "Auro"
+      },
+      {
+        "movieId": "movie-186",
+        "movieTitle": "Rann",
+        "year": 2010,
+        "role": "Vijay Harshvardhan Malik"
+      },
+      {
+        "movieId": "movie-187",
+        "movieTitle": "Teen Patti",
+        "year": 2010,
+        "role": "Venkat Subramaniam"
+      },
+      {
+        "movieId": "movie-188",
+        "movieTitle": "Kandahar",
+        "year": 2010,
+        "role": "Loknath Sharma"
+      },
+      {
+        "movieId": "movie-189",
+        "movieTitle": "Bbuddah... Hoga Terra Baap",
+        "year": 2011,
+        "role": "Vijju"
+      },
+      {
+        "movieId": "movie-190",
+        "movieTitle": "Aarakshan",
+        "year": 2011,
+        "role": "Prabhakar Anand"
+      },
+      {
+        "movieId": "movie-191",
+        "movieTitle": "Department",
+        "year": 2012,
+        "role": "Sarjeroa Gaikwad"
+      },
+      {
+        "movieId": "movie-192",
+        "movieTitle": "Bol Bachchan",
+        "year": 2012,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-193",
+        "movieTitle": "English Vinglish",
+        "year": 2012,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-194",
+        "movieTitle": "Bombay Talkies",
+        "year": 2013,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-195",
+        "movieTitle": "The Great Gatsby",
+        "year": 2013,
+        "role": "Meyer Wolfsheim"
+      },
+      {
+        "movieId": "movie-196",
+        "movieTitle": "Satyagraha",
+        "year": 2013,
+        "role": "Dwarka Anand"
+      },
+      {
+        "movieId": "movie-197",
+        "movieTitle": "Mahabharat 3D",
+        "year": 2013,
+        "role": "Bheeshma (voice)",
+        "category": "Voice Over"
+      },
+      {
+        "movieId": "movie-198",
+        "movieTitle": "Bhoothnath Returns",
+        "year": 2014,
+        "role": "Bhoothnath"
+      },
+      {
+        "movieId": "movie-199",
+        "movieTitle": "Kochadaiiyaan",
+        "year": 2014,
+        "role": "Narrator (voice)",
+        "category": "Voice Over"
+      },
+      {
+        "movieId": "movie-200",
+        "movieTitle": "Manam",
+        "year": 2014,
+        "role": "Pratap",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-201",
+        "movieTitle": "Shamitabh",
+        "year": 2015,
+        "role": "Amitabh Sinha"
+      },
+      {
+        "movieId": "movie-202",
+        "movieTitle": "Piku",
+        "year": 2015,
+        "role": "Bhashkor Banerjee"
+      },
+      {
+        "movieId": "movie-203",
+        "movieTitle": "Hey Bro",
+        "year": 2015,
+        "role": "Special appearance",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-204",
+        "movieTitle": "Wazir",
+        "year": 2016,
+        "role": "Pandit Omkarnath Dhar"
+      },
+      {
+        "movieId": "movie-205",
+        "movieTitle": "TE3N",
+        "year": 2016,
+        "role": "John Biswas"
+      },
+      {
+        "movieId": "movie-206",
+        "movieTitle": "Pink",
+        "year": 2016,
+        "role": "Deepak Sehgal"
+      },
+      {
+        "movieId": "movie-207",
+        "movieTitle": "Ki & Ka",
+        "year": 2016,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-208",
+        "movieTitle": "The Ghazi Attack",
+        "year": 2017,
+        "role": "Narrator (voice)",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-209",
+        "movieTitle": "Sarkar 3",
+        "year": 2017,
+        "role": "Subhash Nagre"
+      },
+      {
+        "movieId": "movie-210",
+        "movieTitle": "Begum Jaan",
+        "year": 2017,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-211",
+        "movieTitle": "Pad Man",
+        "year": 2018,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-212",
+        "movieTitle": "102 Not Out",
+        "year": 2018,
+        "role": "Dattatraya Vakharia"
+      },
+      {
+        "movieId": "movie-213",
+        "movieTitle": "Thugs of Hindostan",
+        "year": 2018,
+        "role": "Khudabaksh Azaad"
+      },
+      {
+        "movieId": "movie-214",
+        "movieTitle": "Helicopter Eela",
+        "year": 2018,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-215",
+        "movieTitle": "Badla",
+        "year": 2019,
+        "role": "Badal Gupta"
+      },
+      {
+        "movieId": "movie-216",
+        "movieTitle": "Sye Raa Narasimha Reddy",
+        "year": 2019,
+        "role": "Gosayi Venkanna"
+      },
+      {
+        "movieId": "movie-217",
+        "movieTitle": "Gulabo Sitabo",
+        "year": 2020,
+        "role": "Mirza"
+      },
+      {
+        "movieId": "movie-218",
+        "movieTitle": "Ghoomketu",
+        "year": 2020,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-219",
+        "movieTitle": "AB Aani CD",
+        "year": 2020,
+        "role": "Amitabh Bachchan"
+      },
+      {
+        "movieId": "movie-220",
+        "movieTitle": "Family: A Made at Home Short Film",
+        "year": 2020,
+        "role": "Uncle"
+      },
+      {
+        "movieId": "movie-221",
+        "movieTitle": "Chehre",
+        "year": 2021,
+        "role": "Lateef Zaidi"
+      },
+      {
+        "movieId": "movie-222",
+        "movieTitle": "Jhund",
+        "year": 2022,
+        "role": "Vijay Borade"
+      },
+      {
+        "movieId": "movie-223",
+        "movieTitle": "Radhe Shyam",
+        "year": 2022,
+        "role": "Narrator (Hindi version)",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-224",
+        "movieTitle": "Runway 34",
+        "year": 2022,
+        "role": "Narayan Vedant"
+      },
+      {
+        "movieId": "movie-225",
+        "movieTitle": "Brahmastra: Part One – Shiva",
+        "year": 2022,
+        "role": "Guru"
+      },
+      {
+        "movieId": "movie-226",
+        "movieTitle": "Chup",
+        "year": 2022,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-227",
+        "movieTitle": "Goodbye",
+        "year": 2022,
+        "role": "Harish Bhalla"
+      },
+      {
+        "movieId": "movie-228",
+        "movieTitle": "Uunchai",
+        "year": 2022,
+        "role": "Amit Shrivastav"
+      },
+      {
+        "movieId": "movie-229",
+        "movieTitle": "Fakt Mahilao Maate",
+        "year": 2022,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-230",
+        "movieTitle": "The Great Leader",
+        "year": 2023,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-231",
+        "movieTitle": "Ganapath",
+        "year": 2023,
+        "role": "Maharishi Dalapathi"
+      },
+      {
+        "movieId": "movie-232",
+        "movieTitle": "Ghoomer",
+        "year": 2023,
+        "role": "Commentator",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-233",
+        "movieTitle": "Non Stop Dhamaal",
+        "year": 2023,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-234",
+        "movieTitle": "Kalki 2898 AD",
+        "year": 2024,
+        "role": "Ashwatthama"
+      },
+      {
+        "movieId": "movie-235",
+        "movieTitle": "Vettaiyan",
+        "year": 2024,
+        "role": "Justice Dr. Sathyadev Bramhadutt Pandey"
+      },
+      {
+        "movieId": "movie-236",
+        "movieTitle": "Fakt Purusho Maate",
+        "year": 2024,
+        "role": "Prabhudaas"
+      },
+      {
+        "movieId": "movie-237",
+        "movieTitle": "The Umesh Chronicles",
+        "year": 2024,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-238",
+        "movieTitle": "A Son of Himalaya",
+        "year": 2024,
+        "role": "Himself",
         "category": "Cameo"
       }
     ],
