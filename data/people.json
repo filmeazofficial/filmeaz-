@@ -493,7 +493,70 @@
       "Jurmana",
       "Manzil",
       "Mr. Natwarlal",
-      "Kaala Patthar"
+      "Kaala Patthar",
+      "Do Aur Do Paanch",
+      "Dostana",
+      "Ram Balram",
+      "Shaan",
+      "Chashme Buddoor",
+      "Naseeb",
+      "Barsaat Ki Ek Raat",
+      "Laawaris",
+      "Silsila",
+      "Yaarana",
+      "Kaalia",
+      "Commander",
+      "Satte Pe Satta",
+      "Bemisal",
+      "Desh Premee",
+      "Namak Halaal",
+      "Khud-Daar",
+      "Shakti",
+      "Nastik",
+      "Andhaa Kaanoon",
+      "Mahaan",
+      "Pukar",
+      "Coolie",
+      "Film Hi Film",
+      "Inquilaab",
+      "Sharaabi",
+      "Kanoon Kya Karega",
+      "Paan Khaye Saiyaan Hamaar",
+      "Geraftaar",
+      "Mard",
+      "Ghulami",
+      "Aakhree Raasta",
+      "Jalwa",
+      "Kaun Jeeta Kaun Haara",
+      "Soorma Bhopali",
+      "Shahenshah",
+      "Hero Hiralal",
+      "Gangaa Jamunaa Saraswati",
+      "Batwara",
+      "Toofan",
+      "Jaadugar",
+      "Main Azaad Hoon",
+      "Agneepath",
+      "Kroadh",
+      "Aaj Ka Arjun",
+      "Hum",
+      "Ajooba",
+      "Indrajeet",
+      "Akayla",
+      "Khuda Gawah",
+      "Zulm Ki Hukumat",
+      "Insaniyat",
+      "Tere Mere Sapne",
+      "Mrityudaata",
+      "Major Saab",
+      "Bade Miyan Chote Miyan",
+      "Hero Hindustani",
+      "Lal Baadshah",
+      "Sooryavansham",
+      "Hindustan Ki Kasam",
+      "Kohram",
+      "Hello Brother",
+      "Biwi No.1"
     ],
     "filmography": [
       {
@@ -860,6 +923,401 @@
         "year": 1979,
         "releaseDate": "1979-08-24",
         "role": "Vijay Pal Singh"
+      },
+      {
+        "movieId": "movie-070",
+        "movieTitle": "Do Aur Do Paanch",
+        "year": 1980,
+        "role": "Vijay"
+      },
+      {
+        "movieId": "movie-071",
+        "movieTitle": "Dostana",
+        "year": 1980,
+        "role": "Vijay Varma"
+      },
+      {
+        "movieId": "movie-072",
+        "movieTitle": "Ram Balram",
+        "year": 1980,
+        "role": "Balram Singh"
+      },
+      {
+        "movieId": "movie-073",
+        "movieTitle": "Shaan",
+        "year": 1980,
+        "role": "Vijay Kumar"
+      },
+      {
+        "movieId": "movie-074",
+        "movieTitle": "Chashme Buddoor",
+        "year": 1981,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-075",
+        "movieTitle": "Naseeb",
+        "year": 1981,
+        "role": "John Jaani Janardhan"
+      },
+      {
+        "movieId": "movie-076",
+        "movieTitle": "Barsaat Ki Ek Raat",
+        "year": 1981,
+        "role": "Abhijit"
+      },
+      {
+        "movieId": "movie-077",
+        "movieTitle": "Laawaris",
+        "year": 1981,
+        "role": "Heera"
+      },
+      {
+        "movieId": "movie-078",
+        "movieTitle": "Silsila",
+        "year": 1981,
+        "role": "Amit Malhotra"
+      },
+      {
+        "movieId": "movie-079",
+        "movieTitle": "Yaarana",
+        "year": 1981,
+        "role": "Kishan Kumar"
+      },
+      {
+        "movieId": "movie-080",
+        "movieTitle": "Kaalia",
+        "year": 1981,
+        "role": "Kallia"
+      },
+      {
+        "movieId": "movie-081",
+        "movieTitle": "Commander",
+        "year": 1981,
+        "role": "Special appearance",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-082",
+        "movieTitle": "Satte Pe Satta",
+        "year": 1982,
+        "role": "Ravi Anand / Babu"
+      },
+      {
+        "movieId": "movie-083",
+        "movieTitle": "Bemisal",
+        "year": 1982,
+        "role": "Dr. Sudhir Roy / Adhir Roy"
+      },
+      {
+        "movieId": "movie-084",
+        "movieTitle": "Desh Premee",
+        "year": 1982,
+        "role": "Master Dinanath / Raju"
+      },
+      {
+        "movieId": "movie-085",
+        "movieTitle": "Namak Halaal",
+        "year": 1982,
+        "role": "Arjun Singh"
+      },
+      {
+        "movieId": "movie-086",
+        "movieTitle": "Khud-Daar",
+        "year": 1982,
+        "role": "Govind"
+      },
+      {
+        "movieId": "movie-087",
+        "movieTitle": "Shakti",
+        "year": 1982,
+        "role": "Vijay Kumar"
+      },
+      {
+        "movieId": "movie-088",
+        "movieTitle": "Nastik",
+        "year": 1983,
+        "role": "Shankar / Sheru"
+      },
+      {
+        "movieId": "movie-089",
+        "movieTitle": "Andhaa Kaanoon",
+        "year": 1983,
+        "role": "Jan Nissar Akhtar Khan"
+      },
+      {
+        "movieId": "movie-090",
+        "movieTitle": "Mahaan",
+        "year": 1983,
+        "role": "Rana / Guru / Inspector Shankar"
+      },
+      {
+        "movieId": "movie-091",
+        "movieTitle": "Pukar",
+        "year": 1983,
+        "role": "Ramdas"
+      },
+      {
+        "movieId": "movie-092",
+        "movieTitle": "Coolie",
+        "year": 1983,
+        "role": "Iqbal Khan"
+      },
+      {
+        "movieId": "movie-093",
+        "movieTitle": "Film Hi Film",
+        "year": 1983,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-094",
+        "movieTitle": "Inquilaab",
+        "year": 1984,
+        "role": "Amarnath"
+      },
+      {
+        "movieId": "movie-095",
+        "movieTitle": "Sharaabi",
+        "year": 1984,
+        "role": "Vicky Kapoor"
+      },
+      {
+        "movieId": "movie-096",
+        "movieTitle": "Kanoon Kya Karega",
+        "year": 1984,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-097",
+        "movieTitle": "Paan Khaye Saiyaan Hamaar",
+        "year": 1984,
+        "role": "Special appearance",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-098",
+        "movieTitle": "Geraftaar",
+        "year": 1985,
+        "role": "Karan Kumar Khanna"
+      },
+      {
+        "movieId": "movie-099",
+        "movieTitle": "Mard",
+        "year": 1985,
+        "role": "Raju Singh"
+      },
+      {
+        "movieId": "movie-100",
+        "movieTitle": "Ghulami",
+        "year": 1985,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-101",
+        "movieTitle": "Aakhree Raasta",
+        "year": 1986,
+        "role": "David D'Costa / Vijay Shandilya"
+      },
+      {
+        "movieId": "movie-102",
+        "movieTitle": "Jalwa",
+        "year": 1987,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-103",
+        "movieTitle": "Kaun Jeeta Kaun Haara",
+        "year": 1987,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-104",
+        "movieTitle": "Soorma Bhopali",
+        "year": 1988,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-105",
+        "movieTitle": "Shahenshah",
+        "year": 1988,
+        "role": "Vijay Kumar Srivastava"
+      },
+      {
+        "movieId": "movie-106",
+        "movieTitle": "Hero Hiralal",
+        "year": 1988,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-107",
+        "movieTitle": "Gangaa Jamunaa Saraswati",
+        "year": 1988,
+        "role": "Ganga Prasad"
+      },
+      {
+        "movieId": "movie-108",
+        "movieTitle": "Batwara",
+        "year": 1989,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-109",
+        "movieTitle": "Toofan",
+        "year": 1989,
+        "role": "Shyam / Toofan"
+      },
+      {
+        "movieId": "movie-110",
+        "movieTitle": "Jaadugar",
+        "year": 1989,
+        "role": "Goga"
+      },
+      {
+        "movieId": "movie-111",
+        "movieTitle": "Main Azaad Hoon",
+        "year": 1989,
+        "role": "Azaad"
+      },
+      {
+        "movieId": "movie-112",
+        "movieTitle": "Agneepath",
+        "year": 1990,
+        "role": "Vijay Dinanath Chauhan"
+      },
+      {
+        "movieId": "movie-113",
+        "movieTitle": "Kroadh",
+        "year": 1990,
+        "role": "Himself",
+        "category": "Cameo"
+      },
+      {
+        "movieId": "movie-114",
+        "movieTitle": "Aaj Ka Arjun",
+        "year": 1990,
+        "role": "Bhim Singh"
+      },
+      {
+        "movieId": "movie-115",
+        "movieTitle": "Hum",
+        "year": 1991,
+        "role": "Tiger / Shekhar Malhotra"
+      },
+      {
+        "movieId": "movie-116",
+        "movieTitle": "Ajooba",
+        "year": 1991,
+        "role": "Ajooba / Ali"
+      },
+      {
+        "movieId": "movie-117",
+        "movieTitle": "Indrajeet",
+        "year": 1991,
+        "role": "Indrajeet"
+      },
+      {
+        "movieId": "movie-118",
+        "movieTitle": "Akayla",
+        "year": 1991,
+        "role": "Inspector Vijay Verma"
+      },
+      {
+        "movieId": "movie-119",
+        "movieTitle": "Khuda Gawah",
+        "year": 1992,
+        "role": "Baadshah Khan"
+      },
+      {
+        "movieId": "movie-120",
+        "movieTitle": "Zulm Ki Hukumat",
+        "year": 1992,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-121",
+        "movieTitle": "Insaniyat",
+        "year": 1994,
+        "role": "Inspector Amar Pal Singh"
+      },
+      {
+        "movieId": "movie-122",
+        "movieTitle": "Tere Mere Sapne",
+        "year": 1996,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-123",
+        "movieTitle": "Mrityudaata",
+        "year": 1997,
+        "role": "Dr. Ram Prasad Ghayal"
+      },
+      {
+        "movieId": "movie-124",
+        "movieTitle": "Major Saab",
+        "year": 1998,
+        "role": "Major Jasbir Singh Rana"
+      },
+      {
+        "movieId": "movie-125",
+        "movieTitle": "Bade Miyan Chote Miyan",
+        "year": 1998,
+        "role": "Arjun Singh / Bade Miyan"
+      },
+      {
+        "movieId": "movie-126",
+        "movieTitle": "Hero Hindustani",
+        "year": 1998,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-127",
+        "movieTitle": "Lal Baadshah",
+        "year": 1999,
+        "role": "Lal Baadshah / Ranbhir Singh"
+      },
+      {
+        "movieId": "movie-128",
+        "movieTitle": "Sooryavansham",
+        "year": 1999,
+        "role": "Thakur Bhanu Pratap Singh / Heera"
+      },
+      {
+        "movieId": "movie-129",
+        "movieTitle": "Hindustan Ki Kasam",
+        "year": 1999,
+        "role": "Kabeera"
+      },
+      {
+        "movieId": "movie-130",
+        "movieTitle": "Kohram",
+        "year": 1999,
+        "role": "Colonel Balbir Singh Sodi"
+      },
+      {
+        "movieId": "movie-131",
+        "movieTitle": "Hello Brother",
+        "year": 1999,
+        "role": "Narrator",
+        "category": "Narrator"
+      },
+      {
+        "movieId": "movie-132",
+        "movieTitle": "Biwi No.1",
+        "year": 1999,
+        "role": "Speaker",
+        "category": "Cameo"
       }
     ],
     "languages": [
