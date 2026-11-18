@@ -388,5 +388,451 @@
         "role": "Babita Kumari"
       }
     ]
+  },
+  {
+    "id": "movie-011",
+    "title": "Anand",
+    "year": 1971,
+    "releaseDate": "1971-03-12",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "producedBy": "Hrishikesh Mukherjee; N. C. Sippy",
+    "cast": [
+      {
+        "personId": "person-042",
+        "name": "Rajesh Khanna",
+        "role": "Anand Sehgal"
+      },
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Dr. Bhaskar Banerjee"
+      },
+      {
+        "personId": "person-043",
+        "name": "Sumita Sanyal",
+        "role": "Renu"
+      },
+      {
+        "personId": "person-044",
+        "name": "Ramesh Deo",
+        "role": "Dr. Prakash Kulkarni"
+      },
+      {
+        "personId": "person-045",
+        "name": "Seema Deo",
+        "role": "Suman Kulkarni"
+      },
+      {
+        "personId": "person-008",
+        "name": "Durga Khote",
+        "role": "Renu's mother"
+      }
+    ]
+  },
+  {
+    "id": "movie-012",
+    "title": "Amar Akbar Anthony",
+    "year": 1977,
+    "releaseDate": "1977-05-27",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "directedBy": "Manmohan Desai",
+    "producedBy": "Manmohan Desai",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Anthony Gonzalves"
+      },
+      {
+        "personId": "person-046",
+        "name": "Vinod Khanna",
+        "role": "Inspector Amar Khanna"
+      },
+      {
+        "personId": "person-047",
+        "name": "Rishi Kapoor",
+        "role": "Akbar Ilahabadi"
+      },
+      {
+        "personId": "person-024",
+        "name": "Neetu Singh",
+        "role": "Dr. Salma Taiyyab Ali"
+      },
+      {
+        "personId": "person-025",
+        "name": "Parveen Babi",
+        "role": "Jenny"
+      },
+      {
+        "personId": "person-048",
+        "name": "Shabana Azmi",
+        "role": "Lakshmi"
+      },
+      {
+        "personId": "person-049",
+        "name": "Pran",
+        "role": "Kishanlal"
+      }
+    ]
+  },
+  {
+    "id": "movie-013",
+    "title": "Don",
+    "year": 1978,
+    "releaseDate": "1978-05-12",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "directedBy": "Chandra Barot",
+    "producedBy": "Nariman Irani",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Don / Vijay"
+      },
+      {
+        "personId": "person-050",
+        "name": "Zeenat Aman",
+        "role": "Roma"
+      },
+      {
+        "personId": "person-049",
+        "name": "Pran",
+        "role": "Jasjit"
+      },
+      {
+        "personId": "person-051",
+        "name": "Helen",
+        "role": "Kamini"
+      },
+      {
+        "personId": "person-028",
+        "name": "Amrish Puri",
+        "role": "Vardhan"
+      }
+    ]
+  },
+  {
+    "id": "movie-014",
+    "title": "Mr. India",
+    "year": 1987,
+    "releaseDate": "1987-05-29",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Science Fiction",
+      "Comedy"
+    ],
+    "directedBy": "Shekhar Kapur",
+    "producedBy": "Boney Kapoor",
+    "cast": [
+      {
+        "personId": "person-052",
+        "name": "Anil Kapoor",
+        "role": "Arun Verma"
+      },
+      {
+        "personId": "person-053",
+        "name": "Sridevi",
+        "role": "Seema Sohni"
+      },
+      {
+        "personId": "person-028",
+        "name": "Amrish Puri",
+        "role": "Mogambo"
+      },
+      {
+        "personId": "person-054",
+        "name": "Satish Kaushik",
+        "role": "Calendar"
+      },
+      {
+        "personId": "person-014",
+        "name": "Ashok Kumar",
+        "role": "Professor Sinha"
+      }
+    ]
+  },
+  {
+    "id": "movie-015",
+    "title": "Maine Pyar Kiya",
+    "year": 1989,
+    "releaseDate": "1989-12-29",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Romance",
+      "Drama",
+      "Musical"
+    ],
+    "directedBy": "Sooraj R. Barjatya",
+    "producedBy": "Tarachand Barjatya",
+    "cast": [
+      {
+        "personId": "person-055",
+        "name": "Salman Khan",
+        "role": "Prem Choudhary"
+      },
+      {
+        "personId": "person-056",
+        "name": "Bhagyashree",
+        "role": "Suman"
+      },
+      {
+        "personId": "person-057",
+        "name": "Alok Nath",
+        "role": "Karan"
+      },
+      {
+        "personId": "person-030",
+        "name": "Anupam Kher",
+        "role": "Ram Kumar Choudhary"
+      }
+    ]
+  },
+  {
+    "id": "movie-016",
+    "title": "Hum Aapke Hain Koun..!",
+    "year": 1994,
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Romance",
+      "Family",
+      "Musical"
+    ],
+    "directedBy": "Sooraj Barjatya",
+    "producedBy": "Ajit Kumar Barjatya; Kamal Kumar Barjatya; Rajkumar Barjatya",
+    "cast": [
+      {
+        "personId": "person-055",
+        "name": "Salman Khan",
+        "role": "Prem"
+      },
+      {
+        "personId": "person-058",
+        "name": "Madhuri Dixit",
+        "role": "Nisha Choudhury"
+      },
+      {
+        "personId": "person-059",
+        "name": "Mohnish Bahl",
+        "role": "Rajesh"
+      },
+      {
+        "personId": "person-060",
+        "name": "Renuka Shahane",
+        "role": "Pooja"
+      },
+      {
+        "personId": "person-030",
+        "name": "Anupam Kher",
+        "role": "Prof. Siddharth Choudhury"
+      }
+    ]
+  },
+  {
+    "id": "movie-017",
+    "title": "Dil Chahta Hai",
+    "year": 2001,
+    "releaseDate": "2001-08-10",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Farhan Akhtar",
+    "producedBy": "Ritesh Sidhwani",
+    "cast": [
+      {
+        "personId": "person-031",
+        "name": "Aamir Khan",
+        "role": "Akash Malhotra"
+      },
+      {
+        "personId": "person-061",
+        "name": "Saif Ali Khan",
+        "role": "Sameer"
+      },
+      {
+        "personId": "person-062",
+        "name": "Akshaye Khanna",
+        "role": "Siddharth"
+      },
+      {
+        "personId": "person-063",
+        "name": "Preity Zinta",
+        "role": "Shalini"
+      },
+      {
+        "personId": "person-064",
+        "name": "Dimple Kapadia",
+        "role": "Tara Jaiswal"
+      },
+      {
+        "personId": "person-065",
+        "name": "Sonali Kulkarni",
+        "role": "Pooja"
+      }
+    ]
+  },
+  {
+    "id": "movie-018",
+    "title": "Rang De Basanti",
+    "year": 2006,
+    "releaseDate": "2006-01-26",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Historical",
+      "Patriotic"
+    ],
+    "directedBy": "Rakeysh Omprakash Mehra",
+    "producedBy": "Rakeysh Omprakash Mehra; Ronnie Screwvala",
+    "cast": [
+      {
+        "personId": "person-031",
+        "name": "Aamir Khan",
+        "role": "Daljit 'DJ' Singh"
+      },
+      {
+        "personId": "person-066",
+        "name": "Siddharth",
+        "role": "Karan Singhania"
+      },
+      {
+        "personId": "person-036",
+        "name": "Sharman Joshi",
+        "role": "Sukhi"
+      },
+      {
+        "personId": "person-067",
+        "name": "Kunal Kapoor",
+        "role": "Aslam"
+      },
+      {
+        "personId": "person-070",
+        "name": "Atul Kulkarni",
+        "role": "Laxman Pandey"
+      },
+      {
+        "personId": "person-068",
+        "name": "Soha Ali Khan",
+        "role": "Sonia"
+      },
+      {
+        "personId": "person-069",
+        "name": "Alice Patten",
+        "role": "Sue McKinley"
+      },
+      {
+        "personId": "person-035",
+        "name": "R. Madhavan",
+        "role": "Flight Lt. Ajay Rathod"
+      }
+    ]
+  },
+  {
+    "id": "movie-019",
+    "title": "Taare Zameen Par",
+    "year": 2007,
+    "releaseDate": "2007-12-21",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "directedBy": "Aamir Khan",
+    "producedBy": "Aamir Khan",
+    "cast": [
+      {
+        "personId": "person-071",
+        "name": "Darsheel Safary",
+        "role": "Ishaan Awasthi"
+      },
+      {
+        "personId": "person-031",
+        "name": "Aamir Khan",
+        "role": "Ram Shankar Nikumbh"
+      },
+      {
+        "personId": "person-072",
+        "name": "Tisca Chopra",
+        "role": "Maya Awasthi"
+      },
+      {
+        "personId": "person-073",
+        "name": "Vipin Sharma",
+        "role": "Nandkishore Awasthi"
+      }
+    ]
+  },
+  {
+    "id": "movie-020",
+    "title": "PK",
+    "year": 2014,
+    "releaseDate": "2014-12-19",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Science Fiction"
+    ],
+    "directedBy": "Rajkumar Hirani",
+    "producedBy": "Vidhu Vinod Chopra; Rajkumar Hirani",
+    "cast": [
+      {
+        "personId": "person-031",
+        "name": "Aamir Khan",
+        "role": "PK"
+      },
+      {
+        "personId": "person-074",
+        "name": "Anushka Sharma",
+        "role": "Jagat 'Jaggu' Janani Sahni"
+      },
+      {
+        "personId": "person-075",
+        "name": "Sushant Singh Rajput",
+        "role": "Sarfaraz Yousuf"
+      },
+      {
+        "personId": "person-038",
+        "name": "Boman Irani",
+        "role": "Cherry Bajwa"
+      },
+      {
+        "personId": "person-076",
+        "name": "Sanjay Dutt",
+        "role": "Bhairon Singh"
+      },
+      {
+        "personId": "person-077",
+        "name": "Saurabh Shukla",
+        "role": "Tapasvi Maharaj"
+      }
+    ]
   }
 ]
