@@ -1031,5 +1031,217 @@
         "role": "Narrator (voice)"
       }
     ]
+  },
+  {
+    "id": "movie-031",
+    "title": "Bandhe Haath",
+    "year": 1973,
+    "releaseDate": "1973-02-16",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "directedBy": "O. P. Goyle",
+    "producedBy": "O. P. Ralhan",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Shyamu / Deepak"
+      }
+    ]
+  },
+  {
+    "id": "movie-032",
+    "title": "Zanjeer",
+    "year": 1973,
+    "releaseDate": "1973-05-11",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "directedBy": "Prakash Mehra",
+    "producedBy": "Prakash Mehra",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Inspector Vijay Khanna"
+      }
+    ]
+  },
+  {
+    "id": "movie-033",
+    "title": "Bada Kabutar",
+    "year": 1973,
+    "releaseDate": "1973-07-06",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "directedBy": "Deven Verma",
+    "producedBy": "Deven Verma",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Guest appearance (cameo)"
+      }
+    ]
+  },
+  {
+    "id": "movie-034",
+    "title": "Abhimaan",
+    "year": 1973,
+    "releaseDate": "1973-07-27",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Musical",
+      "Romance"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "producedBy": "Pawan Kumar",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Subir Kumar"
+      }
+    ]
+  },
+  {
+    "id": "movie-035",
+    "title": "Gehri Chaal",
+    "year": 1973,
+    "releaseDate": "1973-07-27",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "directedBy": "C. V. Sridhar",
+    "producedBy": "C. V. Sridhar",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Ratan"
+      }
+    ]
+  },
+  {
+    "id": "movie-036",
+    "title": "Saudagar",
+    "year": 1973,
+    "releaseDate": "1973-10-26",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Sudhendu Roy",
+    "producedBy": "Tarachand Barjatya",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Moti"
+      }
+    ]
+  },
+  {
+    "id": "movie-037",
+    "title": "Namak Haraam",
+    "year": 1973,
+    "releaseDate": "1973-11-23",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "Hrishikesh Mukherjee",
+    "producedBy": "J. Om Prakash",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Vikram 'Vicky' Maharaj"
+      }
+    ]
+  },
+  {
+    "id": "movie-038",
+    "title": "Dost",
+    "year": 1974,
+    "releaseDate": "1974-04-12",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama"
+    ],
+    "directedBy": "Dulal Guha",
+    "producedBy": "Premji",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Anand (guest appearance)"
+      }
+    ]
+  },
+  {
+    "id": "movie-039",
+    "title": "Kasauti",
+    "year": 1974,
+    "releaseDate": "1974-08-09",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "directedBy": "Aravind Sen",
+    "producedBy": "Aravind Sen",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Amitabh Sharma"
+      }
+    ]
+  },
+  {
+    "id": "movie-040",
+    "title": "Benaam",
+    "year": 1974,
+    "releaseDate": "1974-10-18",
+    "language": "Hindi",
+    "industry": "Hindi Cinema",
+    "genre": [
+      "Thriller",
+      "Mystery",
+      "Drama"
+    ],
+    "directedBy": "Narendra Bedi",
+    "producedBy": "Ranjit Virk",
+    "cast": [
+      {
+        "personId": "person-019",
+        "name": "Amitabh Bachchan",
+        "role": "Amit Srivastav"
+      }
+    ]
   }
 ]
